@@ -1,0 +1,29 @@
+//LOG
+CMD Humvee interface texture updated
+CMD Humvee avalible to armored decks
+CMD Humvee optics from good to very good
+LAV-C2 optics from medium to good
+TACOM LMG ammo from 1000 to 400
+
+//INF
+Rangers LAW ammo from 9 to 6
+Rangers LMG ammo from 2400 to 2000
+Marines LAW ammo from 9 to 6
+US Marines LMG ammo from 2400 to 2000
+US Marines Rifle ammo from 1800 to 1200
+Marine MAT rifle ammo from 1800 to 1200
+Marine MAT LMG ammo from 1500 to 1000
+
+//VEC
+M998 Humvee interface texture updated
+M113A3 Super Dragon cards from 3 to 2
+M113 ACAV cards from 3 to 2
+M113 ACAV optics from meduim to poor
+M113 ACAV speed from 70 to 65
+
+//AIR
+F/A-18E [CAP] cards from 1 to 2
+
+
+Show in menu from true to false for:
+M577

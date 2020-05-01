@@ -1,0 +1,31 @@
+////US
+
+//Global weapon changes
+Stinger C recharge time from 29 seconds to 15 seconds
+M48A3 missiles recharge time from 51 seconds to 40 seconds
+M48A1 missiles recharge time from 45 seconds to 30 seconds
+
+//INF
+Assault engineers should now use flamethrower voice
+Rangers should now use SF voice
+
+//SUP
+LAAD Stinger C should no longer display 10 soliders
+Avenger cost from 45 to 40
+M6 linebacker should now use AA gun voice
+
+//TNK
+M551 ACAV should now use tank voice
+M551A1 TTS should now use tank voice
+
+//REC
+Cav scouts should now use recon voice
+M981 FISTV should now use recon voice
+
+//VEC
+M151A2 FAV should no longer crash the game
+Humvee transport HP from 10 to 5
+COMVAT should now use AFV voice
+LAV-25 scout should now use AFV voice
+Mk19 humvee should now use AFV voice
+M3A2 Bradley CFV should now use AFV voice

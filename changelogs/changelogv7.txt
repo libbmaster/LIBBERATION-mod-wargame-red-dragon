@@ -1,0 +1,49 @@
+////US
+
+//Global AP rework
+[HEAT] weapons should now follow the AP damage calculation properly
+Armor values of 0 and 1 should now factor into the damage calculation
+
+//LOG
+TACOM can now use M113A3 as transport
+
+//INF
+Rangers no longer have HUMVEE as transport
+Rangers should now display proper UI icons
+Rangers should now sort correctly in the armory
+Light Rifles 90 ATGM noise from 500 to 150
+
+//SUP
+PIVADS ground attack ablity restored
+PIVADS ground attack accuracy from 20% to 10%
+PIVADS cost from 30 to 45
+PIVADS avaliblity from 8/0/6/0/0 to 4/0/3/0/0
+M6 LINEBACKER cost from 50 to 35
+M6 LINEBACKER should now display proper UI icons
+M6 LINEBACKER should now sort correctly in the armory
+M1097 Avenger cost from 40 to 30
+LAAD Stinger C MANPAD noise from 500 to 150
+
+//TNK
+M551 ACAV should now display proper UI icons
+M551 ACAV should now sort correctly in the armory
+M551A1 TTS should now display proper UI icons
+M551A1 TTS should now sort correctly in the armory
+M551A1 TTS avaliblity from 8/0/6/0/0 to 12/0/8/0/0
+M8 AGS cost from 55 to 40
+
+//REC
+M981 FISTV cost from 40 to 25
+M981 FISTV should now display proper UI icons
+M981 FISTV should now sort correctly in the armory
+M7 B-FISTV cost from 60 to 35
+Delta force unitStealthModifier from 3 to 6
+Delta force should now sort correctly in the armory
+Delta force MP5SD noise from 10 to 1
+
+//VEC
+M901A1 cost from 35 to 30
+M3A2 CFV cost from 55 to 45
+
+//HEL
+MH-60L BLACKHAWK renamed to MH-60L

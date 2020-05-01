@@ -1,0 +1,9 @@
+////US
+
+M106A2 HE from 4 to 1
+M106 fuel removed
+
+showinmenu from true to false for
+//F4S wild weasel
+//EF111 Raven 
+//EA6 Prowler 

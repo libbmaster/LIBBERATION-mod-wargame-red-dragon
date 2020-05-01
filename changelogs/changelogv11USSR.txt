@@ -1,0 +1,384 @@
+//Deck building
+Unspeced decks removed
+CAT B decks removed
+CAT C decks removed
+Support decks removed
+Mechanized decks removed
+Marine decks removed
+Nation bonuses removed
+
+//Global stats changes
+Fuel removed
+
+//weapon changes (infantry)
+RPK-74 (Elite) accuracy from 50 to 40
+RPK-74 (Elite) stablilizer from 30 to 20
+RPK-74 (Shock) accuracy from 40 to 30
+RPK-74 (Shock) stablilizer from 20 to 15
+AK-74 (Shock) accuracy from 45 to 40
+AK-74 (Shock) stablilizer from 23 to 25
+AKS-74U (Elite) accuracy from 60 to 50
+AKS-74U (Elite) stablilizer from 35 to 40
+Metys-M AP from 26 to 20
+Metys-M accuracy from 55 to 50
+Faktoriya accuracy from 45 to 50
+RPG-26 rate of fire from 20 to 15 rpm
+RPG-26 accuracy from 50 to 40
+RPG-29 accuracy from 70 to 40
+Igla is now a stat clone of the Stinger-C
+
+//weapon changes (vehicle)
+Strela-10M is now a stat clone of the chaparall
+Tunguska-M missile suppression from 280 to 300
+Tunguska-M missile HE from 7 to 5
+Tunguska-M missile accuracy from 65 to 50
+OSA-AKM missile suppression from 280 to 300
+OSA-AKM missile HE from 7 to 5
+OSA-AKM missile accuracy from 55 to 50
+Nona-SVK HE from 5 to 1
+Nona HE from 5 to 1
+All 125mm guns HE from 4 to 1
+All 100mm guns HE from 3 to 1
+All 30mm grenade launchers HE from 2 to 1
+All 73mm guns HE from 2 to 1
+MT-LB Podnos HE from 3 to 1
+80mm rockets HE from 2 to 1
+All 76mm guns HE from 2 to 1
+
+//weapon changes (aircraft)
+80mm rockets now fire in pairs
+
+//LOG
+FOB Cost from 75 to 5
+FOB Cards from 2 to 1
+Komandone Otdelenie cost from 100 to 5
+Komandone Otdelenie avaliblity from 0/3/0/0/0 to 4/0/3/0/0
+Komandone Otdelenie cards from 1 to 2
+Komandone Otdelenie stealth from good to very good
+Komandone Otdelenie optics from medium to very good
+Komandone Otdelenie LMG changed from PKM to RPK-74 (regular)
+UAZ-489U cost from 100 to 5
+UAZ-489U avaliblity from 0/6/0/0/0 to 4/0/3/0/0
+UAZ-489U cards from 1 to 2
+UAZ-489U stealth from poor to medium
+UAZ-489U optics from bad to very good
+BDRM-2U cost from 120 to 10
+BDRM-2U avaliblity from 0/4/0/0/0 to 4/0/3/0/0
+BDRM-2U cards from 1 to 2
+BDRM-2U optics from medium to good
+BTR-70K renamed to BTR-80AK
+BTR-80AK interface texture updated
+BTR-80AK main gun changed from KVPT to 30mm autocannon
+BTR-80AK cost from 135 to 25
+BTR-80AK front armor from 2 to 1
+BTR-80AK avaliblity from 0/4/0/0/0 to 3/0/2/0/0
+BTR-80AK cards from 1 to 2
+BTR-80AK optics from medium to good
+BMD-2K renamed to BMD-3K
+BMD-3K given ATGM weapon
+BMD-3K cost from 130 to 25
+BMD-3K avaliblity from 0/4/0/0/0 to 2/0/1/0/0
+BMD-3K cards from 1 to 2
+BMD-3K speed from 70 kph to 80 kph
+T-72K1 renamed to T-72BK
+T-72BK model updated
+T-72BK stats brought in line with T-72B series
+T-72BK cost from 150 to 85
+T-72BK cards from 1 to 2
+T-72BK avaliblity from 0/0/3/2/0 to 2/0/1/0/0
+T-80UK cost from 200 to 150
+T-80UK HP from 10 to 20
+T-80UK cards from 1 to 2
+T-80UK avaliblity from 0/0/2/0/1 to 1/0/0/0/0
+
+//INF
+PZRK IGLA moved to SUP
+Motorstrelki avaliblity from 0/20/16/0/0 to 16/0/12/0/0
+Motorstrelki RPG-7 changed to RPG-29
+Motorstrelki PKM changed to RPK-74 (regular)
+Motorstrelki '90 renamed to AT Squad
+AT Squad avaliblity from 0/20/16/0/0 to 16/0/12/0/0
+AT Squad cards from 3 to 2
+AT Squad RPG-7VR changed to Metys-M
+AT Squad cost from 15 to 10
+Sapery '85 renamed to Sapery
+Sapery avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+Sapery cost from 15 to 10
+Gornostrelki '90 renamed to VDV MAT
+VDV MAT avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+VDV MAT training from regular to shock
+VDV MAT cost from 30 to 20
+VDV MAT cards from 1 to 2
+VDV MAT ATGM ammo from 9 to 6
+VDV MAT LMG ammo from 1500 to 1000
+Spetsnaz avaliblity from 0/0/0/8/6 to 6/0/4/0/0
+Spetsnaz cost from 35 to 30
+Spetsnaz RPO Rys changed to RPG-26
+Spetsnaz RPK-74 ammo from 2475 to 1800
+Spetsnaz RPG-26 ammo from 8 to 6
+Spetsnaz AS-VAL changed to AKS-74U
+Spetsnaz stealth from good to very good
+Spetsnaz optics from medium to good
+PUTR Faktoriya avaliblity from 0/14/10/0/0 to 8/0/6/0/0
+PUTR Faktoriya squad size from 2 to 5
+PUTR Faktoriya rifle ammo from 160 to 400
+VDV '90 renamed to VDV
+VDV avaliblity from 0/0/12/8/0 to 12/0/8/0/0
+VDV cost from 25 to 20
+
+//SUP
+2K22M Tunguska-M avaliblity from 0/4/3/0/0 to 3/0/2/0/0
+BTR-D Skrezhet renamed to BTR-DG
+BTR-DG avaliblity from 24/20/16/12/8 to 12/0/8/0/0
+BTR-DG quad PKM to PKM
+BTR-DG front armor from 2 to 1
+BTR-DG side armor from 2 to 1
+PZRK Igla avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+PRZK Igla squad size from 2 to 5
+PRZK Igla rifle ammo from 160 to 400
+PRZK missile ammo from 6 to 4
+2S9 Nona avaliblity from 0/6/4/0/0 to 3/0/2/0/0
+Nona SVK avaliblity from 0/4/3/0/0 to 3/0/2/0/0
+Nona SVK front armor from 2 to 1
+OSA-AKM avaliblity from 0/6/4/0/0 to 3/0/2/0/0
+Strela-10M avaliblity from 0/8/6/0/0 to 4/0/3/0/0
+URAL ZU-23-2 avaliblity from 16/12/0/0/0 to 12/0/8/0/0
+MT-LB Podnos avaliblity from 0/6/4/0/0 to 3/0/2/0/0
+ZSU-23-4MZ Biryusa avaliblity from 0/8/6/0/0 to 4/0/3/0/0
+
+//TNK
+PT-76B avaliblity from 0/12/8/0/0 to 16/0/12/0/0
+PT-76B stealth from medium to poor
+PT-76B armed with a DShK
+////NOTE: the PT-76B is currently using polish liverly. There is nothing I can do about it at this time.
+T-55AM2 avaliblity from 0/14/10/0/0 to 16/0/12/0/0
+T-55AM2 ATGM removed
+T-55AM2 cannon ammo from 27 to 31
+T-72B avaliblity from 0/8/6/0/0 to 12/0/8/0/0
+T-72B optics from medium to poor
+T-72B HP from 10 to 15
+T-72B Obr 1989 avaliblity from 0/4/3/0/0 to 2/0/1/0/0
+T-72B Obr 1989 model updated
+T-72B Obr 1989 interface texture updated 
+T-72B Obr 1989 ATGM removed
+T-72B Obr 1989 cannon ammo from 24 to 28
+T-72B Obr 1989 optics from medium to poor
+T-72B Obr 1989 HP from 10 to 20
+T-64BV avaliblity from 0/5/4/0/0 to 6/0/4/0/0
+T-64BV ATGM removed
+T-64BV cannon ammo from 24 to 28
+T-64BV optics from medium to poor
+T-64BV HP from 10 to 20
+T-80U avalilbity from 0/3/2/0/0 to 1/0/0/0/0
+T-80U optics from medium to poor
+T-80U HP from 10 to 20
+
+//REC
+BDRM-2 moved to VEC
+BDRM-3 moved to VEC
+PT-76B moved to TNK
+UAZ-469 AGS-17 moved to VEC
+BRM-1 avaliblity from 0/4/3/0/0 to 6/0/4/0/0
+UAZ-469 KPV avalilbity from 0/12/8/0/0 to 12/0/8/0/0
+UAZ-469 KPV optics from good to very good
+Spetsnaz GRU avalilbity from 0/0/0/4/3 to 4/0/3/0/0
+Spetsnaz GRU squad size from 10 to 5
+Spetsnaz GRU stealth from very good to exceptional
+Spetsnaz GRU AKS-74U changed to AS-VAL
+Razvedka avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+Razvedka Squad size from 5 to 10
+Razvedka Rifle ammo from 400 to 800
+Razvedka RPG-7 changed to RPG-29
+Razvedka RPG ammo from 4 to 6
+Razvedka armed with RPK-74 (regular)
+Mi-2 avalilbity from 0/6/0/0/0 to 6/0/4/0/0
+Mi-2 Armed with autocannon
+Mi-2 Armed with S-5m rockets
+////NOTE: Mi-2 is currently using polish liverly. There is nothing I can do about it at this time.
+Mi-24K avaliblity from 0/3/2/0/0 to 3/0/2/0/0
+Ka-52 avaliblity from 0/3/2/0/0 to 2/0/1/0/0
+Ka-52 cards from 1 to 2
+Ka-52 SEAD missiles to R-73A
+Ka-52 igla-V to 80mm rockets
+Ka-52 stealth from medium to poor
+
+//VEC
+BTR-D Skrezhet moved to SUP
+BRDM-2 avaliblity from 0/12/0/0/0 to 12/0/8/0/0
+BRDM-2 stealth from medium to poor
+BRDM-2 Konkurs-M avaliblity from 0/8/6/0/0 to 4/0/3/0/0
+BDRM-2 Konkurs-M cost from 45 to 30
+BDRM-2 Konkurs-M optics from poor to medium
+BDRM-3 avaliblity from 0/12/8/0/0 to 8/0/6/0/0
+BDRM-3 cost from 35 to 25
+BDRM-3 stealth from medium to poor
+BDRM-3 front armor from 2 to 1
+BDRM-3 side armor from 2 to 1
+BDRM-3 cards from 1 to 2
+UAZ-469 Konkurs-M avaliblity from 0/8/6/0/0 to 6/0/4/0/0
+UAZ-469 Konkurs-M cost from 30 to 20
+UAZ-469 Konkurs-M stealth from poor to medium
+UAZ-469 Konkurs-M optics from poor to medium
+UAZ-469 Konkurs-M ammo from 4 to 6
+UAZ-469 AGS-17 avaliblity from 0/4/0/0/0 to 12/0/4/0/0
+UAZ-469 AGS-17 cost from 50 to 15
+UAZ-469 AGS-17 optics from exceptional to good
+MT-LB Shturm-S avaliblity from 0/8/6/0/0 to 4/0/3/0/0
+MT-LB Shturm-S optics from poor to medium
+MT-LB Shturm-S cost from 50 to 30
+BMD-3 optics from medium to poor
+BMD-3 ATGM ammo from 4 to 6
+BTR-D cards from 3 to 6
+BTR-D quad PKM to PKM
+BTR-D front armor from 2 to 1
+BTR-D side armor from 2 to 1
+BTR-RD Robot cards from 3 to 2
+BTR-RD Robot quad PKM to PKM
+BTR-RD Robot ATGM from Fagot-M to Faktoriya
+BTR-RD Robot ATGM ammo from 4 to 6
+BTR-RD Robot front armor from 2 to 1
+BTR-RD Robot side armor from 2 to 1
+BMP-1D cost from 20 to 15
+BMP-1D cards from 3 to 2
+BMP-1P cost from 20 to 15
+BMP-1P cards from 3 to 2
+BMP-1P ATGM from Konkurs to Faktoriya
+BMP-1P ATGM ammo from 4 to 6
+BMP-2D cards from 2 to 3
+BMP-2D ATGM from Konkurs to Konkurs-M
+BMP-2D ATGM ammo from 4 to 6
+BMP-3 cost from 40 to 35
+BMP-3 cards from 3 to 2
+BMP-3 optics from medium to poor
+BTR-80 cost from 15 to 10
+BTR-80 cards from 3 to 6
+BTR-80 front armor from 2 to 1
+BTR-80 side armor from 2 to 1
+BTR-80A cost from 20 to 25
+BTR-80A front armor from 2 to 1
+BTR-80A side armor from 2 to 1
+BTR-80A optics from medium to poor
+MT-LBV cards from 5 to 6
+
+//HEL
+Mi-24D ATGMs removed
+
+
+ShowInMenu from true to false for:
+TOS-1 Buratino
+MTP-LB
+Ural-375D supply
+Ural-4320
+Mi-26
+Mi-4 command
+Mi-6
+BMD-1K
+BMP-1K
+2S19-MstaS
+2S1 Gvozdika
+2S3M Akatsiya
+2S3 Akatsiya
+2S7M Malka
+2S7 Pion
+9K37 Buk
+9K37 Buk M1
+9K33 OSA
+9K33 OSA-AK
+BM-21 Grad
+BM-27 Uragan
+BM-30 Smerch
+9K330 TOR
+BRDM-2 Streal-1M
+MT-LB Vasilek
+ZSU-23-4V1 Shilka
+2K22 Tunguska
+BMP-685
+T-34
+PT-90
+T-55A
+T-55AM
+T-55AMV
+T-62
+T-62 obr. 1975
+T-62M1
+T-62M
+T-62MV
+T-64A
+T-64B
+T-64BV1
+T-64BM
+T-72
+T-72A
+T-72B
+T-72B Obr 1987
+T-72BU
+T-80
+T-80A
+T-80B
+T-80BV
+T-80UM
+PT-71
+PT-85
+T-55
+UAZ-469
+Spetsnaz VMF
+2S15 Norov
+ASU-85
+Morskaya Pekhota
+Morskaya Pekhota '90
+PZRK Strela-3
+Sapery
+Gornostrelki
+PZRK Igla-1M
+VDV
+PTUR Konkurs
+PTUR Konkurs-M
+BMD-1P
+BMD-1
+BMD-2
+BMP-1
+BMP-2
+BMP-2 obr. 1986
+BTR-T
+BDRM-2 Konkurs
+BDRM-2 Malyutka-P
+BTR-60PB
+BTR-70
+BTR-70 ZHALO
+BTR-90
+BMP-T
+BTR-152E ZPTU-2
+BTR-152E ZPTU-4
+SU-122-54
+TO-55
+TO-62
+UAZ-469 Faktoriya
+UAZ-469 Konkurs
+UAZ-469 SPG-9
+URAL-375D Transport
+ZSU-23-4 Afganskiy
+Mi-28A
+Mi-24A
+Mi-24VP
+Mi-4A
+Mi-4AV
+Mi-8T
+Mi-8TV
+Mi-8R
+Ka-29
+IL-102
+Mig-21SM
+Mig-21S
+Mig-25
+Mig-25P
+Mig-25PD
+Mig-31
+Mig-31M
+Mig-23M
+Mig-23P
+Su-25
+Su-24MP
+Su-24
+Yak-38
+Yak-38M
+Yak-141

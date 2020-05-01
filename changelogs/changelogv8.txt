@@ -1,0 +1,189 @@
+//Global deck building
+Armored deck bonuses removed
+Marine deck bonuses removed
+Airborne deck bonuses removed
+
+//critical effects changes
+all terrian based critical effects removed
+all damage adding critical effects removed
+all fuel related critical effects removed
+
+//Global armor changes
+1 AV now provides 30% damage resistance against HE
+
+//Global weapon changes (infantry)
+//ALL INFANTRY WEAPONS should now use their stablizer as their base accuracy in CQC//
+M202A1 flash firing noise from 40 to 150
+SMAW HE suppression damage radius increased 60%
+SMAW HE suppression damage from 50 to 300
+SMAW accuracy from 70 to 55
+M3 CG range from 875 to 1050
+M3 CG accuracy from 60 to 45
+AT4 accuracy from 50 to 45
+AT4 Rate of fire from 20r/m to 15r/m
+Minimi renamed to M249
+M249 (Elite) accuracy from 50 to 40
+M249 (Elite) stablizier from 30 to 5
+M249 (Shock) accuracy from 40 to 30
+M249 (Shock) stablizier from 20 to 5
+M16 (shock) accuracy from 45 to 40
+M16 (shock) stablizer from 23 to 25
+M727 (elite) accuracy from 60 to 50
+MP5SD (elite) accuracy from 40 to 50
+MP5SD (elite) stablizer from 40 to 50
+M14 Stablizer from 20 to 0
+
+//Global weapon changes (vehicle)
+105mm cannon AP from 15 to 17
+
+//Global weapon changes (aircraft)
+Zuni suppression from 293 to 300
+70mm rocket suppression from 161 to 150
+70mm rocket accuracy standardized to 30
+70mm rocket stablizer standardized to 30
+All rocket pods with more than 7 shots should now fire in bursts of two
+Rockeye 2 cluster bomb AP from 6 to 8
+AIM-9M heli range from 2100 to 2975
+
+
+//Global ammo recharge times
+AT4 from 10 to 12.5 seconds
+SMAW from 5 to 12.5 seconds
+M3 CG from 10 to 12.5 seconds
+M47 Super Dragon from 34.5 to 12.5 seconds
+81mm mortar from 30 to 15 seconds
+107mm mortar from 45 to 25 seconds
+Helfire [SA] from 100 to 30 seconds
+Helfire [F&F] from 100 to 30 seconds
+Stinger C from 15 to 12.5 seconds
+TOW-2 from 50 to 25 seconds
+M48A1 missile from 30 to 20 seconds
+M48A3 missile from 40 to 30 seconds
+
+////US
+
+//Deck building
+Un-specialzied decks removed
+Mechanized decks removed
+Motorized decks removed
+Support decks removed
+Catagory-B decks removed
+Catagory-C decks removed
+
+//LOG
+CMD M60A3 avaliblity from 0/0/1/0/0 to 2/0/1/0/0
+LAV-C2 avaliblity from 2/0/1/0/0 to 3/0/2/0/0
+CMD HUMVEE avaliblity from 3/0/2/0/0 to 4/0/3/0/0
+CMD M1A1 avaliblity from 0/0/1/0/0 to 2/0/1/0/0
+M577 avaliblity from 2/0/1/0/0 to 3/0/2/0/0
+M577 side armor from 2 to 1
+M577 cost from 10 to 5
+TACOM avaliblity from 3/0/2/0/0 to 4/0/3/0/0
+TACOM cost from 10 to 5
+////NEW UNIT////AAVC-7A1
+////Marine deck exclusive armored command unit with grenade launcher
+////NEW UNIT//// Javelin team
+////Airborne exclusive ATGM squad
+
+//INF
+Assault engineers cost from 15 to 10
+Rangers should now display correct icon when being transported
+Light Riflemen '90 renamed to Weapons squad
+Weapons squad cost from 20 to 15
+Weapons squad avaliblity from 12/0/8/0/0 to 16/0/12/0/0
+SMAW renamed to Assaultmen
+Assaultmen AT ammo from 10 to 8
+Assaultmen HE ammo from 8 to 4
+Assaultmen cost from 15 to 10
+////NEW UNIT//// Marine MAT
+////marine deck exclusive light rifle clone with shock training
+
+//SUP
+PIVADs ground attack can no longer be fired on the move
+M48A1 front AV from 1 to 0
+M48A1 side AV from 1 to 0
+M48A1 plane range from 2380 to 2800
+M48A3 front AV from 1 to 0
+M48A3 side AV from 1 to 0
+M48A1 plane range from 2625 to 3150
+
+//TNK
+M551 ACAV avaliblity from 12/0/8/0/0 to 16/0/12/0/0
+M551 TTS cost from 35 to 30
+M8 AGS cost from 40 to 45
+M60A3 avaliblity from 16/0/12/0/0 to 12/0/8/0/0
+
+//REC
+Delta force should now display correct icon when being transported
+Delta force cost from 25 to 20
+M151A2 FAV optics from good to very good
+M151A2 FAV cost from 15 to 10
+M151A2 FAV avaliblity from 6/0/4/0/0 to 12/0/8/0/0
+OH-58D cost from 70 to 35
+OH-58D Wr. cost from 95 to 60
+SH-60B cost from 80 to 70
+SH-60B optics from medium to exceptional
+SH-60B avaliblity from 4/0/3/0/0 to 3/0/2/0/0
+////NEW UNIT//// SCOUT SNIPERS
+////marine deck exclusive delta sidegrade - lower cost and higher range for less DPS
+////NEW UNIT//// UH-1N TWIN HUEY [RECON]
+////marine deck exclusive recon helicopter
+////NOTE//// currently using Canadian colors - unable to change it at this time
+
+//VEC
+M151A2 FAV reroled as recon unit
+LVTP-7A1 renamed to AAVP-7A1
+M113A3 cards from 4 to 6
+M113 ACAV cards from 2 to 3
+M2A2 cards from 2 to 3
+
+//HEL
+AH-6C grenade launchers replaced with FFARs
+AH-6C optics from bad to good
+AH-6C stealth from bad to medium
+AH-1F cost from 80 to 50
+AH-1F HP from 6 to 4
+MH-60L cost from 25 to 20
+CH-47 cost from 25 to 20
+CH-47 cards from 3 to 2
+UH-1N cards from 3 to 4
+SH-60B reroled to REC tab
+AH-1T SEACOBRA IP renamed to AH-1W [CAS]
+AH-1W [CAS] speed from 280 to 350
+AH-1W [CAS] cost from 70 to 65
+AH-1W SUPERCOBRA renamed to AH-1W [CAP]
+AH-1W [CAP] cost from 100 to 75
+AH-1W [CAP] TOW 2s removed
+AH-1W [CAP] SEAD missiles replaced with sidewinders
+////NEW UNIT//// AH-1W [ATGM]
+////SUPERCOBRA with hellfires and zunis
+////NOTE//// currently using South Korean colors - unable to change it at this time
+
+//AIR
+////NOTE/// Aircraft changes are too numerous and too technical to list in detail. Anything not listed here should be instantly noticeable in the armory
+All aircraft given exceptional air optics
+All sidewinders standardized to AIM-9M
+All F16s standardized to 300 turn radius
+All F16s standardized to 30% ECM
+All F-15s standardized to 40% ECM
+All F-15s standardized to 150 seconds of fuel
+All F-18Cs standardized to 40% ECM
+
+Showinmenu from false to true for
+AH-1W SUPERCOBRA
+AH-1F
+
+Showinmenu from true to false for:
+OH-58C Kiowa
+A4M Skyhawk 2
+A4 Skyhawk 2
+A6 Intruder
+A7 Corsair 2
+AV8C Harrier
+AV8 Harrier
+AV8B Harrier 2
+F4J Phantom 2
+F4S Phantom 2
+F111F
+F111E
+A-10A

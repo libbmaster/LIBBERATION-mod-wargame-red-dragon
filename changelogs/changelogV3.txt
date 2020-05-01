@@ -1,0 +1,162 @@
+////GLOBAL
+Activation point cost for aircraft from 1/2/3/4/5 to 1/2/2/2/3
+
+////USA
+
+Activation point bonus removed
+Avaliblity bonus removed
+Transports nolonger restrict the avaliblity of carried infantry
+
+//LOG
+ALL COMMAND UNITS now have 2 cards
+FOB cost reduced from 75 to 5
+M114A1 front armor from 2 to 1
+M114A1 cost from 115 to 15
+M114A1 avaliblity from 0/4/0/0/0 to 2/0/1/0/0
+CMD M60A1 cost from 140 to 35
+CMD M60A1 avalibilty from 0/0/3/2/0 to 0/0/1/0/0
+LAV_C2 cost from 120 to 15
+LAV_C2 avaliblity from 0/4/0/0/0 to 2/0/1/0/0
+M1025 HUMVEE cost from 110 to 10
+M1025 HUMVEE avaliblity from 0/6/0/0/0 to 3/0/2/0/0
+CMD M1 Abrams cost from 160 to 65
+CMD M1 Abrams avaliblity from 0/0/3/2/0 to 0/0/1/0/0
+M577 cost from 120 to 10
+M577 avaliblity from 0/4/0/0/0 to 2/0/1/0/0
+M151A1 CP cost from 100 to 5
+M151A1 CP avaliblity from 0/6/0/0/0 to 3/0/1/0/0
+TACOM Cost from 100 to 10
+TACOM avaliblity from 0/3/0/0/0 to 3/0/2/0/0
+
+//INF
+Assault engineers avaliblity from 0/12/8/0/0 to 6/0/4/0/0
+Delta Force avaliblity from 0/0/0/8/6 to 2/0/1/0/0
+US Marines 90 avaliblity from 0/0/14/10/0 to 8/0/6/0/0
+Riflemen 90 avaliblity from 0/20/16/0/0 to 12/0/8/0/0
+Light Riflemen 90 avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+Light Riflemen 90 speed from 25 kph to 20 kph
+SMAW avaliblity from 0/0/12/8/0 to 6/0/4/0/0
+LAAD Stinger C avaliblity from 0/6/4/0/0 to 6/0/4/0/0
+
+//AIR
+A10 avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+A4M Skyhawk 2 avaliblity from 0/3/0/2/0 to 1/0/0/0/0
+A4 Skyhawk 2 avaliblity from 0/4/0/0/0 to 1/0/0/0/0
+A6 Intruder avaliblity from 0/3/0/0/0 to 1/0/0/0/0
+A7 Corsair 2 avaliblity from 0/3/0/0/0 to 1/0/0/0/0
+AV8B Harrier 2 avaliblity from 0/3/0/2/0 to 1/0/0/0/0
+AV8C Harrier avaliblity from 0/3/0/2/0 to 1/0/0/0/0
+AV8 Harrier avaliblity from 0/3/0/2/0 to 1/0/0/0/0
+F111F Ardvark avaliblity from 0/2/0/0/0 to 1/0/0/0/0
+F111 Ardvark avaliblity from 0/2/0/0/0 to 1/0/0/0/0
+F15C Eagle avaliblity from 2/0/0/0/1 to 1/0/0/0/0
+F15D avaliblity from 0/0/0/0/1 to 1/0/0/0/0
+F15A avaliblity from 3/0/0/2/0 to 1/0/0/0/0
+F16 avaliblity from 0/3/0/2/0 to 1/0/0/0/0
+F16C Block 52 avaliblity from 0/0/2/0/0 to 1/0/0/0/0
+F16E avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+F4J Phantom 2 avaliblity from 5/4/0/3/0 to 1/0/0/0/0
+F4S Phantom 2 avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+FA18C Hornet avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+FA18 avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+
+//VEC
+COMVAT avaliblity from 0/12/8/0/0 to 8/0/6/0/0
+LAV 25 avaliblity from 0/16/12/0/0 to 12/0/8/0/0
+LAV AT avaliblity from 0/10/7/0/0 to 3/0/2/0/0
+M132 avaliblity from 0/16/12/0/0 to 6/0/4/0/0
+M163 CS avaliblity from 0/16/12/0/0 to 8/0/6/0/0
+M901A1 ITW avaliblity from 0/6/4/0/0 to 3/0/2/0/0
+HUMVEE TOW avaliblity from 0/8/6/0/0 to 6/0/4/0/0
+V150 76mm avaliblity from 0/20/16/0/0 to 12/0/8/0/0
+V150 90mm avaliblity from 0/16/12/0/0 to 12/0/8/0/0
+
+//TNK
+M1A1 avaliblity from 0/6/4/0/0 to 6/0/4/0/0
+M1A2 avaliblity from 0/2/0/1/0 to 1/0/0/0/0
+M1A2 cards from 1 to 2
+M551A1 avaliblity from 0/20/16/0/0 to 12/0/8/0/0
+M60A1 ERA avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+M60A3 avaliblity from 0/14/10/0/0 to 12/0/8/0/0
+M60 Super avaliblity from 0/12/8/0/0 to 8/0/6/0/0
+M60 Super cards from 1 to 2
+M8 AGS avaliblity from 0/14/10/0/0 to 8/0/6/0/0
+M8 AGS cards from 1 to 2
+M1A1 HC avaliblity from 0/3/2/0/0 to 2/0/1/0/0
+M1A1 HC cards from 1 to 2
+
+//REC
+LAV 25 Scout avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+CAV Scouts avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+M1025 HUMVEE GAU avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+M1025 HUMVEE Mk19 avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+M151A1 MUTT avaliblity from 0/6/0/0/0 to 12/0/8/0/0
+M151A2 FAV avaliblity from 0/4/0/0/0 to 6/0/4/0/0
+M3A3 Bradley CFV avaliblity from 0/4/3/0/0 to 6/0/4/0/0
+M551 Sheridan avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+M551 TTS Sheridan avaliblity from 0/6/4/0/0 to 8/0/6/0/0
+Rangers avaliblity from 0/0/6/4/0 to 6/0/4/0/0 
+NAVY SEALS avaliblity from 0/0/0/4/3 to 2/0/1/0/0
+V150 20mm avaliblity from 0/12/8/0/0 to 12/0/8/0/0
+AH-1J avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+AH-64D Longbow avaliblity from 0/2/0/1/0 to 1/0/0/0/0
+AH-64D Longbow cards from 1 to 2
+OH-58C Kiowa avaliblity from 0/6/0/0/0 to 6/0/4/0/0
+OH-58D Kiowa scout avaliblity from 0/4/0/0/0 to 4/0/3/0/0
+OH-58D Kiowa Warrior avaliblity from 0/4/3/0/0 to 3/0/2/0/0
+
+//HEL
+AH-1F Cobra avaliblity from 0/6/4/0/0 to 6/0/4/0/0
+AH-1T Sea Cobra IP avaliblity from 0/8/6/0/0 to 6/0/4/0/0
+AH-1T Sea Cobra IP cards from 5 to 2
+AH-64 Apache avaliblity from 0/3/2/0/0 to 3/0/2/0/0
+AH-6C Little Bird avaliblity from 0/12/8/0/0 to 6/0/4/0/0
+MH-60 DAP avaliblity from 0/4/3/0/0 to 3/0/2/0/0
+MH-60 DAP cards from 1 to 2
+OH-58 CS avaliblity from 0/6/4/0/0 to 6/0/4/0/0
+SH-60B Sea Hawk avaliblity from 0/4/3/0/0 4/0/3/0/0
+
+//SUP
+LAV-M avaliblity from 0/6/4/0/0 to 4/0/3/0/0
+M106A2 avaliblity from 0/6/4/0/0 to 4/0/3/0/0
+M1097 Avenger avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+M125A1 avaliblity from 0/6/4/0/0 to 4/0/3/0/0
+M163 PIVADS avaliblity from 0/8/6/0/0 to 8/0/6/0/0
+M48A3 Chaparral avaliblity from 0/4/3/0/0 to 2/0/1/0/0
+M48A1 Chaparral avaliblity from 0/6/4/0/0 to 4/0/3/0/0
+
+showinmenu from true to false for
+//AH-1W
+//UH-1A
+//F-117
+//LAAD Redeye
+//LAAD Stinger A
+//riflemen
+//light riflemen
+//US Marines
+//M728 CEV
+//M150
+//M151A2 I-tow
+//M151A2 TOW
+//M50 Ontos
+//M901 TOW
+//M67A1 Zippo
+//MBT70
+//M60A2
+//M60A2 20mm
+//M60A1 RISE
+//M60A1 AOS
+//M48A5 Patton
+//M60A1 USMC
+//M1 Abrams
+//M1 IP Abrams
+//M1A1 HA Abrams
+//M114A2
+//M3A1 CFV
+//M3 CFV
+//AH-1E
+//AH-1S
+//UH-1C Heavy
+//UH-1C
+//M163A1 VADS
+//M48 Chaparral

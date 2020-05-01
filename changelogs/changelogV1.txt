@@ -1,0 +1,90 @@
+
+////global
+//supply
+Fuelcost/s from 5 to 0.1
+fuel/s from 30 to 0.1
+Healthcost/s from 5 to 0.1
+ammocost/s from 25 to 1
+ammo/s from 25 to 1
+supplycost/s from 50 to 0.1
+supply/s from 50 to 0.1
+supplyrange from 52000 to 99999
+
+////USA 
+FUEL DELETED
+
+//FOB
+supplycapacity from 16000 to 9,999,999
+maxpacks from 2 to 1
+
+HE from 20 to 1 for
+//F117 nighthawk
+//F15D
+
+HE from 15 to 1 for
+//AV8 harrier
+
+HE from 12 to 1 for
+//F111 aardvark
+
+HE from 10 to 1 for
+//A4 skyhawk 2
+//A6 intruder
+
+HE from 8 to 1 for
+//M728 CEV
+
+HE from 5 to 1 for
+//M551A1 sheridan
+//M60A2 20mm
+//MBT70
+
+HE from 4 to 1 for
+//M202 FLASH
+//A4M skyhawk 2
+//A6F intruder
+
+HE from 3 to 1 for
+//CMD M60A1
+//LAV-M
+//M1A1HA
+//M1A1HC
+//M1A2
+//M1IP
+//M1
+//M48A5
+//M50 ontos
+//M60A1 AOS
+//M60A1 ERA
+//M60A3
+//M60 Super
+//M8
+//V150 90mm
+//AV8C harrier
+
+HE from 2 to 1 for
+//Mk19
+//SMAW
+//V150 76mm
+//AH1 cobra
+//AH1E cobra
+//AH6C little bird
+//UH1C hog
+//UH1C Heavy hog
+//M67A1 Zippo
+
+
+showinmenu from true to false for
+//M109A2
+//M109A6
+//M109
+//M110A2
+//M110
+//M270
+//M272 PIP3
+//M272
+//PATRIOT
+//HEMTT
+//M35
+//CH47 supply
+//CH53
