@@ -1,0 +1,44 @@
+//Global weapon changes (aircraft)
+Igla-V standardized with Igla
+
+//LOG
+T-72BK armed with ATGM
+
+//TNK
+T-80U ATGM removed
+T-80U cannon ammo from 24 to 28
+
+//REC
+Spetsnaz GRU cost from 30 to 20
+
+//HEL
+Mi-24D cost from 55 to 35
+Mi-24D cards from 3 to 2
+Mi-8MTV S-13 removed
+Mi-8MTV model updated
+Mi-8MTV cost from 30 to 10
+Mi-8MTV cards from 3 to 6
+////Mi-8MTV is currently using Finland liverly - there's nothing I can do about it at this time
+Mi-24V renamed to Mi-24V [ATGM]
+Mi-24V [ATGM] model updated
+Mi-24V [ATGM] S-5m changed to S-80fp
+Mi-24V Igla-V changed to Kokon-M
+Mi-24P renamed to Mi-24P [CAS]
+Mi-24P [CAS] Kokon to Kokon-M
+Ka-50 Akula renamed to Ka-50 [ATGM]
+Ka-50 [ATGM] cards from 1 to 2
+Mi-24A renamed Mi-24D [CAS]
+Mi-24D [CAS] model updated
+Mi-24D [CAS] NSVT changed to Yak-B
+Mi-24D [CAS] S-5m changed to S-80fp
+Mi-24D [CAS] ATGM changed to Igla-V
+Mi-24VP renamed to Mi-24D [CAP]
+Mi-24D [CAP] model updated
+Mi-24D [CAP] 30mm autocannon changed to Yak-B
+Mi-24D [CAP] S-80fp removed
+Mi-24D [CAP] ATGM to R-73A
+
+
+showinmenu from false to true for:
+Mi-24A
+Mi-24VP
