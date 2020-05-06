@@ -1,0 +1,45 @@
+//Global weapon changes (air)
+FAB250 HE from 11 to 1
+RBK500 AP from 6 to 8
+
+//AIR
+Mig-27K renamed to Mig-27K [CLUS]
+Mig-27K [CLUS] ATGM to cluster bombs
+Mig-27K [CLUS] avaliblity from 2/0/0/1/0 to 1/0/0/0/0
+Mig-27K [CLUS] cards from 1 to 2
+Mig-27M renamed to Mig-27K [ATGM]
+Mig-27K [ATGM] missile ammo from 2 to 4
+Mig-27K [ATGM] Kh-25ML to Kh-29T
+Mig-27K [ATGM] avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+Mig-27K [ATGM] cards from 1 to 2
+Mig-27 renamed to Mig-27K [NPLM]
+Mig-27K [NPLM] avaliblity from 3/0/0/2/0 to 1/0/0/0/0
+Mig-27K [NPLM] cards from 1 to 2
+Mig-27K [NPLM] ATGM changed to Napalm bombs
+Mig-23ML renamed to Mig-27K [CAS]
+Mig-27K [CAS] avaliblity from 5/4/0/3/0 to 1/0/0/0/0
+Mig-27K [CAS] cards from 1 to 2
+Mig-27K [CAS] R-60 changed to FAB250
+Mig-29K renamed to Mig-29S [CAP]
+Mig-29S [CAP] Antiship missiles to AAMs
+Mig-29S [CAP] R-73 ammo from 4 to 2
+Mig-29S [CAP] avaliblity from 2/0/0/1/0 to 1/0/0/0/0
+Mig-29S [CAP] cards from 1 to 2
+Su-27S renamed to Su-27S [CAP]
+Su-27S avaliblity from 0/0/2/0/0 to 1/0/0/0/0
+Su-27S [CAP] cards from 1 to 2
+Su-25T avaliblity from 0/2/0/0/1 to 1/0/0/0/0
+Su-25T cards from 1 to 2
+
+
+
+
+showinmenu from false to true for:
+Mig-23ML
+
+showinmenu from true to false for:
+Mig-29S
+Mig-29M
+Su-27K
+Su-27M
+Su-27PU

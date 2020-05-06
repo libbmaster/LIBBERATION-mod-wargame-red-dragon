@@ -1,0 +1,18 @@
+//LOG
+AAVC-7A1 optics from medium to good
+
+//REC
+Littlebird cost from 30 to 25
+Littlebird optics from good to very good
+
+//TNK
+M551A1 TTS cost from 30 to 25
+M551A1 TTS avaliblity from 12/0/8/0/0 to 16/0/12/0/0
+
+//HEL
+Littlebird moved to REC
+
+
+Showinmenu from true to false for:
+M551 ACAV
+M981 FISTV
