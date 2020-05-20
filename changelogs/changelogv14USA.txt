@@ -1,0 +1,24 @@
+//Global ammo regen changes
+M202A1 Flash from 12.5 to 10 seconds
+M3 CG from 12.5 to 10 seconds
+Super dragon from 12.5 to 10 seconds
+AT-4 from 12.5 to 10 seconds
+SMAW from 12.5 to 10 seconds
+Stinger-C from 12.5 to 10 seconds
+
+//REC
+AH-6C HP from 4 to 6
+OH-58D [CAS] renamed to OH-58D Kiowa
+OH-58D Kiowa HP from 4 to 6
+AH-64D HP from 8 to 10
+SH-60B HP from 6 to 8
+
+//HEL
+AH-1F HP from 4 to 6
+MH-60L HP from 6 to 8
+MH-60L DAP HP from 6 to 8
+UH-60L HP from 6 to 8
+CH-46 HP from 6 to 8
+
+//AIR
+A-10 speed from 500 to 600

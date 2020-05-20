@@ -1,0 +1,47 @@
+//Global weapon changes (Vehicle)
+73mm cannon rate of fire from 9 to 6 rounds per minute
+120mm mortar suppression/rpm standardized with US 107mm mortar
+82mm mortar suppression/rpm standardized with US 81mm mortar
+Konkurs-M range from 2625 to 2800
+
+//Global weapon changes (air)
+R-27 HE from 6 to 5
+
+//Global ammo regen changes
+120mm mortar standardized with US 107mm mortar
+82mm mortar standardized with US 81mm mortar
+RPG-29 from 5 to 10 seconds
+Metis-M from 53.5 to 10 seconds
+Faktoriya from 42 to 15 seconds
+RPG-26 from 7.5 to 10 seconds
+RPO-A from 12.5 to 10 seconds
+Tunguska-M missile from 59.5 to 20 seconds
+OSA-AKM missile from 47.25 to 20 seconds
+MT-LB Strela 10 missile from 20 to 15 seconds
+Igla from 12.5 to 10 seconds
+T-72BK missile from 69 (nice!) to 15 seconds
+T-80UK missile from 73.5 to 20 seconds
+Konkurs-M from 72 to 15 seconds
+BMP-3 missile from 70 to 20 seconds
+Kokon from 73.5 to 20 seconds
+Kokon-M from 80.5 to 20 seconds
+Ka-50 ATGMs from 121.25 to 20 seconds
+Igla-V from 13.5 to 10 seconds
+
+//REC
+BRM-1 cost from 50 to 20
+Mi-2 HP from 4 to 6
+Ka-52 HP from 8 to 10
+
+//HEL
+Ka-50 HP from 8 to 10
+Mi-8 HP from 8 to 10
+Mi-8 cost from 10 to 15
+
+//AIR
+Mig-27K [NPLM] ECM from 20 to 30
+Mig-27K [CLUS] ECM from 0 to 30
+All Mig-27K versions HP from 10 to 8
+All Mig-27K versions speed from 900 to 1000
+Mig-29 speed from 900 to 1000
+Su-27S speed from 900 to 1000
