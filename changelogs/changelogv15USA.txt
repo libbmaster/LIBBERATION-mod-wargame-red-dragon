@@ -1,0 +1,216 @@
+//Global weapon changes (mortars)
+81mm Mortar dispersion from 3185 to 9100 
+81mm Mortar HE suppression from 200 to 100
+81mm Mortar HE suppression AoE radius from 74 to 100 meters
+81mm Mortar RoF from 17 to 20 rpm
+81mm Mortar chance to start fires from 30% to 10%
+81mm Mortar HE AoE radius from 74 to 30 meters
+81mm Mortar range from 4900 to 4200
+107mm Mortar dispersion from 4095 to 8400 
+107mm Mortar HE suppression from 250 to 150
+107mm Mortar HE suppression AoE radius from 94 to 175 meters
+107mm Mortar RoF from 7.5 to 15 rpm
+107mm Mortar reload time from 10 to 4 seconds
+107mm Mortar HE aim time from 6 to 5 seconds
+107mm Mortar Smoke aim time from 4 to 5 seconds
+107mm Mortar chance to start fires from 30% to 10%
+107mm Mortar HE AoE radius from 37 to 40 meters
+107mm Mortar range from 6300 to 4550
+
+//Global weapon changes (auto cannons)
+20mm (M197) HE range from 1750 to 2100
+20mm (M197) HE heli range from 1575 to 1925
+20mm (M197) HE plane range from 1400 to 1575
+20mm (M61A1) HE range from 2100 to 2450
+20mm (M61A1) HE heli range from 1575 to 2275
+20mm (M61A1) HE plane range from 2800 to 2100
+20mm (M61A1) Rounds per salvo from 188 to 50
+25mm accuracy from 40 to 25
+25mm stablizer from 30 to 10
+25mm KE range from 1925 to 2625
+25mm HE range from 1925 to 2975
+25mm HE heli range from 1750 to 2625
+25mm HE plane range from 1575 to 2100
+30mm HE (GAU-8) Rounds per salvo from 390 to 50
+30mm HE (GAU-8) Time between salvos from 2 to 0.2 seconds
+30mm HE (GAU-8) range from 2800 to 3325
+30mm HE (GAU-8) Heli range from 1575 to 3150
+30mm HE (GAU-8) Plane range from 1575 to 2975
+30mm HEAT (GAU-8) Rounds per salvo from 390 to 50
+30mm HEAT (GAU-8) Time between salvos from 2 to 0.2 seconds
+30mm HEAT (GAU-8) range from 2800 to 3325
+30mm HEAT (GAU-8) AP from 6 to 2
+30mm HEAT accuracy from 40 to 25
+30mm HEAT stablizer from 30 to 20
+30mm HEAT range from 1575 to 2450
+30mm HEAT heli range from 1575 to 2275
+30mm HEAT plane range from 0 to 1925
+45mm accuracy from 40 to 25
+45mm stablizer from 30 to 10
+45mm KE range from 2100 to 2800
+45mm HE range from 2100 to 3150
+45mm HE heli range from 1925 to 2800
+45mm HE plane range from 1750 to 2275
+
+//Global weapon changes (Tank guns)
+105mm accuracy from 50 to 40
+105mm stablizer from 35 to 25
+105mm HEAT AP from 17 to 11
+105mm KE AP from 17 to 16
+105mm KE range from 2275 to 3150
+120mm accuracy from 50 to 45
+120mm stablizer from 45 to 35
+120mm HEAT AP from 19 to 16
+120mm HEAT range from 2275 to 2975
+120mm KE AP from 24 to 20
+120mm KE range from 2275 to 3325
+152mm accuracy from 40 to 30
+152mm stablizer from 25 to 10
+152mm HEAT range from 1925 to 1400
+
+//Global weapon changes (ATGM)
+Hellfire [F&F] range from 2975 to 4900
+Hellfire [SA] range from 2975 to 4900
+MGM-51 Shillelagh range from 2625 to 3325
+TOW-2 range from 2800 to 3675
+FGM-148 Javelin range from 2625 to 2975
+ADATS range from 2975 to 4900
+starstreak range from 2800 to 4200
+Super Dragon range from 1925 to 2275
+AGM-65 Maverick range from 3325 to 5600
+
+//Global weapon changes (anti-air missile)
+Stinger-C plane range from 2975 to 4900
+Stinger-C heli range from 2625 to 4550
+ADATS HE from 5 to 4
+ADATS plane range from 3325 to 5250
+ADATS heli range from 3325 to 5250
+Starstreak plane range from 2625 to 4550
+Starstreak heli range from 2975 to 4900
+AIM-9M HE from 5 to 4
+AIM-9M heli range from 2975 to 5250
+AIM-9M plane range from 4200 to 5600
+AIM-120A HE from 5 to 4
+
+//Global weapons changes (rocket)
+M151 Hydra 70mm range from 2100 to 3150
+M151 Hydra 70mm accuracy from 30 to 20
+M151 Hydra 70mm stablizer from 30 to 20
+FFAR 70mm range from 2100 to 3150
+FFAR 70mm accuracy from 30 to 20
+FFAR 70mm stablizer from 30 to 20
+
+//Global ammo regen changes
+120mm HEAT from 12.5 to 10 seconds
+120mm KE from 12.5 to 10 seconds
+TOW-2 from 20 to 15 seconds
+
+
+//LOG
+CMD M60A3 issued HEAT ammo
+CMD M60A3 HEAT ammo from 38 to 15
+CMD M60A3 KE ammo from 38 to 22
+CMD M1A1 issued HEAT ammo
+CMD M1A1 HEAT ammo from 29 to 5
+CMD M1A1 KE ammo from 29 to 12
+CMD M1A1 rear armor from 4 to 3
+
+//SUP
+M6 linebacker HE ammo from 900 to 230
+M6 linebacker KE ammo from 900 to 70
+M6 linebacker stinger C stablizer removed
+M1097 Avenger stinger C stablizer removed
+LAV-M avaliblitiy from 3/0/2/0/0 to 4/0/3/0/0
+M106A2 avaliblity from 3/0/2/0/0 to 4/0/3/0/0
+M125A1 avaliblity from 3/0/2/0/0 to 4/0/3/0/0
+
+//TANK
+M60A3 issued HEAT ammo
+M60A3 HEAT ammo from 38 to 15
+M60A3 KE ammo from 38 to 22
+M60A1 ERA issued HEAT ammo
+M60A1 ERA HEAT ammo from 38 to 15
+M60A1 ERA KE ammo from 38 to 22
+M60A1 ERA HP from 18 to 20
+M60A1 ERA cost from 65 to 60
+M1A1 issued HEAT ammo
+M1A1 HEAT ammo from 29 to 5
+M1A1 KE ammo from 29 to 12
+M1A1 rear armor from 4 to 3
+M1A1HC issued HEAT ammo
+M1A1HC HEAT ammo from 29 to 5
+M1A1HC KE ammo from 29 to 12
+M1A2 avaliblitly from 1/0/0/0/0 to 2/0/1/0/0
+M1A2 issued HEAT ammo
+M1A2 HEAT ammo from 30 to 6
+M1A2 KE ammo from 30 to 12
+M1A2 rear armor from 5 to 4
+M551A1 TTS cost from 25 to 20
+M551A1 TTS HEAT ammo from 15 to 20
+M551A1 TTS ATGM ammo from 6 to 9
+
+//REC
+M7 B-FIST HE ammo from 900 to 230
+M7 B-FIST KE ammo from 900 to 70
+AH-64D Longbow issued HEAT ammo
+AH-64D Longbow HEAT ammo from 1200 to 300
+Cav Scouts cost from 15 to 10
+AH-6C Little Bird stealth from medium to poor
+
+//VEC
+COMVAT CFV HE ammo from 900 to 230
+COMVAT CFV KE ammo from 900 to 70
+COMVAT CFV cost from 30 to 25
+COMVAT IFV cost from 25 to 20
+COMVAT IFV HE ammo from 900 to 230
+COMVAT IFV KE ammo from 900 to 70
+M2A2 IFV HE ammo from 900 to 230
+M2A2 IFV KE ammo from 900 to 70
+M2A2 IFV cost from 30 to 25
+M3A2 CFV HE ammo from 900 to 230
+M3A2 CFV KE ammo from 900 to 70
+M3A2 CFV cost from 40 to 35
+LAV-25 scout HE ammo from 210 to 150
+LAV-25 scout KE ammo from 210 to 60
+LAV-25 transport HE ammo from 210 to 150
+LAV-25 transport KE ammo from 210 to 60
+LAV-25 transport cost from 25 to 20
+
+//HEL
+AH-64A [CAP] issued HEAT ammo
+AH-64A [CAP] HEAT ammo from 1200 to 300
+AH-64A [CAP] Sidewinder ammo from 2 to 4
+AH-64A [CAS] renamed to AH-64A [ATGM]
+AH-64A [ATGM] issued HEAT ammo
+AH-64A [ATGM] HEAT ammo from 1200 to 300
+AH-1W [ATGM] KE ammo removed
+AH-1W [CAP] Sidewinder ammo from 2 to 4
+AH-1W [CAP] KE ammo removed
+AH-1W [CAS] KE ammo removed
+MH-60L DAP renamed to MH-60L [CAS]
+MH-60L [CAS] issued HEAT ammo
+MH-60L [CAS] twin miniguns removed
+AH-1F Cobra renamed to AH-1F [CAS]
+AH-1F [CAS] KE ammo removed
+
+//AIR
+A-10C [ATGM] Cannon ammo from 1174 to 1150
+F-16E [CAP] Cannon ammo from 564 to 500
+F-16E [ATGM] Cannon ammo from 564 to 500
+F-16E [NPLM] Cannon ammo from 564 to 500
+F-15C [CAP] Cannon ammo from 564 to 500
+F-15E [CAS] Cannon ammo from 564 to 500
+F-15E [CLUS] Cannon ammo from 564 to 500
+F/A-18C [CAP] Cannon ammo from 564 to 550
+F/A-18C [CAS] Cannon ammo from 752 to 550
+F/A-18C [NPLM] Cannon ammo from 564 to 550
+F/A-18C [ATGM] Cannon ammo from 564 to 550
+F/A-18E [CAP] Cannon ammo from 564 to 400
+F/A-18E [CLUS] Cannon ammo from 564 to 400
+
+
+
+//showinmenu from true to false
+M8 AGS
+M163 PIVADS
+M48A3 Chaparral
