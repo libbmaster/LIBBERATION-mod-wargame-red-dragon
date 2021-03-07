@@ -1,6 +1,0 @@
-//Supply
-Fuel now resupplies instantly
-
-//HEL
-all helicopters now have fuel re-enabled
-all helicopters now have infinte fuel
