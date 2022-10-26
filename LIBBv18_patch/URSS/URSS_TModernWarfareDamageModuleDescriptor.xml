@@ -1,0 +1,120 @@
+<wargamepatch>
+
+<!-- TNK -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="T_72B1">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">0233201E00000000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">15</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">15</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="T_80U">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">5F90780000000000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">20</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="T_72B_obr_1989">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">5DC77D81E2010000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">20</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="T_64BV">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">20531C1E00000000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">20</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Shmel">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">B12AB71D00000000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">20</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Tarantul">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">D314EBF96CDEA607</matchcondition>
+						<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

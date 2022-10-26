@@ -1,0 +1,273 @@
+
+<wargamepatch>
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="T_72BK_CMD_ATGM">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_CMD_T72</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+						<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+							<matchconditions>
+								<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+									<matchconditions>
+										<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T72B</matchcondition>
+									</matchconditions>
+								</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Biryusa">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_ZSU_23_4M_Biryusa</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+						<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+							<matchconditions>
+								<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+									<matchconditions>
+										<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_ZSU_23_4M2_Afgantsev</matchcondition>
+									</matchconditions>
+								</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="2S9_Nona">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_2S9_Nona</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="2" />
+			
+		</changes>
+</ndfpatch>
+
+<!-- TNK -->
+
+<!-- create KE for T_72B1 -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="T_72B1" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="T_72B1">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T72B1</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Mi_24V_CAS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_24VP</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0" />
+			
+		</changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Shmel_AA">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Shmel</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="UnitIdleManagerDescriptor" type="ObjectReference">
+				<reference table="TUnitIdleManagerDCADescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="Spread">180</matchcondition>
+						<matchcondition type="property" property="WaitMinInSeconds">2</matchcondition>
+						<matchcondition type="property" property="WaitMaxInSeconds">4</matchcondition>
+						<matchcondition type="property" property="TurretRotationSpeedMultiplier">0.5</matchcondition>
+						<matchcondition type="property" property="VerticalAngleMax">10</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change property="AngleRotationMaxPitch" type="Float32" operation="set">1.48353</change>
+			<change property="AngleRotationBasePitch" type="Float32" operation="set">0.1745329</change>
+			<change property="VitesseRotation" type="Float32" operation="set">1.047198</change>
+			<change property="AngleRotationMax" type="Float32" operation="set">6.28319</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Shmel">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Shmel</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="UnitIdleManagerDescriptor" type="ObjectReference">
+				<reference table="TUnitIdleManagerWatchForwardDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="Spread">180</matchcondition>
+						<matchcondition type="property" property="WaitMinInSeconds">2</matchcondition>
+						<matchcondition type="property" property="WaitMaxInSeconds">4</matchcondition>
+						<matchcondition type="property" property="TurretRotationSpeedMultiplier">0.25</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Shmel_rocket">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Shmel</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle5</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Tag" type="TableString" operation="set">tourelle3</change>
+			<change property="TagIndex" type="UInt32" operation="set">3</change>
+			<change property="AngleRotationMax" type="Float32" operation="set">5.497787</change>
+			<change property="AngleRotationMaxPitch" type="Float32" operation="set">1.308997</change>
+			<change property="AngleRotationBasePitch" type="Float32" operation="set">0.1745329</change>
+			<change property="VitesseRotation" type="Float32" operation="set">0.5235988</change>
+			<change property="AngleRotationBase" operation="null" />
+
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Tarantul_AK_1">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Tarantul_III</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle5</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AngleRotationMax" type="Float32" operation="set">5.497787</change>
+			<change property="AngleRotationBasePitch" type="Float32" operation="set">0.1745329</change>
+			<change property="VitesseRotation" type="Float32" operation="set">3.14159</change>
+			<change operation="set" property="UnitIdleManagerDescriptor" type="ObjectReference">
+				<reference table="TUnitIdleManagerDCADescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="Spread">180</matchcondition>
+						<matchcondition type="property" property="WaitMinInSeconds">2</matchcondition>
+						<matchcondition type="property" property="WaitMaxInSeconds">4</matchcondition>
+						<matchcondition type="property" property="TurretRotationSpeedMultiplier">0.5</matchcondition>
+						<matchcondition type="property" property="VerticalAngleMax">10</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Tarantul_AK_2">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Tarantul_III</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle6</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AngleRotationMax" type="Float32" operation="set">5.497787</change>
+			<change property="AngleRotationBasePitch" type="Float32" operation="set">0.1745329</change>
+			<change property="VitesseRotation" type="Float32" operation="set">3.14159</change>
+			<change operation="set" property="UnitIdleManagerDescriptor" type="ObjectReference">
+				<reference table="TUnitIdleManagerDCADescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="Spread">180</matchcondition>
+						<matchcondition type="property" property="WaitMinInSeconds">2</matchcondition>
+						<matchcondition type="property" property="WaitMaxInSeconds">4</matchcondition>
+						<matchcondition type="property" property="TurretRotationSpeedMultiplier">0.5</matchcondition>
+						<matchcondition type="property" property="VerticalAngleMax">10</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="Tarantul">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Tarantul_III</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="UnitIdleManagerDescriptor" type="ObjectReference">
+				<reference table="TUnitIdleManagerWatchForwardDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="Spread">180</matchcondition>
+						<matchcondition type="property" property="WaitMinInSeconds">2</matchcondition>
+						<matchcondition type="property" property="WaitMaxInSeconds">4</matchcondition>
+						<matchcondition type="property" property="TurretRotationSpeedMultiplier">0.25</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

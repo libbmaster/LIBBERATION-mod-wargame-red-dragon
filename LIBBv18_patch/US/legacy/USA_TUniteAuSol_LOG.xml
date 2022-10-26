@@ -1,0 +1,408 @@
+<wargamepatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="CMD_M60">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C2121C9773350000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">US</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AcknowUnitType" type="Int32" operation="set">26</change>
+			<change property="TypeForAcknow" type="Int32" operation="set">101</change>
+			<change property="MaxPacks" type="UInt32" operation="set">2</change>
+			<change property="ProductionPrice" type="Int32" key="0" operation="set">50</change>
+			<change property="MaxDeployableAmount" operation="clear" />
+			<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+			<change property="UnitTypeTokens" operation="clear" />
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			<change property="UpgradeRequire" operation="null" />
+			<!-- can also use type="unset"-->
+			<!-- armor module to M60A3 -->
+			<change operation="set" property="Modules" key="Damage" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TModernWarfareDamageModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">DamageController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_M60A3_Patton</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!-- mobility module to M60A3 -->
+			<change operation="set" property="Modules" key="MouvementHandler" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TMouvementHandlerLandVehicleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">MouvementHandlerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_M60A3_Patton</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="LAV_C2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">DD3734E062010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">US</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="MaxPacks" type="UInt32" operation="set">2</change>
+			<change property="ProductionPrice" type="Int32" key="0" operation="set">15</change>
+			<change property="MaxDeployableAmount" operation="clear" />
+			<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+			<change property="UnitTypeTokens" operation="clear" />
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+			<!-- optics to good -->
+			<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TScannerConfigurationDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_KPZ_T55</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!-- optics to good part 2-->
+			<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_KPZ_T55</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Humvee_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">EA2EEB923104C205</matchcondition>
+			<matchcondition type="property" property="MotherCountry">US</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AcknowUnitType" type="Int32" operation="set">26</change>
+			<change property="MaxPacks" type="UInt32" operation="set">2</change>
+			<change property="ProductionPrice" type="UInt32" key="0" operation="set">15</change>
+			<change property="MaxDeployableAmount" operation="clear" />
+			<change property="MaxDeployableAmount" type="UInt32" operation="append">6</change>
+			<change property="MaxDeployableAmount" type="UInt32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="UInt32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="UInt32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="UInt32" operation="append">3</change>
+			<change property="UnitTypeTokens" operation="clear" />
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			<change property="UpgradeRequire" operation="null" />
+			<!--Stealth to Medium -->
+			<change operation="set" property="Modules" key="Visibility" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TVisibilityModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">VisibilityController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_FV712_Ferret_UK</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!-- optics to very good -->
+			<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TScannerConfigurationDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_FV712_Ferret_UK</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!-- optics to very good part 2-->
+			<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_FV712_Ferret_UK</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+	
+<!--	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="AAVC-7A1"> -->
+	<!--M114A1 becomes new unit-->
+<!--		<matchconditions> -->
+<!--			<matchcondition type="property" property="NameInMenuToken">C25208C205000000</matchcondition> -->
+<!--			<matchcondition type="property" property="MotherCountry">US</matchcondition> -->
+<!--		</matchconditions> -->
+<!--		<changes> -->
+<!--			<change property="HitRollSizeModifier" type="Float32" operation="set">0.05</change> -->
+<!--			<change property="MaxPacks" type="UInt32" operation="set">2</change> -->
+<!--			<change property="ProductionPrice" type="Int32" key="0" operation="set">15</change> -->
+<!--			<change property="MaxDeployableAmount" operation="clear" /> -->
+<!--			<change property="MaxDeployableAmount" type="Int32" operation="append">4</change> -->
+<!--			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change> -->
+<!--			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change> -->
+<!--			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change> -->
+<!--			<change property="MaxDeployableAmount" type="Int32" operation="append">2</change> -->
+<!--			<change property="UnitTypeTokens" operation="clear" /> -->
+<!--			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change> -->
+			<!-- optics to good -->
+<!--			<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference"> -->
+<!--				<reference table="TModuleSelector"> -->
+<!--				  <matchconditions> -->
+<!--					<matchcondition type="references" table="TScannerConfigurationDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--					<matchcondition type="referencedby" table="TUniteAuSolDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ClassNameForDebug">Unit_KPZ_T55</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--				  </matchconditions> -->
+<!--				</reference> -->
+<!--			</change> -->
+			<!-- optics to good part 2-->
+<!--			<change operation="set" property="Modules" key="Scanner" type="ObjectReference"> -->
+<!--				<reference table="TModuleSelector"> -->
+<!--				  <matchconditions> -->
+<!--					<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ControllerName">ScannerController</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--					<matchcondition type="referencedby" table="TUniteAuSolDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ClassNameForDebug">Unit_KPZ_T55</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--				  </matchconditions> -->
+<!--				</reference> -->
+<!--			</change> -->
+			<!-- Movement stats to AAVP -->
+<!--			<change operation="set" property="Modules" key="MouvementHandler" type="ObjectReference"> -->
+<!--				<reference table="TModuleSelector"> -->
+<!--				  <matchconditions> -->
+<!--					<matchcondition type="references" table="TMouvementHandlerLandVehicleDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ControllerName">MouvementHandlerController</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--					<matchcondition type="referencedby" table="TUniteAuSolDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ClassNameForDebug">Unit_LVTP_7A1</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--				  </matchconditions> -->
+<!--				</reference> -->
+<!--			</change> -->
+			<!--  New armor stats -->
+<!--			<change operation="set" property="Modules" key="Damage" type="ObjectReference"> -->
+<!--				<reference table="TModuleSelector"> -->
+<!--				  <matchconditions> -->
+<!--					<matchcondition type="references" table="TModernWarfareDamageModuleDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ControllerName">DamageController</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--					<matchcondition type="referencedby" table="TUniteAuSolDescriptor"> -->
+<!--					  <matchconditions> -->
+<!--						<matchcondition type="property" property="ClassNameForDebug">Unit_LAV_C2_US</matchcondition> -->
+<!--					  </matchconditions> -->
+<!--					</matchcondition> -->
+<!--				  </matchconditions> -->
+<!--				</reference> -->
+<!--			</change> -->
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="CMD_M1A1">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">BA87CBE67D2EC205</matchcondition>
+			<matchcondition type="property" property="MotherCountry">US</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AcknowUnitType" type="Int32" operation="set">26</change>
+			<change property="MaxPacks" type="UInt32" operation="set">2</change>
+			<change property="ProductionPrice" type="Int32" key="0" operation="set">115</change>
+			<change property="MaxDeployableAmount" operation="clear" />
+			<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">1</change>
+			<change property="UnitTypeTokens" operation="clear" />
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			<!-- armor module to M1A1 -->
+			<change operation="set" property="Modules" key="Damage" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TModernWarfareDamageModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">DamageController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_M1A1_Abrams</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!-- mobility module to M1A1 -->
+			<change operation="set" property="Modules" key="MouvementHandler" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TMouvementHandlerLandVehicleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">MouvementHandlerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_M1A1_Abrams</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="TACOM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">A9A9DBB87335DD07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">US</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AcknowUnitType" type="Int32" operation="set">26</change>
+			<change property="TypeForAcknow" type="Int32" operation="set">101</change>
+			<change property="MaxPacks" type="UInt32" operation="set">2</change>
+			<change property="ProductionPrice" type="Int32" key="0" operation="set">5</change>
+			<change property="MaxDeployableAmount" operation="clear" />
+			<change property="MaxDeployableAmount" type="Int32" operation="append">6</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+			<change property="MaxDeployableAmount" type="Int32" operation="append">3</change>
+			<change property="UnitTypeTokens" operation="clear" />
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			<!--Stealth to very good -->
+			<change operation="set" property="Modules" key="Visibility" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TVisibilityModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">VisibilityController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_ROK_Scouts</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!--Optics to very good -->
+			<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TScannerConfigurationDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_ROK_Scouts</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<!-- optics to very good part 2-->
+			<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_ROK_Scouts</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+
+
+	
+	
+</wargamepatch>

@@ -1,0 +1,57 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMouvementHandlerAirplaneDescriptor" name="Su_27S">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TModuleSelector">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+               <matchconditions>
+					<matchcondition type="property" property="NameInMenuToken">F06CC61032E81D00</matchcondition>
+					<matchcondition type="property" property="MotherCountry">URSS</matchcondition>  
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change property="Maxspeed" type="Float32" operation="set">52000</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMouvementHandlerAirplaneDescriptor" name="MiG_29S">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TModuleSelector">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+               <matchconditions>
+					<matchcondition type="property" property="NameInMenuToken">68AC43CAC0BA1700</matchcondition>
+					<matchcondition type="property" property="MotherCountry">URSS</matchcondition>  
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change property="Maxspeed" type="Float32" operation="set">52000</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMouvementHandlerAirplaneDescriptor" name="Su_24M">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TModuleSelector">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+               <matchconditions>
+					<matchcondition type="property" property="NameInMenuToken">B78ACE2A540C7A07</matchcondition>
+					<matchcondition type="property" property="MotherCountry">URSS</matchcondition>  
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change property="Maxspeed" type="Float32" operation="set">52000</change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

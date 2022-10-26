@@ -1,0 +1,41 @@
+<wargamepatch>
+
+	<!-- Remove all nation bonuses -->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckRulesModifier" name="Nation_bonuses_removal">
+		<matchconditions>
+			<matchcondition type="property" property="ActivationPoints">15</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ActivationPoints" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="3" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="6" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="7" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="8" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="9" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="10" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="11" type="Int32" operation="Set">0</change>
+			<change property="Availability" key="13" type="Int32" operation="Set">0</change>
+		</changes>
+	</ndfpatch>
+	
+	
+	<!-- remove spec bonuses -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckRulesModifier" name="Spec_bonuses_removal">
+		<matchconditions>
+			<matchcondition type="property" property="IsNavalDeck">null</matchcondition>
+			<matchcondition type="property" property="ActivationPoints">null</matchcondition>
+			<matchcondition type="property" property="Availability">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ActivationCost" operation="clear" />
+			<change property="SlotsAvailable" operation="clear" />
+			<change property="ExperienceBonus" operation="clear" />
+		</changes>
+	</ndfpatch>	
+
+
+
+
+
+</wargamepatch>

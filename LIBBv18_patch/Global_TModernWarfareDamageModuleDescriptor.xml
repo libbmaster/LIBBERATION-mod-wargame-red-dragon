@@ -1,0 +1,69 @@
+<wargamepatch>
+
+<!-- M60A3, M60A3 CMD, T-55 -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="M60A3_M60A3CMD_T55">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">749E9B1AB104C705</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">15</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">15</change>
+   </changes>
+</ndfpatch>
+
+
+
+
+<!-- humvee and OSA SAM -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="HUMVEE_OSA">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">EA2EEB923104C205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">5</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">5</change>
+   </changes>
+</ndfpatch>
+
+<!-- 2 man teams to 5 -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="weaponteam_5HP">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">0D3BBB7907000000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">5</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">5</change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

@@ -1,0 +1,209 @@
+Porting the mod:
+
+- Run the global patches first.
+
+- Run the faction patches second.
+
+- Gfx must be manually added - see below.
+
+- You'll also have to update the ZZ_Win, but that's easy.
+
+
+NDF_CREATE FILES:
+
+- If you run more then 6 "ndf_create" commands in a single patch, the patcher breaks.
+
+- To get around this, I've divided some of the "ndf_create" commands up into seperate patch files.
+
+- You must run these BEFORE you run their respective faction's main patches.
+
+- Run one ndf_create file, close the patcher, and edit the PyrosBatch.bat file to run the other.
+
+
+Gfx NOTES:
+
+- I've chosen to switch the AP projectile for HEAT cannons from the standard AP projectile (red tracer, 18000 speed) to the HE projectile (white tracer, 14000 speed). This isn't manditory and can be skipped if desired.
+
+- Technically none of these changes will break the game if they're not implemented (except for not deleting the M981 FISTV's weapon module).
+
+- Infantry have two TDepiction templates: both have duplicate Gfx. I put new Gfx in both, just to cover my bases.
+
+
+Gfx CHANGES:
+
+////////////US
+<!-- LOG -->
+
+CMD_M60A3
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+CMD_M1A1
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+
+<!-- INF -->
+
+Riflemen
+	-M249 CQC weapon needs Gfx
+Marines 90
+	-M249 CQC weapon needs Gfx
+Rangers
+	-M249 CQC weapon needs Gfx
+
+<!-- TNK -->
+
+M551A1_TTS
+	-Change HEAT round to HE projectile Gfx
+M60A1_ERA
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+M1A1HC
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+M60A3
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+M1A1
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+M1A2
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+
+<!-- REC -->
+
+AH_6C
+	-GL Gfx to Minigun Gfx
+Cav_Scouts
+	-ATGM Gfx to LAW Gfx
+Delta
+	-Add sniper Gfx
+Marine_Sniper
+	-Rifle Gfx to 5.56mm
+	-Add LAW Gfx
+	-Add sniper Gfx
+Rec_Huey
+	-Sequencing action for rotors to twin huey
+M981_FISTV
+	-Delete weapon module
+
+<!-- HEL -->
+
+AH_1W_Supercobra_ATGM
+	-FFAR Gfx to ATGM Gfx
+UH_60M_Blackhawk
+	-Gfx from minigun to MG
+	-Remove duplicate Minigun Gfx
+UH_1N_TwinHuey
+	-Gfx from minigun to MG
+CH_53
+	-TSequencingActionHappening for rotors to CH53
+	-To get this fucking monstrosity working you'll need the following
+		-A brand new TCompositeHappening instance (You can reuse the TSoundHappening)
+		-A new TFiringHappening that links to your new TCompositeHappening
+		-A new TActionDescriptorLaunchEffetOnSousMobile instance that links to your new TFiringHappening 
+		-The TActionDescriptorLaunchEffetOnSousMobile instance must have "FX_Chaleur_02" (or 01) listed in the "SousMobile" variable.
+		-The new TActionDescriptorLaunchEffetOnSousMobile should copy all other values from the original.
+		-The bullets come out the exaust. Don't think about it too hard.
+
+<!-- AIR -->
+
+F18C_NPLM
+	-ATGM Gfx to NPLM canister Gfx
+F18C_CAS
+	-NPLM canister Gfx to HE bomb Gfx
+F18C_CLUS
+	-NPLM canister Gfx to CLUS bomb Gfx
+	-Add M61 Gfx
+F18C_CAP
+	-Add M61 Gfx
+F15E_CAS
+	-Add Bomb Gfx
+F15E_CLUS
+	-HE Bomb Gfx to CLUS bomb GFX
+F16C_NPLM
+	-CLUS Bomb Gfx to NPLM canister Gfx
+F16C_ATGM
+	-CLUS Bomb Gfx to ATGM Gfx
+
+<!-- NAV -->
+
+Fremantle
+	-Replace Cannon Gfx with autocannon Gfx
+
+////////////URSS
+
+<!-- LOG -->
+
+T_72BK_CMD
+	-Add ATGM effects
+	-Remap MG effects
+	-Change HEAT round to HE projectile Gfx
+
+T_80UK_CMD
+	-Change HEAT round to HE projectile Gfx
+
+<!-- INF -->
+
+Motorstrelki
+	-PKM Gfx to RPK_74 Gfx
+	-RPK_74 CQC weapon needs Gfx
+VDV
+	-RPK_74 CQC weapon needs Gfx
+Spetsnaz
+	-RPK_74 CQC weapon needs Gfx
+
+<!-- SUP -->
+
+-Ural_ZU_23_2
+	-Needs AA cannon audio
+
+<!-- TNK -->
+
+PT_76B
+	-Change HEAT round to HE projectile Gfx
+T_55AM
+	-Sabot Round Gfx (Replace ATGM Gfx)
+	-Change HEAT round to HE projectile Gfx
+T_72B1
+	-Sabot Round Gfx
+	-Change HEAT round to HE projectile Gfx
+T_72B_obr_1989
+	-Sabot Round Gfx (Replace ATGM Gfx)
+	-Change HEAT round to HE projectile Gfx
+T_64BV
+	-Sabot Round Gfx (Replace ATGM Gfx)
+	-Change HEAT round to HE projectile Gfx
+T_80U
+	-Sabot Round Gfx (Replace ATGM Gfx)
+	-Change HEAT round to HE projectile Gfx
+
+<!-- VHC -->
+
+ASU_85M
+	-Change HEAT round to HE projectile Gfx
+UAZ_469_SPG_9
+	-Change HEAT round to HE projectile Gfx
+
+<!-- HEL -->
+
+Mi_24V_CAS
+	-Autocannon Gfx to Yak_B Gfx
+Mi_24V_ATGM
+	-Igla launch Sfx to Kokon Sfx
+Mi_8T
+	-Add NSV Gfx
+
+<!-- AIR -->
+
+MiG_29S
+	-Bomb Gfx to Missile Gfx
+Su_24M_NPLM
+	-Missile Gfx to NPLM bomb Gfx
+Su_24M_CLUS
+	-Missile Gfx to CLUS bomb Gfx
+
+<!-- NAV -->
+
+Shmel
+	-Change HEAT round to HE projectile Gfx

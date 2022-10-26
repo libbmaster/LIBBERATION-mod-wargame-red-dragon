@@ -1,0 +1,1426 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3CMD_Stab">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_CMD_M60A1</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3CMD_sabot">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_CMD_M60A1</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000074050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1_sabot">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1_Abrams_Tuto</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a0050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Jav">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAAD_Stinger</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000050090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineMAT_Rifle">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Scouts</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000092040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineMAT_Rifle_CQC">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Scouts</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000091040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineMAT_ATGM">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Scouts</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000053090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineMAT_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Scouts</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0006-0000-0600-0000f2030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Ranger_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Rangers</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0006-0000-0600-0000f4030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Ranger_LMG_CQC">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Rangers</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0003-0000-0600-000013040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag5</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+			<change operation="set" property="TirContinu" type="Boolean">True</change>
+			<change operation="set" property="AnimateOnlyOneSoldier" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Riflemen_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_85_Riflemen</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ad040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Riflemen_LMG_CQC">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_85_Riflemen</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0003-0000-0600-000013040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag5</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+			<change operation="set" property="TirContinu" type="Boolean">True</change>
+			<change operation="set" property="AnimateOnlyOneSoldier" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="SMAW_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_SMAW</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="SalvoStockIndex" type="Int32" operation="set">2</change>
+			<change property="SalvoStockIndex_ForInterface" type="Int32" operation="set">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Marines_LMG_CQC">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_85_Marines</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0003-0000-0600-000013040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag5</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+			<change operation="set" property="TirContinu" type="Boolean">True</change>
+			<change operation="set" property="AnimateOnlyOneSoldier" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M163_PIVADS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M163_PIVADS</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00007b070000</matchcondition>
+						</matchconditions>
+			</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M125A1">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M125_A1</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="LAV_M">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAV_M</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M106A2">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M106_A2</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<!-- TNK -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A1_ERA_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A1_ERA_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00007f050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A1_ERA_HEAT">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A1_ERA_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000073050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A1_ERA_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A1_ERA_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000084060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1HC_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1HC_Abrams</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a0050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1HC_HEAT">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1HC_Abrams</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000077050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1HC_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1HC_Abrams</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000088060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A3_Patton</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000074050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3_HEAT">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A3_Patton</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00007c050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A3_Patton</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00008d060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1_Abrams</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a0050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1_HEAT">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1_Abrams</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000077050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1_Abrams</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000088060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A2_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A2_Abrams_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">null</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a1050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="EffectTag" type="TableString">weapon_effet_tag4</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="AH_6C">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretUnitDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH6C_Little_Bird_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000085070000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Cav_Scouts">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_ATGM_Dragon_II</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000097070000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="HueyREC">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretUnitDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_UH_1N_JAP</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000085080000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Delta">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Delta_Force</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change  property="TirEnMouvement" operation="null" />
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0005-0000-0600-0000ee030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineSnipers_Rifle">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_SEAL</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000092040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineSnipers_Rifle_CQC">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_SEAL</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000091040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineSnipers_LAW">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_SEAL</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000097070000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="MarineSnipers_Sniper">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretInfanterieDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_SEAL</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change  property="TirEnMouvement" operation="null" />
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c8040000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- VHC -->
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="LAV_25_IFV_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAV_25</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e7050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="LAV_25_IFV_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAV_25</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f8060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="LAV_25_REC_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAV_25_Scout</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e7050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="LAV_25_REC_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAV_25_Scout</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f8060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M113_ACAV_1">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M113_ACAV</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fb030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M113_ACAV_2">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M113_ACAV</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fb030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M2A2_Bradley">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M2A3_Bradley_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M901A1">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M901A1_ITW_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000025090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M3A2_Bradley_CFV">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M3A3_Bradley_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="LAV_AT">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_LAV_AT_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000025090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="AH_1F_Cobra">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretUnitDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH1F_Cobra</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000022090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="AH_1W_Seacobra_CAS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretUnitDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH1T_Sea_Cobra_IP</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000022090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="AH_1W_SuperCobra_ATGM_Cannon">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH1J_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00006a070000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="AH_1W_SuperCobra_ATGM_hellfire">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretUnitDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH1J_US</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f4080000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="UH_1N_Twin_Huey">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Anafa</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fb030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="UH_60M_BlackHawk">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_S70_ANZ</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fb030000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="F18C_CAS_Cannon">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretUnitDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_A7_Corsair_II</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000077070000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Fremantle_mortar">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Fremantle</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag5</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="Fremantle_bofors">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Fremantle</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000008070000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="TirContinu" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

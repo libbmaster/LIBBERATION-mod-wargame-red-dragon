@@ -1,0 +1,46 @@
+<wargamepatch>
+
+	<!-- Reworks the base supply descriptor to have "infinte" range/resources -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareSupplyDescriptor" name="Supply_Changes">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="FuelSupplyCostBySecond" type="Float32" operation="set">0.1</change>
+			<change property="FuelSupplyBySecond" type="Float32" operation="set">99999</change>
+			<change property="HealthSupplyCostBySecond" type="Float32" operation="set">0.1</change>
+			<change property="HealthSupplyBySecond" type="Float32" operation="set">0.2</change>
+			<change property="AmmunitionSupplyBySecond" type="UInt32" operation="set">2</change>
+			<change property="AmmunitionSupplyCostBySecond" type="UInt32" operation="set">1</change>
+			<change property="SupplySupplyBySecond" type="Float32" operation="set">0.1</change>
+			<change property="SupplySupplyCostBySecond" type="Float32" operation="set">0.1</change>
+			<change property="DefaultSupplyRange" type="Float32" operation="set">9999999</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- gives all FOBs "infinte" resources -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModuleModernWarfareSupplyDescriptor" name="FOB_capacity_Changes">
+		<matchconditions>
+			<matchcondition type="property" property="SupplyCapacity">16000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="SupplyCapacity" type="Float32" operation="set">999999</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Changes the cost of all FOBs to 5 and cards avaliable to 1-->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="FOB_Changes">
+		<matchconditions>
+			<matchcondition type="property" property="Category">8</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="MaxPacks" type="UInt32" operation="set">1</change>
+			<change property="ProductionPrice" key="0" type="Int32" operation="set">5</change>
+			<change property="ProductionPrice" key="1" type="Int32" operation="set">5</change>
+			<change property="ProductionPrice" key="2" type="Int32" operation="set">5</change>
+			<change property="ProductionPrice" key="3" type="Int32" operation="set">5</change>
+			<change property="ProductionPrice" key="4" type="Int32" operation="set">5</change>
+		</changes>
+	</ndfpatch>
+	
+</wargamepatch>

@@ -1,0 +1,170 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TBlindageProperties" name="M60A1_ERA">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareCommonDamageDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareDamageModuleDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">DDB7708FB004C705</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change operation="set" property="ArmorDescriptorFront" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">14</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<change operation="set" property="ArmorDescriptorRear" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">6</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TBlindageProperties" name="M1A1">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareCommonDamageDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareDamageModuleDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change operation="set" property="ArmorDescriptorRear" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">7</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TBlindageProperties" name="M1A1HC">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareCommonDamageDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareDamageModuleDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">E67D2E8D242CC205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change operation="set" property="ArmorDescriptorTop" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">7</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<change operation="set" property="ArmorDescriptorRear" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">7</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TBlindageProperties" name="M1A2">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareCommonDamageDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareDamageModuleDescriptor">
+			<matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">B86CDEE7322CC205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change operation="set" property="ArmorDescriptorFront" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">27</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<change operation="set" property="ArmorDescriptorSides" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">14</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<change operation="set" property="ArmorDescriptorRear" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">7</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<change operation="set" property="ArmorDescriptorTop" type="ObjectReference">
+			<reference table="TArmorDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="BaseBlindage">7</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+   </changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+
+
+</wargamepatch>

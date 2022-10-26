@@ -1,0 +1,27 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareVisibilityRollRule" name="Exceptional_NAV_optics">
+    <matchconditions>
+		<matchcondition type="referencedby" table="TModernWarfareScannerModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+								<matchcondition type="property" property="ClassNameForDebug">Unit_Lafayette</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="TimeBetweenEachIdentifyRoll" type="Float32" operation="set">3</change>
+		<change property="IdentifyBaseProbability" type="Float32" operation="set">0.7333333</change>
+
+    </changes>
+</ndfpatch>
+
+
+</wargamepatch>

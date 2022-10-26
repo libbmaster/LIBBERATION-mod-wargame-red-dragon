@@ -1,0 +1,202 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="M1A1_CMD">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">15</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">15</change>
+   </changes>
+</ndfpatch>
+
+<!-- TNK -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="M1A1HC">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">E67D2E8D242CC205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">15</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">15</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="M1A2">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">B86CDEE7322CC205</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">15</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">15</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="M60ERA">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">DDB7708FB004C705</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">20</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+<!-- VHC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Humvee">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">5</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">5</change>
+   </changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="AH64">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">6A8B9AF5521CD202</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">10</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">10</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Small_helicos">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">CDADD67A170AD202</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">5</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">5</change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Small_Transport_helicos">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+						<matchcondition type="property" property="MotherCountry">US</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">5</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">5</change>
+   </changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Fremantle">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">6A9CCFA6ACDE1000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModernWarfareDamageModuleDescriptor" name="Pohang">
+   <matchconditions>
+		<matchcondition type="referencedby" table="TModuleSelector">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="NameInMenuToken">EC6CB6B406000000</matchcondition>
+						<matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+   </matchconditions>
+   <changes>
+		<change property="MaxDamages" type="Float32" operation="set">80</change>
+		<change property="MaxHPForHUD" type="UInt32" operation="set">20</change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

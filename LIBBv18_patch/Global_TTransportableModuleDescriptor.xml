@@ -1,0 +1,32 @@
+<wargamepatch>
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="US_NAV_Transport_Removal">
+    <matchconditions>
+		<matchcondition type="references" table="TUniteAuSolDescriptor">
+			<matchconditions>
+				<matchcondition type="property" property="NameInMenuToken">C9D5580000000000</matchcondition>
+				<matchcondition type="property" property="MotherCountry">US</matchcondition>
+			</matchconditions>
+		</matchcondition>
+    </matchconditions>
+   <changes>
+      <change property="TransportListAvailableForSpawn" operation="null" />
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="URSS_NAV_Transport_Removal">
+    <matchconditions>
+		<matchcondition type="references" table="TUniteAuSolDescriptor">
+			<matchconditions>
+				<matchcondition type="property" property="NameInMenuToken">B63E2647A0D6BE07</matchcondition>
+				<matchcondition type="property" property="MotherCountry">CHI</matchcondition>
+			</matchconditions>
+		</matchcondition>
+    </matchconditions>
+   <changes>
+      <change property="TransportListAvailableForSpawn" operation="null" />
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

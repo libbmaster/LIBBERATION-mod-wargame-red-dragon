@@ -1,0 +1,20 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMouvementHandlerHelicopterDescriptor" name="CH_53">
+    <matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+				  <matchconditions>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_CH53</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="WeaponSabordAngle" type="Float32" operation="set">1.570796</change>
+    </changes>
+</ndfpatch>
+
+</wargamepatch>

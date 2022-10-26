@@ -1,0 +1,106 @@
+<wargamepatch>
+
+	<!-- Reduce all Ship explosions to 1 HE. -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Ship_Death_Explosion">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">9CF6380000000000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+
+	<!-- Reduce all tank guns to 1 HE. -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Main_Gun_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">B31E95B36B5E0000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Reduce all mortars to 1 HE. Ignores smoke weapon. -->
+	<!-- For some reason, all mortars have 0.3 probablity to start a fire with their HE weapon. -->
+	<!-- The smoke weapon is 0.05... for some reason. This is the easiest way for the patcher to sort them-->	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Mortar_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">B799DFF405000000</matchcondition>
+			<matchcondition type="property" property="FireTriggeringProbability">0.3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Reduce all Grenade machineguns to 1 HE-->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="GMG_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">5639AB7704000000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Reduce all bombs to 1 HE -->
+	<!-- Two types of "dumb" HE bombs in files -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="ret_bomb_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">A74C33B9CA010000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="bomb_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">A74C330000000000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Reduce all infantry launchers to 1 HE -->
+	<!-- First nplm, then all others-->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="inf_nplm_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">2D3AEBA655720000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="inf_launcher_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">E162010000000000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- The napalm used in infantry portable flamers has a 140m suppression effect... for some reason -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Napalm_suppression_AoE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e4070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<!-- double the ~30 meter AoE -->
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">5200</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Reduce all rocket pods to 1 HE -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="rocket_pod_HE_nerf">
+		<matchconditions>
+			<matchcondition type="property" property="TypeArme">295D975EC5010000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+		</changes>
+	</ndfpatch>
+	
+
+</wargamepatch>

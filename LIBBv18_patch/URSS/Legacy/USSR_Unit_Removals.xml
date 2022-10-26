@@ -1,0 +1,1203 @@
+<wargamepatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMD1K_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">95E05C0C00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMP1K">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">95A05D0C00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MTLBVM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">17C858DE05000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="UAZ_469B">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8C7214E4F2010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Ural_375D_Cargo">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">26EA1808119BF707</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Ural_4320_Cargo">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C14014B1797F0000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI26">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C7305D0000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI_4AVPK">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">95062EC574010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mi_6">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">877B010000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Morskaya_Pehota">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">AA66FA268CDFF405</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="PTUR_Faktoria">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">379DC326C47D9E06</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="PZRK_Strela_3">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8419AB77DE551C00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Sapery">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">FEADD66607000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="URSS_90_Morskaya">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">F84D5F81D275DC07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="URSS_Gornostrelki">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">383DDF74D475DC07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="URSS_Igla1M">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9760C6ECD475DC07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="URSS_KonkursM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B70ECF74D575DC07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="VDV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">A003020000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="IL_102_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D4320581300</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig21SM_Fishbed">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B80B5D9D30B0EE05</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig21S_Fishbed">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">2DEE429D30B0EE05</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig23M_Flogger">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">740C5DC4C0BA1700</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig25P">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9A31B0EE05000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig25PD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8E660CAC7B010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig25_Foxbat">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3D0D1903EB5E0000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig29S_Fulcrum">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">68AC439D32B0EE05</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig29_Fulcrum">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">68AC43CAC0BA1700</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig31M_Foxhound">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3D0D5D02C1BA1700</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Mig31_Foxhound">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3D0D0904EB5E0000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Su24MP_Fencer">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B30A695731E81D00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Su24_Fencer">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B78ACE2A540C7A07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Su25_Frogfoot">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">2C7D43C6A0770000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Su27M_Flanker">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B319431732E81D00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Su30">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D01A1770000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Yak38M">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5742C0E608000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Yak38_Forger">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">EC4D4309019B2300</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Yak_141_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D4221C0E608</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S13_Norov">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3B7DD39821740300</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="ASU_85">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">46F2750B00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMD1P_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D9AE05C0C00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMD1_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8273310000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMD2_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D8373310000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMP1">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8276310000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMP2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8376310000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMP2_obr_1986">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8922DC273D681703</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMPT">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9E76310000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BRDM2_Konkurs">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3A3CD3D570391C03</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BRDM2_Malyutka_P">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9A09E7BA1F9BD700</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTR60PB">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">A4161C9CC7000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTR70">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTR70_Zhalo">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">746CB66480701E03</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTR90_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D81C2790C00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTRT_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D1EE7310000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTR_152E_ZPTU_2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C3E769E433180000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BTR_152E_ZPTU_4">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C5E769E433180000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="SU_122_54">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">85310CC2D7010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="TO55">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8691790000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="TO62">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C391790000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="UAZ_469_Faktoria">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">396C42CA5190CB07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="UAZ_469_Konkurs">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">F04C57CA5190CB07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="UAZ_469_SPG9">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4AA475CA5190CB07</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Ural_375D">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8E8110B1797F0000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="ZSU_23_4M2_Afgantsev">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">EB325C05317C1D09</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BMP1_obr_685">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4672DC272D681703</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="PT_90">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">81E2690000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T55A">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8B61780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T55AM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">D762181E00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T55AMV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">02782D86E1010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T62">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C3E1010000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T62_obr_1972">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">03A208F7490F8707</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T62M1">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C2351C1E00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T62MV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">E0351C1E00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T62_obr_1975">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">06A208F7490F8707</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T64A">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4B71780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T64B">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4C71780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T64B1V_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77DA0C0148707</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T64BM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">17531C1E00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T72">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">03E2010000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T72A">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">CB80780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T72B">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">CC80780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T72B_Obr_1987_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">48729F1933201E00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T90_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D81E2010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T80">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">41E2010000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T80A">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4B90780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T80B">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4C90780000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T80BV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">2013241E00000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T80UM_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77DD717241E00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="T_34_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D05E1010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="PT_71">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">02E2690000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="PT_85">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">46E2690000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Spesnaz_VMF">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">17F89B339EAB7507</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="UAZ_469">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">CA5190CB07000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="urss_T55">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">86E1E1F8AD030000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C374010000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI_9">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">CA74010000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Ka_29TB">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8CA70C6605000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI28A_Havoc">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">28BD9BD2920CD305</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI_4A">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4B315D0000000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI_4AV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">E0524C1700000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI_8TV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MI_8TVK">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">15E825D305000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2K22_Tunguska">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B8CECEBA370CD500</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S19_MstaS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9D99E39722740300</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S1_Gvodika">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B09BFEF41E09DD00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S3M_Akatsiya">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">2E9E9BF07211DD00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S3_Akatsiya">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">BE8BE726BC10DD00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S7M_Malka">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">261C9BD785740300</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="2S7_Pion">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">33ED6A4837000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="9K33_OSA">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4B971144A5000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="9K33_OSA_AK">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">D5B2741941540A00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="9K37_Buk">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B0CE2044A5000000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="9K37_Buk_M1">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C205EB0C42540A00</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BM21_GRAD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">CEC245C270310000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BM27_Uragan">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B3C99AF7870C1703</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BM30_Smerch">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">2D7AAB7217101703</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BRDM_2_Strela_1M">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B17AE7DD70391C03</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MTLB_Vasilek">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">6AECE226C858DE05</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="TOS1_Buratino">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">6E6EDE3A23749907</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Tor_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D37ED010000</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="ZSU_23_4V1_Shilka">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">6D278005317C1D09</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+</wargamepatch>

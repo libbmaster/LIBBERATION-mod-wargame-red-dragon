@@ -1,0 +1,504 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="TACOM">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">A9A9DBB87335DD07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- M113 -->
+          <matchcondition type="property" property="NameInMenuToken">C44208C205000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- AAVP-7A1 -->
+          <matchcondition type="property" property="NameInMenuToken">C282681E68010000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- twin huey -->
+          <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="engineers">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">ECFCE4B16EE2F802</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- M113 -->
+          <matchcondition type="property" property="NameInMenuToken">C44208C205000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Jav">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">2A3BBB79E72C8B05</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+	<change operation="set" property="ControllerName" type="TableString">TransportableController</change>
+	<change operation="set" property="Categories" type="List"/>
+    <change operation="append" property="Categories" type="TableString">infanterie</change>
+    <change operation="append" property="Categories" type="TableString">barge</change>
+	<change operation="set" property="SuppressDamageRatioIfTransporterKilled" type="Float32">0.75</change>
+	<change operation="set" property="TransportListAvailableForSpawn" type="List"/>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="set" property="TransportedTexture" type="ObjectReference">
+	    <reference table="TUIResourceTexture">
+			<matchconditions>
+				<matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport_ATGM.png</matchcondition>
+			</matchconditions>
+		</reference>
+	</change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Ranger">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">F8ADB2B3C9010000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="set" property="TransportedTexture" type="ObjectReference">
+	    <reference table="TUIResourceTexture">
+			<matchconditions>
+				<matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport_ELIINF.png</matchcondition>
+			</matchconditions>
+		</reference>
+	</change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Marines">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">EAECDEE66524DD07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- AAVP-7A1 -->
+          <matchcondition type="property" property="NameInMenuToken">C282681E68010000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- twin huey -->
+          <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="SMAW">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">E17275DD07000000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- AAVP-7A1 -->
+          <matchcondition type="property" property="NameInMenuToken">C282681E68010000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- twin huey -->
+          <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Rifle_and_weapons_squad">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">B21AAF2E6724DD07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- M113 -->
+          <matchcondition type="property" property="NameInMenuToken">C44208C205000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Stinger_LAAD">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">0D3BBB7907000000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- M113 -->
+          <matchcondition type="property" property="NameInMenuToken">C44208C205000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- AAVP-7A1 -->
+          <matchcondition type="property" property="NameInMenuToken">C282681E68010000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- twin huey -->
+          <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Cav_scouts">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">D334D3AC793B1700</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- M113 -->
+          <matchcondition type="property" property="NameInMenuToken">C44208C205000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Delta">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">2A7AD39099C7AA03</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- blackhawk -->
+          <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="set" property="TransportedTexture" type="ObjectReference">
+	    <reference table="TUIResourceTexture">
+			<matchconditions>
+				<matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport_RECO.png</matchcondition>
+			</matchconditions>
+		</reference>
+	</change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Scout_snipers">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">D6F274DD07000000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Humvee -->
+          <matchcondition type="property" property="NameInMenuToken">AABACBBA9428CA05</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- AAVP-7A1 -->
+          <matchcondition type="property" property="NameInMenuToken">C282681E68010000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- twin huey -->
+          <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+          <matchcondition type="property" property="MotherCountry">US</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="set" property="TransportedTexture" type="ObjectReference">
+	    <reference table="TUIResourceTexture">
+			<matchconditions>
+				<matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/Transport_RECO.png</matchcondition>
+			</matchconditions>
+		</reference>
+	</change>
+  </changes>
+</ndfpatch>
+
+</wargamepatch>

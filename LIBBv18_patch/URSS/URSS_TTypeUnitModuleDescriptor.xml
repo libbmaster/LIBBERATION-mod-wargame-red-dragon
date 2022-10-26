@@ -1,0 +1,1276 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="URSS_CMD_squad">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">BA8D3B57D375DC07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">103681D955468B07</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BRDM_2U_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">DF70391C03000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BTR_70K_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5580701E03000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_72BK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">03E2395703000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">CEF44550192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_80UK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">D517249E73350000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4B0795D1E2010000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMD_2K_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77DD5E05C0C00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">93A45D4B192D1E00</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+<!-- INF -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Weapons_Team">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">383DDF74D475DC07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">103681D955468B07</change>
+			<change operation="append" type="LocalisationHash">CEF44550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="VDV_MAT">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">F34D4781D275DC07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		<change property="Training" type="LocalisationHash" operation="set">5593495D19619C07</change>
+		
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">103681D955468B07</change>
+			<change operation="append" type="LocalisationHash">CEF44550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Motostrelki">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B17AE7F84DE7F405</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">103681D955468B07</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="PTUR_Faktoriya">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">39CD9A10F7791A00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">103681D955468B07</change>
+			<change operation="append" type="LocalisationHash">CEF44550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Sapery">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">6A6D7646D275DC07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Spetsnaz">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">BF39E3B95A770000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">103681D955468B07</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="VDV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">A003064AD7711F00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+		</changes>
+	</ndfpatch>
+	
+<!-- SUP -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Igla">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">66CC4E15476A0000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Strela_10M">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">66ACDE7967109502</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">5</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Ural_ZU_23_2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C3407CE46FCA6605</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">5</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Biryusa">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B7CB5C05317C1D09</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">5</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Tunguska_M">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3A3BEBDE350CD500</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">5</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="MT_LB_Vasilek">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">6AECE226C858DE05</matchcondition>
+			<matchcondition type="property" property="GenerateName">True</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">93A45D4B192D1E00</change>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">1C973550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+			<change operation="append" type="LocalisationHash">D5D54165B4780000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="MT_LB_Sani">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B23C248CE55D0000</matchcondition>
+			<matchcondition type="property" property="GenerateName">True</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">93A45D4B192D1E00</change>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">1C973550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+			<change operation="append" type="LocalisationHash">D5D54165B4780000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="2S9_Nona">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">E64C634A37000000</matchcondition>
+			<matchcondition type="property" property="GenerateName">True</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">93A45D4B192D1E00</change>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">1C973550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+			<change operation="append" type="LocalisationHash">D5D54165B4780000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+<!-- TNK -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="PT_76B">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">55DB39CC81781A00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		<change property="MotherCountry" type="TableString" operation="set">URSS</change>
+		<change property="TypeUnitHintToken" type="LocalisationHash" operation="set">F06C7ABBD9000000</change>
+		<change property="TypeUnitValue" type="Int32" operation="set">4</change>
+
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">15E6814B53468B07</change>
+			
+			<change operation="unselect" />
+		
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">93A45D4B192D1E00</change>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_55AM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C3B5188607000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>	
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_72B1">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">0233201E00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>	
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_72B_obr_1989">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D81E2010000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>	
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_64BV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">20531C1E00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="T_80U">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5F90780000000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+
+<!-- REC -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BRM_1">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C2C5310000000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Mi_2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">AF2B9318F70DD305</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+		<change property="MotherCountry" type="TableString" operation="set">URSS</change>
+		<change property="TypeUnitHintToken" type="LocalisationHash" operation="set">6EACB659F3700000</change>
+		<change property="TypeUnitValue" type="Int32" operation="set">32</change>
+
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">D623350F57468B07</change>
+			
+			<change operation="unselect" />
+		
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">A30595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Mi_24K">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D70314C1700</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">A30595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Razvedka">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">269CAAFB6F720000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>	
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Spetsnaz_GRU">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5CF49B339EAB7507</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">1</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>	
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="UAZ_KPV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">A0562947412E1F00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+
+		</changes>
+	</ndfpatch>	
+	
+<!-- VHC -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BRDM_2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">C3E5700C00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change operation="set" property="TypeUnitValue" type="Int32">25</change>
+			<change operation="set" property="TypeUnitHintToken" type="LocalisationHash">F94DD7B5DE010000</change>
+			
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">D2036A5F57468B07</change>
+			
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="UAZ_Plamya">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">42172DCA5190CB07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change operation="set" property="TypeUnitValue" type="Int32">25</change>
+			<change operation="set" property="TypeUnitHintToken" type="LocalisationHash">F94DD7B5DE010000</change>
+			
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">D2036A5F57468B07</change>
+			
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="UAZ_SPG">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4AA475CA5190CB07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">8F1482D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="UAZ_Konkurs">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">F04C57CA5190CB07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">8F1482D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="MT_LBV">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="ASU_85M">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">46F2750B00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BDRM_2_Konkurs">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">3A3CD3D570391C03</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">8F1482D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="MT_LB_Shturm_S">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">F2ADE76DC758DE05</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMD_1P">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D9AE05C0C00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMD_2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5DC77D8373310000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4F0595D1E2010000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BTR_70">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMP_1P">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9AA05D0C00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMP_1D">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8EA05D0C00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="4"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMP_2">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8376310000000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEE27550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CEF44550192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4F0595D1E2010000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="BMP_3">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">8476310000000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BE781D955468B07</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">93A45D4B192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4B0795D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4F0595D1E2010000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+<!-- HEL -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Mi_24D">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Mi_24V_CAS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">1A580CD305000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Mi_24V_ATGM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">4F3ABB12580CD305</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TypeUnitValue" type="Int32" operation="set">27</change>
+			<change property="TypeUnitHintToken" type="LocalisationHash" operation="set">B5DBE225F6450000</change>
+		
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">8F847D51192D1E00</change>
+			
+			<change operation="unselect" />
+		
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+			<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4B0795D1E2010000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Mi_24P_CAS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">5A314C1700000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4B0795D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+			
+		</changes>
+	</ndfpatch>
+	
+<!-- AIR -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Su_27S">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">F06CC61032E81D00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">4</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">D00C4165B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4B0795D1E2010000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="MiG_29S">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">68AC43CAC0BA1700</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">4</matchcondition>
+		</matchconditions>
+		<changes>
+		<change property="TypeUnitHintToken" type="LocalisationHash" operation="set">B5DEDDEE02000000</change>
+		
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DAD771D352468B07</change>
+		
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">D00C4165B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">4B0795D1E2010000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Su_24M_NPLM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B78ACE2A540C7A07</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">4</matchcondition>
+		</matchconditions>
+		<changes>
+		<change property="TypeUnitHintToken" type="LocalisationHash" operation="set">CB12010000000000</change>
+		
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">CC95318F54468B07</change>
+		
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">97A56150192D1E00</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Su_24M_CAS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B30A695731E81D00</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">4</matchcondition>
+		</matchconditions>
+		<changes>			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Su_24M_ATGM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">1532B0EE05000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">4</matchcondition>
+		</matchconditions>
+		<changes>			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5E767965E3000000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Su_24M_CLUS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">1732B0EE05000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">4</matchcondition>
+		</matchconditions>
+		<changes>
+		
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5EF7594D192D1E00</change>
+		
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">A30595D1E2010000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0FBD4065B4780000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DEF24850192D1E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">DD673550192D1E00</change>
+			
+		</changes>
+	</ndfpatch>
+	
+	<!-- NAV -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Shmel">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">B12AB71D00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="append" type="LocalisationHash">D5D54165B4780000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="Tarantul">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">D314EBF96CDEA607</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+		<change property="CIWS" operation="null" />
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			<change operation="append" type="LocalisationHash">0BB7685ED9380000</change>
+			<change operation="append" type="LocalisationHash">5E767965E3000000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">CBD33165B4780000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			<change operation="append" type="LocalisationHash">D00C4165B4780000</change>
+			<change operation="append" type="LocalisationHash">CEC24165B4780000</change>
+		</changes>
+	</ndfpatch>
+
+</wargamepatch>

@@ -1,0 +1,39 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TActionDescriptorLaunchEffetOnSousMobile" name="Shmel_rocket">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TSequencingActionHappening">
+				<matchconditions>
+			<matchcondition type="referencedby" table="TCompositeHappening">
+				<matchconditions>
+			<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">B12AB71D00000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+			</matchcondition>
+				</matchconditions>
+			</matchcondition>		
+		</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="SousMobile">Fx_tourelle5_tir_01</matchcondition>		
+		</matchconditions>
+		<changes>
+			<change property="SousMobile" type="TableString" operation="set">Fx_tourelle3_tir_01</change>
+		</changes>
+</ndfpatch>
+
+
+</wargamepatch>

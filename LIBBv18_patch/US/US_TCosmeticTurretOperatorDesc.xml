@@ -1,0 +1,61 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCosmeticTurretOperatorDesc" name="Pohang_cannon_rear">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TDepictionTemplate">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">EC6CB6B406000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>	  
+      </matchcondition>
+	<matchcondition type="property" property="OperatorId">tourelle2</matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="MinZAngle" operation="null" />
+			<change property="MaxZAngle" operation="null" />
+
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCosmeticTurretOperatorDesc" name="Pohang_CWIS_rear">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TDepictionTemplate">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">EC6CB6B406000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>	  
+      </matchcondition>
+	<matchcondition type="property" property="OperatorId">tourelle4</matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="MinZAngle" operation="null" />
+			<change property="MaxZAngle" operation="null" />
+
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

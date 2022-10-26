@@ -1,0 +1,17 @@
+<wargamepatch>
+
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TPhysicalDamagesEffects" name="Slowdown_removal">
+		<matchconditions>
+			<matchcondition type="property" property="CanonFiringRateMultiplier">1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="VehiculeSpeedModifier" type="Float32">1</change>
+			<change operation="set" property="VehiculeChassisRotationSpeedModifier" type="Float32">1</change>
+			<change operation="set" property="VehiculeTurretRotationSpeedModifier" type="Float32">1</change>
+		</changes>
+	</ndfpatch>
+
+
+
+</wargamepatch>

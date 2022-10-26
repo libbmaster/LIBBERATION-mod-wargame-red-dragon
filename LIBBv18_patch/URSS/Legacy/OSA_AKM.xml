@@ -1,0 +1,64 @@
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="OSA_AKM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">57B52C5D46109502</matchcondition>
+			<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="HitRollSizeModifier" type="Float32" operation="set">0.05</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">70</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">1</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			<change operation="set" property="UpgradeRequire" type="ObjectReference">
+				<reference table="TUniteAuSolDescriptor">
+					<matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_9K35_Strela10</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="OSA_AKM">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000090090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">4</change>
+			<change property="SupplyCost" type="UInt32" operation="set">240</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">390000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">39000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">390000</change>
+		</changes>
+	</ndfpatch>
+
+
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="OSA_AKM">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">57B52C5D46109502</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">5</matchcondition>
+		</matchconditions>
+		<changes>
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+		</changes>
+	</ndfpatch>

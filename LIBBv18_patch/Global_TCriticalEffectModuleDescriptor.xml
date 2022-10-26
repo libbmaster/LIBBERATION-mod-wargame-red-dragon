@@ -1,0 +1,104 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_1">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_ToutTerrain</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnSides" key="5"/>
+		<change operation="delete" property="EffectsOnSides" key="2"/>
+		<change operation="delete" property="EffectsOnRear" key="4"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+		<change operation="delete" property="EffectsOnRear" key="1"/>
+		<change property="EffectsFromTerrain" operation="null"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_2">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_Chenilles</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnSides" key="5"/>
+		<change operation="delete" property="EffectsOnSides" key="2"/>
+		<change operation="delete" property="EffectsOnRear" key="4"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+		<change operation="delete" property="EffectsOnRear" key="1"/>
+		<change property="EffectsFromTerrain" operation="null"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_3">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_Roues</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnSides" key="5"/>
+		<change operation="delete" property="EffectsOnSides" key="2"/>
+		<change operation="delete" property="EffectsOnRear" key="4"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+		<change operation="delete" property="EffectsOnRear" key="1"/>
+		<change property="EffectsFromTerrain" operation="null"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_boat1">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_BoatMedium</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnFront" key="5"/>
+		<change operation="delete" property="EffectsOnSides" key="5"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+		<change operation="delete" property="EffectsOnRear" key="2"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_boat2">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_BoatSmall</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnFront" key="5"/>
+		<change operation="delete" property="EffectsOnSides" key="5"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+		<change operation="delete" property="EffectsOnRear" key="2"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_boat3">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_BoatHeavy</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnFront" key="5"/>
+		<change operation="delete" property="EffectsOnSides" key="5"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+		<change operation="delete" property="EffectsOnRear" key="2"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_heli">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_Helico</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnSides" key="3"/>
+		<change operation="delete" property="EffectsOnSides" key="2"/>
+		<change operation="delete" property="EffectsOnSides" key="1"/>
+		<change operation="delete" property="EffectsOnRear" key="2"/>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCriticalEffectModuleDescriptor" name="Crit_Removals_plane">
+	<matchconditions>
+		<matchcondition type="property" property="_ShortDatabaseName">CriticalEffectModule_Airplane</matchcondition>
+	</matchconditions>
+	<changes>
+		<change operation="delete" property="EffectsOnSides" key="2"/>
+		<change operation="delete" property="EffectsOnRear" key="3"/>
+	</changes>
+</ndfpatch>
+
+
+</wargamepatch>

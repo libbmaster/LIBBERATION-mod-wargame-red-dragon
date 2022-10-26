@@ -1,0 +1,282 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Engi">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">ECFCE4B16EE2F802</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="AcknowUnitType" type="Int32" operation="set">28</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">8</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+	</changes>
+</ndfpatch>
+
+<!-- New transporter module for ATGM team-->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="New entry" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Jav">
+<!-- Stinger becomes new unit-->
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">2A3BBB79E72C8B05</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="AcknowUnitType" type="Int32" operation="set">36</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">8</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change operation="set" property="Modules" key="Transportable" type="ObjectReference">
+			<reference table="TTransportableModuleDescriptor">
+				<matchconditions>
+					<matchcondition Type="property" property="__order">last</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+			<!-- mobility module to Rfilemen -->
+			<change operation="set" property="Modules" key="MouvementHandler" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TMouvementHandlerLandVehicleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">MouvementHandlerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_US_85_Riflemen</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="ranger">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">F8ADB2B3C9010000</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="AcknowUnitType" type="Int32" operation="set">34</change>
+		<change property="Factory" type="Int32" operation="set">6</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">30</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">6</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">3</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<!-- optics to good -->
+		<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TScannerConfigurationDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_KPZ_T55</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+		<!-- optics to good part 2-->
+		<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_KPZ_T55</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+			<!-- mobility module to Delta -->
+			<change operation="set" property="Modules" key="MouvementHandler" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TMouvementHandlerLandVehicleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">MouvementHandlerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_Delta_Force</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="MarineMAT">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">78AED36807000000</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">20</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">12</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">6</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+		<change operation="set" property="Modules" key="Transportable" type="ObjectReference">
+			<reference table="TTransportableModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="ClassNameForDebug">Unit_US_85_Marines</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Marine">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">EAECDEE66524DD07</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">2</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">20</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">12</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">6</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="rifle">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">B21AAF2E6724DD07</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">2</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">16</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">8</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="WeaponSquad">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">F1EA72B91528DD07</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">16</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">8</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change operation="set" property="Modules" key="Transportable" type="ObjectReference">
+			<reference table="TTransportableModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="ClassNameForDebug">Unit_US_85_Riflemen</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+			<!-- mobility module to Rfilemen -->
+			<change operation="set" property="Modules" key="MouvementHandler" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TMouvementHandlerLandVehicleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">MouvementHandlerController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_US_85_Riflemen</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="SMAW">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">E17275DD07000000</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">8</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+	</changes>
+</ndfpatch>
+
+
+</wargamepatch>

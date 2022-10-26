@@ -1,0 +1,149 @@
+<wargamepatch>
+
+	<!-- Remove US unspec decks-->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="US_unspec_removal">
+		<matchconditions>
+			<matchcondition type="property" property="Country">US</matchcondition>
+			<matchcondition type="property" property="UnitType">0C565AD652360E00</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove URSS unspec decks-->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="URSS_unspec_removal">
+		<matchconditions>
+			<matchcondition type="property" property="Country">URSS</matchcondition>
+			<matchcondition type="property" property="UnitType">0C565AD652360E00</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove Cat B decks-->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="CatB_removal_US">
+		<matchconditions>
+			<matchcondition type="property" property="Country">US</matchcondition>
+			<matchcondition type="property" property="Category">46E22D4DD9380000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="CatB_removal_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="Country">URSS</matchcondition>
+			<matchcondition type="property" property="Category">46E22D4DD9380000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove Cat C decks-->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="CatC_removal_US">
+		<matchconditions>
+			<matchcondition type="property" property="Country">US</matchcondition>
+			<matchcondition type="property" property="Category">41E22D4DD9380000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="CatC_removal_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="Country">URSS</matchcondition>
+			<matchcondition type="property" property="Category">41E22D4DD9380000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove Mech decks-->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="Mech_removal_US">
+		<matchconditions>
+			<matchcondition type="property" property="Country">US</matchcondition>
+			<matchcondition type="property" property="UnitType">8BD43C9757360E00</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="Mech_removal_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="Country">URSS</matchcondition>
+			<matchcondition type="property" property="UnitType">8BD43C9757360E00</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove support decks-->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="DAD_removal_US">
+		<matchconditions>
+			<matchcondition type="property" property="Country">US</matchcondition>
+			<matchcondition type="property" property="UnitType">DAD77965E3000000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="DAD_removal_URSS">
+		<matchconditions>
+			<matchcondition type="property" property="Country">URSS</matchcondition>
+			<matchcondition type="property" property="UnitType">DAD77965E3000000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove US moto -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="US_Moto_removal">
+		<matchconditions>
+			<matchcondition type="property" property="UnitType">5E767965E3000000</matchcondition>
+			<matchcondition type="property" property="Country">US</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Remove USSR marine -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDeckConstraints" name="USSR_Marine_removal">
+		<matchconditions>
+			<matchcondition type="property" property="UnitType">23B8605ED9380000</matchcondition>
+			<matchcondition type="property" property="Country">URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="UnitType" type="LocalisationHash" operation="set"></change>
+			<change property="Category" type="LocalisationHash" operation="set"></change>
+		</changes>
+	</ndfpatch>
+
+</wargamepatch>

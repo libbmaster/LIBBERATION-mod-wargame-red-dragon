@@ -1,0 +1,297 @@
+<wargamepatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="Mi_24K">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">5DC77D70314C1700</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+   </changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="Mi_24D">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">28</matchcondition>
+               <matchcondition type="property" property="MountingType">1</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+  
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="Mi_24V_CAS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">1A580CD305000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">80</matchcondition>
+               <matchcondition type="property" property="MountingType">1</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/URSS/Helicos/Mi-24D/Mi-24D.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="MiG_29S">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">68AC43CAC0BA1700</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="Su_24M_NPLM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">B78ACE2A540C7A07</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="Su_24M_ATGM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">1532B0EE05000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+    <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/URSS/Avions/Su24MP_Fencer/Su24MP_Fencer.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="Su_24M_CLUS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">1732B0EE05000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+    <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/URSS/Avions/Su24MP_Fencer/Su24MP_Fencer.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

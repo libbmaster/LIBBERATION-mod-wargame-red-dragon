@@ -1,0 +1,683 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="URSS_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_URSS_CMD_squad</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="TurretDescriptorList" key="1"/>
+			<change operation="set" property="Salves" key="0" type="Int32">50</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BTR_70K_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BTR70_obr_1982</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_72BK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_CMD_T72</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">4</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_80UK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_CMD_T80UK</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">4</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BMD_2K_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BMD2K_URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">18</change>
+			<change operation="set" property="Salves" key="1" type="Int32">12</change>
+		</changes>
+</ndfpatch>
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Weapons_Team">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_URSS_Gornostrelki</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">100</change>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="VDV_MAT">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_URSS_90_Gornostrelki</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">100</change>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Motostrelki">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Motorstrelki</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">100</change>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">40</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="PTUR_Faktoriya">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Soldat_PTUR_Fagot</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">50</change>
+			<change operation="set" property="Salves" key="1" type="Int32">4</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Sapery">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_URSS_85_Sapery</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">50</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Spetsnaz">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Spetsnaz</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">100</change>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">40</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="VDV">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_URSS_90_VDV</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">100</change>
+		</changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Igla">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_PZRK_Igla</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">50</change>
+			<change operation="set" property="Salves" key="1" type="Int32">4</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Tunguska_M">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_2K22M_Tunguska_M</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">8</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="MT_LB_Vasilek">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MTLB_Vasilek</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="set" property="Salves" key="1" type="Int32">20</change>
+			<change operation="set" property="Salves" key="2" type="Int32">5</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="MT_LB_Sani">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MTLB_82mm</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="set" property="Salves" key="1" type="Int32">8</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="2S9_Nona">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_2S9_Nona</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">2</change>
+			<change operation="set" property="Salves" key="1" type="Int32">1</change>
+		</changes>
+</ndfpatch>	
+
+<!-- TNK -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="PT_76B">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_PT76B_DShK</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">16</change>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_55AM">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T55AM2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">15</change>
+			<change operation="set" property="Salves" key="1" type="Int32">8</change>
+			<change operation="set" property="Salves" key="2" type="Int32">27</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_72B1">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T72B1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_72B_obr_1989">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T90_URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_64BV">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T64BV</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="T_80U">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_T80U</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BRM_1">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BRM1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">20</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_2">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI2URN_Zmija</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">30</change>
+			<change operation="set" property="Salves" key="1" type="Int32">8</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_24K">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_24k_URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">21</change>
+			<change operation="set" property="Salves" key="2" type="Int32">40</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Razvedka">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Razvedka</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">50</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Spetsnaz_GRU">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Spetsnaz_GRU</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">50</change>
+			<change operation="set" property="Salves" key="1" type="Int32">4</change>
+		</changes>
+</ndfpatch>
+
+<!-- VHC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="UAZ_Plamya">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_UAZ_469_AGS17</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">7</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="UAZ_Konkurs">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_UAZ_469_Konkurs</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">6</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="MT_LBV">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MTLB</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="ASU_85M">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_ASU_85</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">39</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BTR_D">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BTR_D</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BMD_1P">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BMD1P_URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BMD_2">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BMD2_URSS</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">6</change>
+			<change operation="set" property="Salves" key="1" type="Int32">12</change>
+			<change operation="set" property="Salves" key="2" type="Int32">18</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BMP_1P">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BMP1P</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">6</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BMP_2">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BMP2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">6</change>
+			<change operation="set" property="Salves" key="1" type="Int32">16</change>
+			<change operation="set" property="Salves" key="2" type="Int32">34</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="BMP_3">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_BMP3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="2" type="Int32">16</change>
+			<change operation="set" property="Salves" key="3" type="Int32">34</change>
+		</changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_24D">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_24D</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">21</change>
+			<change operation="set" property="Salves" key="2" type="Int32">14</change>
+			<change operation="delete" property="TurretDescriptorList" key="2"/>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_24V_CAS">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_24VP</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">21</change>
+			<change operation="set" property="Salves" key="2" type="Int32">40</change>
+			<change operation="delete" property="TurretDescriptorList" key="2"/>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_24V_ATGM">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI24V_Hind_E</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">8</change>
+			<change operation="set" property="Salves" key="1" type="Int32">21</change>
+			<change operation="set" property="Salves" key="2" type="Int32">20</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_24P_CAS">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_24P</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="1" type="Int32">5</change>
+			<change operation="set" property="Salves" key="2" type="Int32">40</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Mi_8T">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_8TV</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="delete" property="TurretDescriptorList" key="0"/>
+			<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+				<reference table="TTurretTwoAxisDescriptor">
+					<matchconditions>
+					    <matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+							<matchconditions>
+							    <matchcondition type="referencedby" table="TModuleSelector">
+									<matchconditions>
+												<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+													<matchconditions>
+														<matchcondition type="property" property="NameInMenuToken">5A325D0000000000</matchcondition>
+														<matchcondition type="property" property="MotherCountry">FIN</matchcondition>
+													</matchconditions>
+												</matchcondition>
+									</matchconditions>
+								</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Su_27S">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Su27_Flanker</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="delete" property="TurretDescriptorList" key="2"/>
+			<change operation="delete" property="TurretDescriptorList" key="1"/>
+		<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+			<reference table="TTurretUnitDescriptor">
+			  <matchconditions>
+				<matchcondition type="references" table="TMountedWeaponDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex">3</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex_ForInterface">3</matchcondition>
+					<matchcondition type="property" property="TirEnMouvement">True</matchcondition>
+					<matchcondition type="property" property="AnimateOnlyOneSoldier">True</matchcondition>
+					<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00006c090000</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+		<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+			<reference table="TTurretUnitDescriptor">
+			  <matchconditions>
+				<matchcondition type="references" table="TMountedWeaponDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex">2</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex_ForInterface">2</matchcondition>
+					<matchcondition type="property" property="TirEnMouvement">True</matchcondition>
+					<matchcondition type="property" property="AnimateOnlyOneSoldier">True</matchcondition>
+					<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000079090000</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="MiG_29S">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Mig29_Fulcrum</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoIsMainSalvo" key="0" type="Boolean">True</change>
+			<change operation="set" property="SalvoIsMainSalvo" key="3" type="Boolean">True</change>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="set" property="Salves" key="2" type="Int32">2</change>
+			<change operation="set" property="Salves" key="3" type="Int32">4</change>
+			<change operation="delete" property="TurretDescriptorList" key="2"/>
+			<change operation="delete" property="TurretDescriptorList" key="1"/>
+		<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+			<reference table="TTurretUnitDescriptor">
+			  <matchconditions>
+				<matchcondition type="references" table="TMountedWeaponDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="EffectTag">weapon_effet_tag4</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex">3</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex_ForInterface">3</matchcondition>
+					<matchcondition type="property" property="TirEnMouvement">True</matchcondition>
+					<matchcondition type="property" property="AnimateOnlyOneSoldier">True</matchcondition>
+					<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00006c090000</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+		<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+			<reference table="TTurretUnitDescriptor">
+			  <matchconditions>
+				<matchcondition type="references" table="TMountedWeaponDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex">2</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex_ForInterface">2</matchcondition>
+					<matchcondition type="property" property="TirEnMouvement">True</matchcondition>
+					<matchcondition type="property" property="AnimateOnlyOneSoldier">True</matchcondition>
+					<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000079090000</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Su_24M_NPLM">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Su24_Fencer</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+			<change operation="delete" property="TurretDescriptorList" key="1"/>
+		<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+			<reference table="TTurretBombardierDescriptor">
+			  <matchconditions>
+				<matchcondition type="references" table="TMountedWeaponDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex">2</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex_ForInterface">2</matchcondition>
+					<matchcondition type="property" property="TirEnMouvement">True</matchcondition>
+					<matchcondition type="property" property="AnimateOnlyOneSoldier">True</matchcondition>
+					<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000036050000</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Su_24M_CAS">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Su24MP_Fencer</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Su_24M_ATGM">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Mig27M</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="set" property="Salves" key="2" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Su_24M_CLUS">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Mig27K</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">10</change>
+			<change operation="set" property="Salves" key="2" type="Int32">1</change>
+			<change operation="delete" property="TurretDescriptorList" key="1"/>
+		<change operation="append" property="TurretDescriptorList" type="ObjectReference">
+			<reference table="TTurretBombardierDescriptor">
+			  <matchconditions>
+				<matchcondition type="references" table="TMountedWeaponDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex">2</matchcondition>
+					<matchcondition type="property" property="SalvoStockIndex_ForInterface">2</matchcondition>
+					<matchcondition type="property" property="TirEnMouvement">True</matchcondition>
+					<matchcondition type="property" property="AnimateOnlyOneSoldier">True</matchcondition>
+					<matchcondition type="references" table="TAmmunition">
+						<matchconditions>
+							<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000031050000</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+		</changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Shmel">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Shmel</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="TurretDescriptorList" key="3"/>
+			<change operation="delete" property="TurretDescriptorList" key="2"/>
+			<change operation="set" property="Salves" key="3" type="Int32">3</change>
+			<change operation="set" property="Salves" key="1" type="Int32">10</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="Tarantul">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Tarantul_III</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">6</change>
+			<change operation="set" property="Salves" key="2" type="Int32">5</change>
+			<change operation="set" property="Salves" key="3" type="Int32">40</change>
+			<change operation="set" property="Salves" key="5" type="Int32">40</change>
+			<change operation="delete" property="TurretDescriptorList" key="2"/>
+			<change operation="delete" property="TurretDescriptorList" key="1"/>
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

@@ -1,0 +1,524 @@
+<wargamepatch>
+
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="Jav">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_LAAD_Stinger</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_MILAN_F1</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="Ranger">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_Rangers</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_Komandosi</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+
+    </changes>
+  </ndfpatch>
+
+
+<!--SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M125A1">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M125_A1</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M106A2">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M106_A2</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M163_PIVADS">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M163_PIVADS</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M48A3_Chaparral">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M48A3_Chaparral</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+  
+<!-- TNK -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M551_TTS">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M551_TTS</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_M551_A1</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+
+    </changes>
+  </ndfpatch>
+  
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="AH_6C">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_AH6C_Little_Bird_US</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_OH58C_Kiowa</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="SH_60B_Seahawk">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_SH_60B_Sea_Hawk</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_OH58C_Kiowa</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="Delta">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_Delta_Force</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_NK_Scouts</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M981_FISTV">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M901_TOW</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_BRM1</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+	<change operation="set" property="Modules" key="ModernWarfareOrderable" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TModernWarfareOrderableModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">ModernWarfareOrderableController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_M151A1_MUTT</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+
+<!-- VHC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="LAV_25_Transport">
+    <!-- Now we add a TransporterCompany to the LAV's TUniteDescriptor. Failing to do so will result in a CTD when the LAV is deployed -->
+    <matchconditions>
+      <!-- TUniteDescriptor doesn't use loc hashes or nationality so we'll make do with ClassNameForDebug to identify the correct one -->
+      <matchcondition type="property" property="ClassNameForDebug">Company_LAV_25</matchcondition>
+    </matchconditions>
+    <changes>
+      <!-- Once again we are adding a module to a list -->
+    <change operation="append" property="Modules" type="map">
+      <map>
+        <key type="TableString">TransporterCompany</key>
+        <value type="ObjectReference">
+          <reference table="TModuleSelector">
+            <!-- As with the Transporter module, we're borrowing it from a LVTP-7 -->
+            <matchconditions>
+              <matchcondition type="references" table="TTransporterCompanyModuleDescriptor">
+                <matchconditions>
+                  <matchcondition type="property" property="ControllerName">TransporterCompanyController</matchcondition>
+                </matchconditions>
+              </matchcondition>
+              <matchcondition type="referencedby" table="TUniteDescriptor">
+                <matchconditions>
+                  <matchcondition type="property" property="ClassNameForDebug">Company_LVTP_7</matchcondition>
+                </matchconditions>
+              </matchcondition>
+            </matchconditions>
+          </reference>
+        </value>
+      </map>
+    </change>
+<!-- Now we need to update the LAV's Orderable module so any LAVs we deploy are capable of receiving "load" and "unload" orders -->
+      <!-- No need to add a module this time, we're replacing one -->
+	<change operation="set" property="Modules" key="ModernWarfareOrderable" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <!-- Once again we are borrowing a TModuleSelector from the LVTP-7 -->
+          <matchconditions>
+            <matchcondition type="references" table="TModernWarfareOrderableModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">ModernWarfareOrderableController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_LVTP_7</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_LVTP_7</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="Humvee_Mk19">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M1025_Humvee_Mk19</matchcondition>
+    </matchconditions>
+    <changes>
+			<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TIAStratModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_Bradley_COMVAT_US</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="LAV_Scout">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_LAV_25_Scout</matchcondition>
+    </matchconditions>
+    <changes>
+			<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TIAStratModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_Bradley_COMVAT_US</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M113_ACAV">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M113_ACAV</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M901A1">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M901A1_ITW_US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="UnitMovingType" operation="set" type="Int32">5</change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M3A2_Bradley_CFV">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M3A3_Bradley_US</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_M901A1_ITW_US</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="LAV_Transport">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_LAV_25</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_BTR80A_URSS</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="AH_1W_SuperCobra_ATGM">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_AH1J_US</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_AH1T_Sea_Cobra_IP</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="F18C_CAS">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_A7_Corsair_II</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_FA18_Hornet</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="F15E_CAS">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_F15_Eagle</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_FA18_Hornet</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+  <!-- NAV -->
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="Fremantle">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_Fremantle</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_Howitzer</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+
+    </changes>
+  </ndfpatch>
+
+</wargamepatch>

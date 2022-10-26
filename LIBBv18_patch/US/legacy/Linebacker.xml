@@ -1,0 +1,497 @@
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="M6_Linebacker">
+<!-- M3 becomes new unit-->
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">BE1AA7E6CD101700</matchcondition>
+		<matchcondition type="property" property="MotherCountry">US</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="HitRollSizeModifier" type="Float32" operation="set">0.05</change>
+		<change property="AcknowUnitType" type="Int32" operation="set">31</change>
+		<change property="TypeForAcknow" type="Int32" operation="set">123</change>
+		<change property="Factory" type="Int32" operation="set">13</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">55</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">6</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">3</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+			<!-- AI to SPAAG -->
+			<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TIAStratModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_VTT_323_AA</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		<!-- optics to good "air" -->
+		<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TScannerConfigurationDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_M1097_Avenger</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+		<!-- optics to good "air" part 2 -->
+		<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_M1097_Avenger</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+		<!--Stealth to poor -->
+		<change operation="set" property="Modules" key="Visibility" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TVisibilityModuleDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">VisibilityController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_LAV_25</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+			<!-- armor module to M3A3 -->
+			<change operation="set" property="Modules" key="Damage" type="ObjectReference">
+				<reference table="TModuleSelector">
+				  <matchconditions>
+					<matchcondition type="references" table="TModernWarfareDamageModuleDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ControllerName">DamageController</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+					<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+					  <matchconditions>
+						<matchcondition type="property" property="ClassNameForDebug">Unit_M3A3_Bradley_US</matchcondition>
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+	</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="StingerC_Linebacker">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00009c090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">3</change>
+			<change property="SupplyCost" type="UInt32" operation="set">120</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">338000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">39000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">364000</change>
+		</changes>
+	</ndfpatch>
+	
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="M6_Linebacker">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">BE1AA7E6CD101700</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+   <!-- Give the linebacker's turret the same anims as a SPAAG -->
+      <change operation="set" property="Operators" type="ObjectReference" key="1">
+         <reference table="TCosmeticTurretOperatorDesc">
+            <matchconditions>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B7CB5C05317C1D09</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">6A9C9A37432CC405</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">6A9C9A37432CC405</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">6A9C9A37432CC405</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">6A9C9A37432CC405</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">6A9C9A37432CC405</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">6A9C9A37432CC405</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M6_Linebacker_Stinger">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M3_Bradley</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00009c090000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+
+			<change operation="set" property="TirEnMouvement" type="Boolean">True</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M6_Linebacker_HE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M3_Bradley</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f8060000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="SalvoStockIndex" type="Int32">2</change>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">2</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M6_Linebacker_AP">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M3_Bradley</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Ammunition" type="ObjectReference">
+				<reference table="TAmmunition">
+					<matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e7050000</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="M6_Linebacker">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">BE1AA7E6CD101700</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="TypeUnitValue" type="Int32">11</change>
+			<change operation="set" property="TypeUnitHintToken" type="LocalisationHash">31EAB6EA6E2E0000</change>
+			<change operation="set" property="UnitInfoJaugeType" type="Int32">5</change>
+			
+
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">D1B2685D192D1E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">4F0595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			<change operation="append" type="LocalisationHash">D00C4165B4780000</change>
+		</changes>
+	</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="M6_Linebacker">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_M3_Bradley</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_VTT_323_AA</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+
+    </changes>
+  </ndfpatch>
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="M6_Linebacker">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">BE1AA7E6CD101700</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_AA_Flak_Vehicle.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_AA_Flak_Vehicle.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_AA_Flak_Vehicle</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">31EAB6EA6E2E0000</change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="M6_Linebacker">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M3_Bradley</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">2</change>
+			<change operation="set" property="Salves" key="1" type="Int32">7</change>
+			<change operation="set" property="Salves" key="2" type="Int32">23</change>
+		</changes>
+</ndfpatch>  

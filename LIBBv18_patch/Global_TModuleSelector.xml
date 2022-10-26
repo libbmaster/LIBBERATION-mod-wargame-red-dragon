@@ -1,0 +1,39 @@
+<wargamepatch>
+<!--New fuel module-->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModuleSelector" name="Unlimited_fuel" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TModuleSelector" name="Unlimited_fuel">
+		<matchconditions>
+			<matchcondition type="property" property="__order">last</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ControllerName" type="TableString" operation="set">FuelController</change>
+		<change operation="set" property="Selection" type="List"/>
+		<!-- It just needs to point to a fuel module -->
+		<change operation="append" property="Selection" type="ObjectReference">
+			<reference table="TModuleSelectorFilter">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TModuleSelector">
+						<matchconditions>
+							<matchcondition type="references" table="TFuelModuleDescriptor">
+								<matchconditions>
+									<matchcondition type="property" property="__order">first</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</reference>
+		</change>
+			<change operation="set" property="Default" type="ObjectReference">
+				<reference table="TFuelModuleDescriptor">
+				  <matchconditions>
+						<matchcondition type="property" property="ControllerName">FuelController</matchcondition>
+						<matchcondition type="property" property="FuelCapacity">99999</matchcondition>
+						<matchcondition type="property" property="FuelMoveDuration">99999</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>		
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

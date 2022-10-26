@@ -1,0 +1,516 @@
+<wargamepatch>
+
+<!-- INF -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="Jav">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">2A3BBB79E72C8B05</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_AT_Infantry.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_AT_Infantry.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_AT_Infantry</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">DEB2CE1300000000</change>
+    </changes>
+  </ndfpatch>
+  
+  <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="Ranger">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">F8ADB2B3C9010000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Special_force.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Special_force.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Special_force</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">7586AA7507000000</change>
+    </changes>
+  </ndfpatch>
+  
+<!-- SUP -->
+
+
+  
+<!-- TNK -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="M551_TTS">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">9DE7098671010000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Armored.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Armored.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Armored</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">F06C7ABBD9000000</change>
+    </changes>
+  </ndfpatch>
+  
+<!-- REC -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="AH_6C">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">E9ED326A9CE7AE05</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Recon_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Recon_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Recon_Helico</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">6EACB659F3700000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="SH_60B_Seahawk">
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">A664AA1D131C5207</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Recon_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Recon_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Recon_Helico</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">6EACB659F3700000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="Delta">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">2A7AD39099C7AA03</matchcondition>
+    </matchconditions>
+    <changes>
+
+      <change operation="set" property="HintToken" type="LocalisationHash">A8CAADF3143F0000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="M981_FISTV">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">61E6098172010000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Recon_Armored.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Recon_Armored.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Recon_Armored</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">34AA72B47C2F0000</change>
+    </changes>
+  </ndfpatch>
+
+<!-- VHC -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="Humvee_Mk19">
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">8A005F923104C205</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Camion.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Camion.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Camion</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">F94DD7B5DE010000</change>
+    </changes>
+  </ndfpatch>
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="LAV_Scout">
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">B94EA39D31808B05</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Armored.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Armored.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Armored</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">F94DD7B5DE010000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="M113_ACAV"> 
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">E0D22C84205C0000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Transport_APC.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Transport_APC.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Transport_APC</change>
+    </changes>
+  </ndfpatch>
+
+	<!--Stolen from LAV patch -->
+  <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="Change label">
+    <!-- We're almost done, this is a cosmetic step. We'll change the LAV's icon to that of an APC, its hint to that of an IFV, and set its IsTransporter flag to "true"-->
+    <matchconditions>
+      <!-- We are working on a TWargameLabelModuleDescriptor instance this time. Fortunately those can be identified by loc hash, so we'll do just that-->
+      <matchcondition type="property" property="CompanyName">C6002E1600000000</matchcondition>
+    </matchconditions>
+    <changes>
+      <!-- We'll change the RTSTexture and NATOTexture modules to ones that represent an APC. To identify ones that do, we set our matchconditions to find modules that reference those specific textures in the game files -->
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Transport_APC.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Transport_APC.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <!-- the rest is easy, we are changing loc hashes, booleans and TableStrings to whatever we desire -->
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Transport_APC</change>
+      <change operation="set" property="IsTransporter" type="Boolean">True</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">2034010000000000</change>
+    </changes>
+  </ndfpatch>
+  
+<!-- HEL -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="AH_1W_SuperCobra_ATGM">  
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">DD4709D202000000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Attack_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Attack_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Attack_Helico</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">B5DBE225F6450000</change>
+    </changes>
+  </ndfpatch>
+  
+<!-- AIR -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F18C_NPLM">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">B93ADFB494080B04</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">32CDE42DEB420000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F18C_ATGM">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">EA7CD35293080B04</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">CB12010000000000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F18C_CAS">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">C3ED9AF84D37C802</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="HintToken" type="LocalisationHash">32CDE42DEB420000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F18C_CLUS">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">329DCF66AB750504</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">32CDE42DEB420000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F15E_CAS"> 
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">6ACC9A8F21400000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">32CDE42DEB420000</change>
+    </changes>
+  </ndfpatch>
+  
+  <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F15E_CLUS">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">2AECDE79F7180204</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">32CDE42DEB420000</change>
+    </changes>
+  </ndfpatch>
+  
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F16C_NPLM">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">6EDEB22EF41C0204</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">32CDE42DEB420000</change>
+    </changes>
+  </ndfpatch>
+  
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="F16C_ATGM">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">8700010000000000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_CAS.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_CAS</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">CB12010000000000</change>
+    </changes>
+  </ndfpatch>	
+  
+<!-- NAV -->
+
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="Fremantle">
+    
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">6A9CCFA6ACDE1000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/Gunboat.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/Gunboat.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">Gunboat</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">B9499FB31E010000</change>
+		<change property="IsCommandementUnit" operation="null" />
+    </changes>
+  </ndfpatch>
+  
+</wargamepatch>

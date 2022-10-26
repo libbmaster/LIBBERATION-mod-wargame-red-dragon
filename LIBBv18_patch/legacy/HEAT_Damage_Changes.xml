@@ -1,0 +1,538 @@
+<wargamepatch>
+
+	<!-- Ajust all HEAT damage values -->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="1HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<!-- HEAT values need ajusting for any case where AP is 12 points greater then AV-->
+			<!-- so for AP less then 12, changes are identical to KE -->
+			<change operation="select" property="Values" key="35" />
+			<change key="3" type="Float32" operation="set">1.5</change>
+			<change key="4" type="Float32" operation="set">1.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="2HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="36" />
+			<change key="3" type="Float32" operation="set">2</change>
+			<change key="4" type="Float32" operation="set">2</change>
+			<change key="5" type="Float32" operation="set">1.5</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="3HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="37" />
+			<change key="3" type="Float32" operation="set">2.5</change>
+			<change key="4" type="Float32" operation="set">2.5</change>
+			<change key="5" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="4HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="38" />
+			<change key="3" type="Float32" operation="set">3</change>
+			<change key="4" type="Float32" operation="set">3</change>
+			<change key="5" type="Float32" operation="set">2.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="5HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="39" />
+			<change key="3" type="Float32" operation="set">3.5</change>
+			<change key="4" type="Float32" operation="set">3.5</change>
+			<change key="5" type="Float32" operation="set">3</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="6HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="40" />
+			<change key="3" type="Float32" operation="set">4</change>
+			<change key="4" type="Float32" operation="set">4</change>
+			<change key="5" type="Float32" operation="set">3.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="7HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="41" />
+			<change key="3" type="Float32" operation="set">4.5</change>
+			<change key="4" type="Float32" operation="set">4.5</change>
+			<change key="5" type="Float32" operation="set">4</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="8HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="42" />
+			<change key="3" type="Float32" operation="set">5</change>
+			<change key="4" type="Float32" operation="set">5</change>
+			<change key="5" type="Float32" operation="set">4.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="9HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="43" />
+			<change key="3" type="Float32" operation="set">5.5</change>
+			<change key="4" type="Float32" operation="set">5.5</change>
+			<change key="5" type="Float32" operation="set">5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="10HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="44" />
+			<change key="3" type="Float32" operation="set">6</change>
+			<change key="4" type="Float32" operation="set">6</change>
+			<change key="5" type="Float32" operation="set">5.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="11HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="45" />
+			<change key="3" type="Float32" operation="set">6.5</change>
+			<change key="4" type="Float32" operation="set">6.5</change>
+			<change key="5" type="Float32" operation="set">6</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="12HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="46" />
+			<change key="3" type="Float32" operation="set">7</change>
+			<change key="4" type="Float32" operation="set">7</change>
+			<change key="5" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="13HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<!-- HEAT damage ramps up after this so that high yeld HEAT weapons instakill more often. This removes that.-->
+		<changes>	
+			<change operation="select" property="Values" key="47" />
+			<change key="3" type="Float32" operation="set">7.5</change>
+			<change key="4" type="Float32" operation="set">7.5</change>
+			<change key="5" type="Float32" operation="set">7</change>
+			<change key="6" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="14HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>		
+			<change operation="select" property="Values" key="48" />
+			<change key="3" type="Float32" operation="set">8</change>
+			<change key="4" type="Float32" operation="set">8</change>
+			<change key="5" type="Float32" operation="set">7.5</change>
+			<change key="6" type="Float32" operation="set">7</change>
+			<change key="7" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="15HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="49" />
+			<change key="3" type="Float32" operation="set">8.5</change>
+			<change key="4" type="Float32" operation="set">8.5</change>
+			<change key="5" type="Float32" operation="set">8</change>
+			<change key="6" type="Float32" operation="set">7.5</change>
+			<change key="7" type="Float32" operation="set">7</change>
+			<change key="8" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="16HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="50" />
+			<change key="3" type="Float32" operation="set">9</change>
+			<change key="4" type="Float32" operation="set">9</change>
+			<change key="5" type="Float32" operation="set">8.5</change>
+			<change key="6" type="Float32" operation="set">8</change>
+			<change key="7" type="Float32" operation="set">7.5</change>
+			<change key="8" type="Float32" operation="set">7</change>
+			<change key="9" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="17HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="51" />
+			<change key="3" type="Float32" operation="set">9.5</change>
+			<change key="4" type="Float32" operation="set">9.5</change>
+			<change key="5" type="Float32" operation="set">9</change>
+			<change key="6" type="Float32" operation="set">8.5</change>
+			<change key="7" type="Float32" operation="set">8</change>
+			<change key="8" type="Float32" operation="set">7.5</change>
+			<change key="9" type="Float32" operation="set">7</change>
+			<change key="10" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="18HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="52" />
+			<change key="3" type="Float32" operation="set">10</change>
+			<change key="4" type="Float32" operation="set">10</change>
+			<change key="5" type="Float32" operation="set">9.5</change>
+			<change key="6" type="Float32" operation="set">9</change>
+			<change key="7" type="Float32" operation="set">8.5</change>
+			<change key="8" type="Float32" operation="set">8</change>
+			<change key="9" type="Float32" operation="set">7.5</change>
+			<change key="10" type="Float32" operation="set">7</change>
+			<change key="11" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="19HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>		
+			<change operation="select" property="Values" key="53" />
+			<change key="3" type="Float32" operation="set">10.5</change>
+			<change key="4" type="Float32" operation="set">10.5</change>
+			<change key="5" type="Float32" operation="set">10</change>
+			<change key="6" type="Float32" operation="set">9.5</change>
+			<change key="7" type="Float32" operation="set">9</change>
+			<change key="8" type="Float32" operation="set">8.5</change>
+			<change key="9" type="Float32" operation="set">8</change>
+			<change key="10" type="Float32" operation="set">7.5</change>
+			<change key="11" type="Float32" operation="set">7</change>
+			<change key="12" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="20HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="54" />
+			<change key="3" type="Float32" operation="set">11</change>
+			<change key="4" type="Float32" operation="set">11</change>
+			<change key="5" type="Float32" operation="set">10.5</change>
+			<change key="6" type="Float32" operation="set">10</change>
+			<change key="7" type="Float32" operation="set">9.5</change>
+			<change key="8" type="Float32" operation="set">9</change>
+			<change key="9" type="Float32" operation="set">8.5</change>
+			<change key="10" type="Float32" operation="set">8</change>
+			<change key="11" type="Float32" operation="set">7.5</change>
+			<change key="12" type="Float32" operation="set">7</change>
+			<change key="13" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="21HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>		
+			<change operation="select" property="Values" key="55" />
+			<change key="3" type="Float32" operation="set">11.5</change>
+			<change key="4" type="Float32" operation="set">11.5</change>
+			<change key="5" type="Float32" operation="set">11</change>
+			<change key="6" type="Float32" operation="set">10.5</change>
+			<change key="7" type="Float32" operation="set">10</change>
+			<change key="8" type="Float32" operation="set">9.5</change>
+			<change key="9" type="Float32" operation="set">9</change>
+			<change key="10" type="Float32" operation="set">8.5</change>
+			<change key="11" type="Float32" operation="set">8</change>
+			<change key="12" type="Float32" operation="set">7.5</change>
+			<change key="13" type="Float32" operation="set">7</change>
+			<change key="14" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="22HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="56" />
+			<change key="3" type="Float32" operation="set">12</change>
+			<change key="4" type="Float32" operation="set">12</change>
+			<change key="5" type="Float32" operation="set">11.5</change>
+			<change key="6" type="Float32" operation="set">11</change>
+			<change key="7" type="Float32" operation="set">10.5</change>
+			<change key="8" type="Float32" operation="set">10</change>
+			<change key="9" type="Float32" operation="set">9.5</change>
+			<change key="10" type="Float32" operation="set">9</change>
+			<change key="11" type="Float32" operation="set">8.5</change>
+			<change key="12" type="Float32" operation="set">8</change>
+			<change key="13" type="Float32" operation="set">7.5</change>
+			<change key="14" type="Float32" operation="set">7</change>
+			<change key="15" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="23HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>		
+			<change operation="select" property="Values" key="57" />
+			<change key="3" type="Float32" operation="set">12.5</change>
+			<change key="4" type="Float32" operation="set">12.5</change>
+			<change key="5" type="Float32" operation="set">12</change>
+			<change key="6" type="Float32" operation="set">11.5</change>
+			<change key="7" type="Float32" operation="set">11</change>
+			<change key="8" type="Float32" operation="set">10.5</change>
+			<change key="9" type="Float32" operation="set">10</change>
+			<change key="10" type="Float32" operation="set">9.5</change>
+			<change key="11" type="Float32" operation="set">9</change>
+			<change key="12" type="Float32" operation="set">8.5</change>
+			<change key="13" type="Float32" operation="set">8</change>
+			<change key="14" type="Float32" operation="set">7.5</change>
+			<change key="15" type="Float32" operation="set">7</change>
+			<change key="16" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="24HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="58" />
+			<change key="3" type="Float32" operation="set">13</change>
+			<change key="4" type="Float32" operation="set">13</change>
+			<change key="5" type="Float32" operation="set">12.5</change>
+			<change key="6" type="Float32" operation="set">12</change>
+			<change key="7" type="Float32" operation="set">11.5</change>
+			<change key="8" type="Float32" operation="set">11</change>
+			<change key="9" type="Float32" operation="set">10.5</change>
+			<change key="10" type="Float32" operation="set">10</change>
+			<change key="11" type="Float32" operation="set">9.5</change>
+			<change key="12" type="Float32" operation="set">9</change>
+			<change key="13" type="Float32" operation="set">8.5</change>
+			<change key="14" type="Float32" operation="set">8</change>
+			<change key="15" type="Float32" operation="set">7.5</change>
+			<change key="16" type="Float32" operation="set">7</change>
+			<change key="17" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="25HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="59" />
+			<change key="3" type="Float32" operation="set">13.5</change>
+			<change key="4" type="Float32" operation="set">13.5</change>
+			<change key="5" type="Float32" operation="set">13</change>
+			<change key="6" type="Float32" operation="set">12.5</change>
+			<change key="7" type="Float32" operation="set">12</change>
+			<change key="8" type="Float32" operation="set">11.5</change>
+			<change key="9" type="Float32" operation="set">11</change>
+			<change key="10" type="Float32" operation="set">10.5</change>
+			<change key="11" type="Float32" operation="set">10</change>
+			<change key="12" type="Float32" operation="set">9.5</change>
+			<change key="13" type="Float32" operation="set">9</change>
+			<change key="14" type="Float32" operation="set">8.5</change>
+			<change key="15" type="Float32" operation="set">8</change>
+			<change key="16" type="Float32" operation="set">7.5</change>
+			<change key="17" type="Float32" operation="set">7</change>
+			<change key="18" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="26HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="60" />
+			<change key="3" type="Float32" operation="set">14</change>
+			<change key="4" type="Float32" operation="set">14</change>
+			<change key="5" type="Float32" operation="set">13.5</change>
+			<change key="6" type="Float32" operation="set">13</change>
+			<change key="7" type="Float32" operation="set">12.5</change>
+			<change key="8" type="Float32" operation="set">12</change>
+			<change key="9" type="Float32" operation="set">11.5</change>
+			<change key="10" type="Float32" operation="set">11</change>
+			<change key="11" type="Float32" operation="set">10.5</change>
+			<change key="12" type="Float32" operation="set">10</change>
+			<change key="13" type="Float32" operation="set">9.5</change>
+			<change key="14" type="Float32" operation="set">9</change>
+			<change key="15" type="Float32" operation="set">8.5</change>
+			<change key="16" type="Float32" operation="set">8</change>
+			<change key="17" type="Float32" operation="set">7.5</change>
+			<change key="18" type="Float32" operation="set">7</change>
+			<change key="19" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="27HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="61" />
+			<change key="3" type="Float32" operation="set">14.5</change>
+			<change key="4" type="Float32" operation="set">14.5</change>
+			<change key="5" type="Float32" operation="set">14</change>
+			<change key="6" type="Float32" operation="set">13.5</change>
+			<change key="7" type="Float32" operation="set">13</change>
+			<change key="8" type="Float32" operation="set">12.5</change>
+			<change key="9" type="Float32" operation="set">12</change>
+			<change key="10" type="Float32" operation="set">11.5</change>
+			<change key="11" type="Float32" operation="set">11</change>
+			<change key="12" type="Float32" operation="set">10.5</change>
+			<change key="13" type="Float32" operation="set">10</change>
+			<change key="14" type="Float32" operation="set">9.5</change>
+			<change key="15" type="Float32" operation="set">9</change>
+			<change key="16" type="Float32" operation="set">8.5</change>
+			<change key="17" type="Float32" operation="set">8</change>
+			<change key="18" type="Float32" operation="set">7.5</change>
+			<change key="19" type="Float32" operation="set">7</change>
+			<change key="20" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="28HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="62" />
+			<change key="3" type="Float32" operation="set">15</change>
+			<change key="4" type="Float32" operation="set">15</change>
+			<change key="5" type="Float32" operation="set">14.5</change>
+			<change key="6" type="Float32" operation="set">14</change>
+			<change key="7" type="Float32" operation="set">13.5</change>
+			<change key="8" type="Float32" operation="set">13</change>
+			<change key="9" type="Float32" operation="set">12.5</change>
+			<change key="10" type="Float32" operation="set">12</change>
+			<change key="11" type="Float32" operation="set">11.5</change>
+			<change key="12" type="Float32" operation="set">11</change>
+			<change key="13" type="Float32" operation="set">10.5</change>
+			<change key="14" type="Float32" operation="set">10</change>
+			<change key="15" type="Float32" operation="set">9.5</change>
+			<change key="16" type="Float32" operation="set">9</change>
+			<change key="17" type="Float32" operation="set">8.5</change>
+			<change key="18" type="Float32" operation="set">8</change>
+			<change key="19" type="Float32" operation="set">7.5</change>
+			<change key="20" type="Float32" operation="set">7</change>
+			<change key="21" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="29HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="Values" key="63" />
+			<change key="3" type="Float32" operation="set">15.5</change>
+			<change key="4" type="Float32" operation="set">15.5</change>
+			<change key="5" type="Float32" operation="set">15</change>
+			<change key="6" type="Float32" operation="set">14.5</change>
+			<change key="7" type="Float32" operation="set">14</change>
+			<change key="8" type="Float32" operation="set">13.5</change>
+			<change key="9" type="Float32" operation="set">13</change>
+			<change key="10" type="Float32" operation="set">12.5</change>
+			<change key="11" type="Float32" operation="set">12</change>
+			<change key="12" type="Float32" operation="set">11.5</change>
+			<change key="13" type="Float32" operation="set">11</change>
+			<change key="14" type="Float32" operation="set">10.5</change>
+			<change key="15" type="Float32" operation="set">10</change>
+			<change key="16" type="Float32" operation="set">9.5</change>
+			<change key="17" type="Float32" operation="set">9</change>
+			<change key="18" type="Float32" operation="set">8.5</change>
+			<change key="19" type="Float32" operation="set">8</change>
+			<change key="20" type="Float32" operation="set">7.5</change>
+			<change key="21" type="Float32" operation="set">7</change>
+			<change key="22" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TGameplayArmeArmureContainer" name="30HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="__order">first</matchcondition>
+		</matchconditions>
+		<changes>	
+			<change operation="select" property="Values" key="64" />
+			<change key="3" type="Float32" operation="set">16</change>
+			<change key="4" type="Float32" operation="set">16</change>
+			<change key="5" type="Float32" operation="set">15.5</change>
+			<change key="6" type="Float32" operation="set">15</change>
+			<change key="7" type="Float32" operation="set">14.5</change>
+			<change key="8" type="Float32" operation="set">14</change>
+			<change key="9" type="Float32" operation="set">13.5</change>
+			<change key="10" type="Float32" operation="set">13</change>
+			<change key="11" type="Float32" operation="set">12.5</change>
+			<change key="12" type="Float32" operation="set">12</change>
+			<change key="13" type="Float32" operation="set">11.5</change>
+			<change key="14" type="Float32" operation="set">11</change>
+			<change key="15" type="Float32" operation="set">10.5</change>
+			<change key="16" type="Float32" operation="set">10</change>
+			<change key="17" type="Float32" operation="set">9.5</change>
+			<change key="18" type="Float32" operation="set">9</change>
+			<change key="19" type="Float32" operation="set">8.5</change>
+			<change key="20" type="Float32" operation="set">8</change>
+			<change key="21" type="Float32" operation="set">7.5</change>
+			<change key="22" type="Float32" operation="set">7</change>
+			<change key="23" type="Float32" operation="set">6.5</change>
+		</changes>
+	</ndfpatch>	
+	
+</wargamepatch>

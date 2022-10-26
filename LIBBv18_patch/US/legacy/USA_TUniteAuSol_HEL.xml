@@ -1,0 +1,230 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="ArmyCobra">
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">E67DD20D24480B00</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">50</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UpgradeRequire" operation="null" />
+    </changes>
+</ndfpatch>
+
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Apache">
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">6A8B9AF5521CD202</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">1</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change operation="set" property="UpgradeRequire" type="ObjectReference">
+			<reference table="TUniteAuSolDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_AH1F_Cobra</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+    </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="CobraCAS">
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">CDADD67A170AD202</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">2</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">75</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+		<change property="UpgradeRequire" operation="null" />
+    </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="CobraHellfire">
+<!-- AH-1J becomes new unit -->
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">DD4709D202000000</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="Factory" type="Int32" operation="set">11</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">100</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">4</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+		<change operation="set" property="UpgradeRequire" type="ObjectReference">
+			<reference table="TUniteAuSolDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_AH1W_Super_Cobra</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<!-- optics to poor -->
+		<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TScannerConfigurationDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_AH1W_Super_Cobra</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+		<!-- optics to poor part 2-->
+		<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_AH1W_Super_Cobra</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+    </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="UH1N">
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">6</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+    </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="CH53">
+<!-- CH-46 becomes new unit-->
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">1F4BDFAD76145203</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">2</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">25</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+		<change operation="set" property="UpgradeRequire" type="ObjectReference">
+			<reference table="TUniteAuSolDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_UH1N_Twin_Huey</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+    </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="BlackHawk">
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">6</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">15</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change property="UpgradeRequire" operation="null" />
+    </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="Chinook">
+    <matchconditions>
+      <matchcondition type="property" property="NameInMenuToken">343DBB6D83145203</matchcondition>
+      <matchcondition type="property" property="MotherCountry">US</matchcondition>
+    </matchconditions>
+    <changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MaxPacks" type="UInt32" operation="set">2</change>
+		<change property="ProductionPrice" type="Int32" key="0" operation="set">20</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">99</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">0BB7685ED9380000</change>
+		<change operation="set" property="UpgradeRequire" type="ObjectReference">
+			<reference table="TUniteAuSolDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_UH60A_Black_Hawk</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+    </changes>
+</ndfpatch>
+
+</wargamepatch>

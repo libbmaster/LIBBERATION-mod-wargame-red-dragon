@@ -1,0 +1,69 @@
+<wargamepatch>
+
+<!-- create CQC RPK_74 for Motostrelki -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="CQC_RPK_74_Motostrelki" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretInfanterieDescriptor" name="Motostrelki_CQC_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Motorstrelki</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="TargetPositionPhysicalPropertyName">TargetPositionTurret2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create CQC RPK_74 for Spetsnaz -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="CQC_RPK_74_Spetsnaz" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretInfanterieDescriptor" name="Spetsnaz_CQC_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Spetsnaz</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="TargetPositionPhysicalPropertyName">TargetPositionTurret2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create CQC RPK_74 for VDV -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="CQC_RPK_74_VDV" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretInfanterieDescriptor" name="VDV_CQC_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_URSS_90_VDV</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="TargetPositionPhysicalPropertyName">TargetPositionTurret2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

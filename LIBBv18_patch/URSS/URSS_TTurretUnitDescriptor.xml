@@ -1,0 +1,67 @@
+<wargamepatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretUnitDescriptor" name="Mi_2">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI2URN_Zmija</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle3</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0" />
+			
+		</changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretUnitDescriptor" name="Mi_24P_CAS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_MI_24P</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0" />
+			
+		</changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretUnitDescriptor" name="Su_24M_ATGM">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Mig27M</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0" />
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretUnitDescriptor" name="Su_24M_CLUS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Mig27K</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0" />
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

@@ -1,0 +1,609 @@
+<wargamepatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="Mi_24D">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="Missiles"/>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="Mi_24V_CAS">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">1A580CD305000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="Missiles"/>
+   </changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="MiG_29S">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">68AC43CAC0BA1700</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="Missiles"/>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">1</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/R_73_Vympel.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">2</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/R_73_Vympel.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>	
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileIndex">1</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/R_27R_Vympel.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>	
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileIndex">2</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/R_27R_Vympel.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileIndex">3</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/R_27R_Vympel.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>	
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileIndex">4</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/R_27R_Vympel.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>		  
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="Su_24M_NPLM">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">B78ACE2A540C7A07</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="Missiles"/>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">1</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/ZB_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">2</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/ZB_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>	
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">3</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/ZB_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>	
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">4</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/ZB_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>  
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="Su_24M_CAS">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">B30A695731E81D00</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+			<change operation="delete" property="Missiles" key="29"/>
+			<change operation="delete" property="Missiles" key="28"/>
+			<change operation="delete" property="Missiles" key="27"/>
+			<change operation="delete" property="Missiles" key="26"/>
+			<change operation="delete" property="Missiles" key="25"/>
+			<change operation="delete" property="Missiles" key="24"/>
+			<change operation="delete" property="Missiles" key="23"/>
+			<change operation="delete" property="Missiles" key="22"/>
+			<change operation="delete" property="Missiles" key="21"/>
+			<change operation="delete" property="Missiles" key="20"/>
+			<change operation="delete" property="Missiles" key="19"/>
+			<change operation="delete" property="Missiles" key="18"/>
+			<change operation="delete" property="Missiles" key="17"/>
+			<change operation="delete" property="Missiles" key="16"/>
+			<change operation="delete" property="Missiles" key="15"/>
+			<change operation="delete" property="Missiles" key="14"/>
+			<change operation="delete" property="Missiles" key="13"/>
+			<change operation="delete" property="Missiles" key="12"/>
+			<change operation="delete" property="Missiles" key="11"/>
+			<change operation="delete" property="Missiles" key="10"/>
+			<change operation="delete" property="Missiles" key="9"/>
+			<change operation="delete" property="Missiles" key="8"/>
+			<change operation="delete" property="Missiles" key="7"/>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="Su_24M_ATGM">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">1532B0EE05000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">3</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/Kh_29L.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">4</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Missiles/Kh_29L.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>	
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageSubDepictionGenerator" name="Su_24M_CLUS">
+   <matchconditions>
+	<matchcondition type="referencedby" table="TDepictionTemplate">
+	<matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">1732B0EE05000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+	  </matchconditions>
+	</matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="Missiles"/>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">1</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">2</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">3</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">4</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">5</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">6</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Missiles" type="ObjectReference">
+         <reference table="TMissileCarriageSubDepictionMissileInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileIndex">7</matchcondition>
+               <matchcondition type="references" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="references" table="TDepictionDescriptor">
+                        <matchconditions>
+                           <matchcondition type="references" table="TResourceMultiMaterialMesh">
+                              <matchconditions>
+                                 <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/Ammo/Bombes/RBK_500.Ase2NdfBin</matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

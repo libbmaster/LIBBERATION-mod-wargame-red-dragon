@@ -1,0 +1,46 @@
+<wargamepatch>
+
+
+	<!--Ajust plane activation points -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TShowRoomDeckRuleManager" name="Plane_activation_point_ajustment">
+		<matchconditions>
+			<matchcondition type="property" property="DefaultActivationPoints">45</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="DefaultCostMatrix" key="7" />
+			<change key="2" type="Int32" operation="set">2</change>
+			<change key="3" type="Int32" operation="set">2</change>
+			<change key="4" type="Int32" operation="set">3</change>
+		</changes>
+	</ndfpatch>
+
+	
+	<!--Ajust heli activation points -->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TShowRoomDeckRuleManager" name="Heli_activation_point_ajustment">
+		<matchconditions>
+			<matchcondition type="property" property="DefaultActivationPoints">45</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="DefaultCostMatrix" key="11" />
+			<change key="3" type="Int32" operation="set">2</change>
+		</changes>
+	</ndfpatch>	
+	
+  	<!--Ajust Navy activation points-->
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TShowRoomDeckRuleManager" name="NAV_ajust">
+		<matchconditions>
+			<matchcondition type="property" property="DefaultActivationPoints">45</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="select" property="DefaultCostMatrix" key="12" />
+			<change key="0" type="Int32" operation="set">1</change>
+			<change key="1" type="Int32" operation="set">2</change>
+			<change key="2" type="Int32" operation="set">2</change>
+			<change key="3" type="Int32" operation="set">2</change>
+			<change key="4" type="Int32" operation="set">3</change>
+		</changes>
+	</ndfpatch>
+
+
+
+</wargamepatch>

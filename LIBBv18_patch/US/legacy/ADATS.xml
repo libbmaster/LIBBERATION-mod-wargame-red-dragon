@@ -1,0 +1,136 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="ADATS">
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">9DB7380B00000000</matchcondition>
+		<matchcondition type="property" property="MotherCountry">CAN</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MotherCountry" type="TableString" operation="set">US</change>
+		<change property="MaxPacks" type="UInt32" operation="set">2</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">2</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">1</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">5C76718B57360E00</change>
+		<change operation="set" property="UpgradeRequire" type="ObjectReference">
+			<reference table="TUniteAuSolDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_M3_Bradley</matchcondition>
+				 </matchconditions>
+			</reference>
+		</change>
+		<!-- Armor to 1/1/1/1 -->
+		<change operation="set" property="Modules" key="Damage" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TModernWarfareDamageModuleDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">DamageController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_ZSU_23_4V1_Shilka</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+	</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="ADATS">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">9DB7380B00000000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">5</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="MotherCountry" type="TableString">US</change>
+
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">5C76718B57360E00</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">0BE781D955468B07</change>
+			<change operation="append" type="LocalisationHash">CEF44550192D1E00</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			<change operation="append" type="LocalisationHash">CEF44550192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEF24850192D1E00</change>
+			<change operation="append" type="LocalisationHash">DEE27550192D1E00</change>
+		</changes>
+	</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="ADATS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TTurretTwoAxisDescriptor">
+				<matchconditions>
+					<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+						<matchconditions>
+							<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M113_ADATS</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="EffectTag">weapon_effet_tag2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="SalvoStockIndex_ForInterface" type="Int32">1</change>
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="ADATS_ATGM">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f3080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">364000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">364000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>			
+			<change property="SupplyCost" type="UInt32" operation="set">320</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="ADATS_AA">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f2080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">4</change>
+			<change property="SupplyCost" type="UInt32" operation="set">320</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">390000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">39000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">390000</change>
+		</changes>
+	</ndfpatch>
+
+
+
+</wargamepatch>

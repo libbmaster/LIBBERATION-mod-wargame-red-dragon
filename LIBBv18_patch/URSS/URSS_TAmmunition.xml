@@ -1,0 +1,2611 @@
+<wargamepatch>
+
+
+<!-- small arms including 12.7mm -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="NSV">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0007-0000-0600-0000e9030000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">91000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">91000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">70</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">78000</change>
+			<change property="SupplyCost" type="UInt32" operation="set">10</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="SVD">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000048040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+		</changes>
+	</ndfpatch>	
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Yak_B">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000091070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">117000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">117000</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">7</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">70</change>
+			<change property="SuppressDamages" type="Float32" operation="set">70</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">104000</change>
+		</changes>
+	</ndfpatch>	
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="DShK">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e9030000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1.2</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.12</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">91000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">91000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">70</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">78000</change>
+			<change property="SupplyCost" type="UInt32" operation="set">10</change>
+		</changes>
+	</ndfpatch>	
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="NSVT">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ec030000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">91000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">91000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">70</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">78000</change>
+			<change property="SupplyCost" type="UInt32" operation="set">10</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="PKT">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000002040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">78000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">78000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">20</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">200</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">65000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="PKM_Regular">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000b5040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">78000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">78000</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">65000</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="PKM_Shock">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0006-0000-0600-0000f8030000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TypeArme" type="LocalisationHash" operation="set">D165010000000000</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">78000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">78000</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">65000</change>
+		</changes>
+	</ndfpatch>
+	
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPK_74_Regular"> 
+<!-- using a DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000f270000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">0552691C00000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">E1D2010000000000</change>
+			<change property="Arme" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">16</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">65000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">65000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">2600</change>
+			<change property="SuppressDamages" type="Float32" operation="set">40</change>
+			<change property="RayonPinned" type="Float32" operation="set">260</change>
+			<change property="TirIndirect" operation="null" />
+			<change property="TirReflexe" type="Boolean" operation="set">True</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">true</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">45</change>
+			<change property="Level" type="Int32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="FireDescriptor" operation="null" />
+			<change property="FireTriggeringProbability" operation="null" />
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C14A501000000</change>
+			<change property="PorteeMinimale" type="Float32" operation="set">130</change>
+			<change property="PorteeMinimaleBateaux" type="Float32" operation="set">130</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000bb040000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="AffichageMenu" type="Boolean" operation="set">true</change>
+			<change property="SupplyCost" type="UInt32" operation="set">5</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">52000</change>	
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPK_74_Regular_CQC">
+<!-- using a DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-000b-0000-0600-000047040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">0552691C00000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">E1D2010000000000</change>
+			<change property="Arme" operation="null" />
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">16</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">130</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">130</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">2600</change>
+			<change property="SuppressDamages" type="Float32" operation="set">40</change>
+			<change property="RayonPinned" type="Float32" operation="set">260</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">true</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">45</change>
+			<change property="Level" type="Int32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C14A501000000</change>
+			<change property="WeaponCursorType" type="Int32" operation="set">6</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000bb040000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">5</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMinimaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="IsFireAndForget" operation="null" />
+			<change property="PorteeMinimaleHA" operation="null" />							
+			
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPK_74_Shock">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000bb040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">65000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">65000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.15</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMinimale" type="Float32" operation="set">130</change>
+			<change property="PorteeMinimaleBateaux" type="Float32" operation="set">130</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">52000</change>	
+		</changes>
+	</ndfpatch>
+	
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPK_74_Shock_CQC">
+<!-- using a DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ca090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">0552691C00000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">E1D2010000000000</change>
+			<change property="Arme" operation="null" />
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">16</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">130</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">130</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">2600</change>
+			<change property="SuppressDamages" type="Float32" operation="set">40</change>
+			<change property="RayonPinned" type="Float32" operation="set">260</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">true</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">45</change>
+			<change property="Level" type="Int32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C14A501000000</change>
+			<change property="WeaponCursorType" type="Int32" operation="set">6</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000bb040000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">5</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />
+			<change property="MissileDescriptor" operation="null" />
+			<change property="Guidance" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="IsFireAndForget" operation="null" />
+			<change property="PorteeMaximaleProjectile" operation="null" />
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPK_74_elite">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0006-0000-0600-0000fb030000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">65000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">65000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMinimale" type="Float32" operation="set">130</change>
+			<change property="PorteeMinimaleBateaux" type="Float32" operation="set">130</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">52000</change>	
+		</changes>
+	</ndfpatch>
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPK_74_Elite_CQC">
+<!-- using a DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d1090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">0552691C00000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">E1D2010000000000</change>
+			<change property="Arme" operation="null" />
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">16</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">130</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">130</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">2600</change>
+			<change property="SuppressDamages" type="Float32" operation="set">40</change>
+			<change property="RayonPinned" type="Float32" operation="set">260</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">true</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">45</change>
+			<change property="Level" type="Int32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C14A501000000</change>
+			<change property="WeaponCursorType" type="Int32" operation="set">6</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000bb040000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="AffichageMenu" type="Boolean" operation="set">true</change>
+			<change property="SupplyCost" type="UInt32" operation="set">5</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMinimaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="IsFireAndForget" operation="null" />						
+			
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AK_74_regular">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000028040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">26000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AK_74_regular_CQC">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000027040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">3</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AK_74_Shock">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000022040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="MinimalCritProbability">0.01</matchcondition>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.15</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">26000</change>
+			<change property="SupplyCost" type="UInt32" operation="set">4</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AK_74_Shock_CQC">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000021040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.15</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.15</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="SupplyCost" type="UInt32" operation="set">4</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AKS_74U_elite">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00002a040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">1</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.4</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">26000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AKS_74U_elite_CQC">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000029040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">1</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.4</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">0.5</change>
+		</changes>
+	</ndfpatch>
+	
+<!-- Inf launchers, non guided -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPG_22">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0001-0000-0600-000012040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">39000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">39000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">4</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="SupplyCost" type="UInt32" operation="set">20</change>
+		</changes>
+</ndfpatch>
+	
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPG_29">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00006b080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RPO">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000072080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">26000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">26000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="SupplyCost" type="UInt32" operation="set">20</change>
+		</changes>
+</ndfpatch>
+	
+<!-- ATGMs -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="9M117_Bastion">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e3080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">325000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">325000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.4</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">40</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Faktoriya">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d2080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">30</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Metis_M">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d4080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">169000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">169000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="SupplyCost" type="UInt32" operation="set">20</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="9M119_Sivr">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e5080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">286000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">286000</change>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SupplyCost" type="UInt32" operation="set">40</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="9M119M_Refleks">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e7080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">312000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">312000</change>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SupplyCost" type="UInt32" operation="set">40</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Konkurs">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000da080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">286000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">286000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">40</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Konkurs_BRDM_2">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000db080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">286000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">286000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="9M114_Kokon">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e0080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">312000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">312000</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">40</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Kh_29D">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000047090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsDeVisee" type="Float32" operation="set">5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">416000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">416000</change>
+		</changes>
+	</ndfpatch>
+	
+<!-- AntiAir Missiles -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Igla_Quad">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c8090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">66CC4E0000000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">D7D2010000000000</change>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SuppressDamages" type="Float32" operation="set">200</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">14560</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">10</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">7280</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">5</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">3</change>
+			<change property="SupplyCost" type="UInt32" operation="set">120</change>
+			<change operation="set" property="MissileDescriptor" type="ObjectReference">
+				<reference table="TUniteDescriptor">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a8090000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">286000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">28600</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">312000</change>
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="R_73A">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000079090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">5</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">3</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">390000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">416000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="R_27R">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00006c090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">4</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Igla">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a8090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SuppressDamages" type="Float32" operation="set">200</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">5</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">3</change>
+			<change property="SupplyCost" type="UInt32" operation="set">30</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">286000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">28600</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">312000</change>
+		</changes>
+	</ndfpatch>
+	
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Strela_10M">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e5090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">5</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">4</change>
+			<change property="SupplyCost" type="UInt32" operation="set">120</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">286000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">28600</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">312000</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Tunguska_M">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00008b090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">150</change>
+			<change property="SuppressDamages" type="Float32" operation="set">300</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.5</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.5</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">4</change>
+			<change property="SupplyCost" type="UInt32" operation="set">320</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">377000</change>
+			<change property="PorteeMinimaleTBA" type="Float32" operation="set">37700</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">390000</change>
+		</changes>
+	</ndfpatch>
+
+<!-- Cannons -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AK_176">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000033070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">1</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">25</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">25</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="SupplyCost" type="UInt32" operation="set">500</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">208000</change>	
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">182000</change>	
+
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A70_100mm_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000065060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">125</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_T_72BK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ba050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="Arme" type="UInt32" operation="set">53</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">18</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">18</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="SupplyCost" type="UInt32" operation="set">360</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="EfficaciteSelonPortee" operation="null" />
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_HE_T_72BK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c8060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">18</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">18</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="SupplyCost" type="UInt32" operation="set">360</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_T_80UK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ca050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Arme" type="UInt32" operation="set">53</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="SupplyCost" type="UInt32" operation="set">480</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.35</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="EfficaciteSelonPortee" operation="null" />
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_HE_T_80UK_CMD">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d9060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="SupplyCost" type="UInt32" operation="set">480</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.35</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="76mm_HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000d060000</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change property="PorteeMaximale" type="Float32" operation="set">117000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">117000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="SupplyCost" type="UInt32" operation="set">5</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="76mm_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000016070000</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change property="PorteeMaximale" type="Float32" operation="set">117000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">117000</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="SupplyCost" type="UInt32" operation="set">5</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">1</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="100mm_HEAT_T_55AM">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000058050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Arme" type="UInt32" operation="set">48</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">125</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="EfficaciteSelonPortee" operation="null" />
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="100mm_HEAT_HE_T_55AM">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00006a060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="SuppressDamages" type="Float32" operation="set">125</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="100mm_KE_T_55AM">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00009a090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">5E20380000000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">B31E95B36B5E0000</change>
+			<change property="Arme" Type="UInt32" operation="set">19</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">182000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">182000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">13000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">125</change>
+			<change property="RayonPinned" type="Float32" operation="set">2080</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="Level" type="Int32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float" operation="set">1</change>	
+			<change property="Caliber" type="LocalisationHash" operation="set">B21C040200000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">4</change>		
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000058050000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">20</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />	
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="IsFireAndForget" operation="null" />	
+			<change property="NeedModelChange" operation="null" />
+			<change property="EfficaciteSelonPortee" type="Boolean" operation="set">True</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_KE_T_72B1">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000094090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">B31E95B36B5E0000</change>
+			<change property="Arme" Type="UInt32" operation="set">22</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">234000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">234000</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.005</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">16250</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="RayonPinned" type="Float32" operation="set">2080</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">12</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">12</change>
+			<change property="Level" type="Int32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float" operation="set">1</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C0C0200000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">4</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>		
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d0050000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">240</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />	
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="EfficaciteSelonPortee" type="Boolean" operation="set">True</change>			
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_T_72B1">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d0050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Arme" type="UInt32" operation="set">53</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="EfficaciteSelonPortee" operation="null" />
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_HE_T_72B1">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000e0060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_KE_T_64BV">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000041090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">B31E95B36B5E0000</change>
+			<change property="Arme" Type="UInt32" operation="set">22</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6.6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6.6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">234000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">234000</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.005</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">16250</change>
+			<change property="SuppressDamages" type="Float32" operation="set">144</change>
+			<change property="RayonPinned" type="Float32" operation="set">2080</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6.6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">18</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">18</change>
+			<change property="Level" type="Int32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.35</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.25</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float" operation="set">1</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C0C0200000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">4</change>
+			<change property="PorteeMinimale" operation="null" />
+			<change property="PorteeMinimaleBateaux" operation="null" />
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>		
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c1050000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">360</change>
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="EfficaciteSelonPortee" type="Boolean" operation="set">True</change>			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_T_64BV">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c1050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Arme" type="UInt32" operation="set">53</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.35</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.25</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>	
+			<change property="EfficaciteSelonPortee" operation="null" />
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_HE_T_64BV">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000cf060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.35</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.25</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_T_80U">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000010090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">B31E95B36B5E0000</change>
+			<change property="Arme" Type="UInt32" operation="set">53</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6.6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6.6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.005</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">16250</change>
+			<change property="SuppressDamages" type="Float32" operation="set">144</change>
+			<change property="RayonPinned" type="Float32" operation="set">2080</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6.6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="Level" type="Int32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.35</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float" operation="set">1</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C0C0200000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">4</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>	
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>			
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ca050000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />	
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="IsFireAndForget" operation="null" />		
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_HEAT_HE_T_80U">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000033090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">B31E95B36B5E0000</change>
+			<change property="Arme" Type="UInt32" operation="set">3</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6.6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6.6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">221000</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.005</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">8138</change>
+			<change property="SuppressDamages" type="Float32" operation="set">144</change>
+			<change property="RayonPinned" type="Float32" operation="set">7800</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6.6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="Level" type="Int32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.35</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change operation="set" property="FireDescriptor" type="ObjectReference">
+				<reference table="TUniteDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Fire_Incendie</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="FireTriggeringProbability" type="Float" operation="set">0.1</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">130</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C0C0200000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">4</change>
+			<change property="PorteeMinimale" operation="null" />
+			<change property="PorteeMinimaleBateaux" operation="null" />
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000d9060000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">200</change>
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />		
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="125mm_KE_T_80U">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00003f090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">D7512C0300000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">B31E95B36B5E0000</change>
+			<change property="Arme" Type="UInt32" operation="set">22</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6.6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6.6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">234000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">234000</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.005</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">16250</change>
+			<change property="SuppressDamages" type="Float32" operation="set">144</change>
+			<change property="RayonPinned" type="Float32" operation="set">2080</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6.6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">18</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">18</change>
+			<change property="Level" type="Int32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.35</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">130</change>
+			<change property="PhysicalDamages" type="Float" operation="set">1</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B26C0C0200000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">4</change>
+			<change property="PorteeMinimale" operation="null" />
+			<change property="PorteeMinimaleBateaux" operation="null" />
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ca050000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">360</change>
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="EfficaciteSelonPortee" type="Boolean" operation="set">True</change>			
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A28_Grom_HEAT_BRM">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000003060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">1</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">1</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>	
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>	
+			<change property="SupplyCost" type="UInt32" operation="set">10</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A28_Grom_HEAT_HE_BRM">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000d070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">1</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">1</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">1</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>	
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>		
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>		
+			<change property="SupplyCost" type="UInt32" operation="set">10</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="SPG_9_HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00004e070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>	
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="SPG_9_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000f070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="85mm_HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000016060000</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change property="PorteeMaximale" type="Float32" operation="set">195000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">195000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="Arme" type="UInt32" operation="set">43</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+			<change property="EfficaciteSelonPortee" operation="null" />
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="85mm_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000020070000</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change property="PorteeMaximale" type="Float32" operation="set">195000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">195000</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A28_Grom_HEAT">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000002060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">140000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="SupplyCost" type="UInt32" operation="set">400</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A28_Grom_HEAT_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000c070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">7.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">7.5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">104000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">7.5</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">1</change>
+			<change property="SuppressDamages" type="Float32" operation="set">80</change>	
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>	
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>		
+			<change property="SupplyCost" type="UInt32" operation="set">400</change>
+		</changes>
+	</ndfpatch>
+
+<!-- Autocannons and grenade machineguns, including 14.5mm and AGLs-->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AK_630">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000a040000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TypeArme" type="LocalisationHash" operation="set">ECECC6B919010000</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.015</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">195000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">195000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">50</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">286000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">273000</change>
+			<change property="Guidance" operation="null" />
+			<change property="PorteeMaximaleProjectile" operation="null" />
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2M_3M_25mm_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a7070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TypeArme" type="LocalisationHash" operation="set">74AE2FE5ECF21E00</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.625</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.125</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">208000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">208000</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">3510</change>
+			<change property="SuppressDamages" type="Float32" operation="set">90</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">10</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">13</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">130</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="SupplyCost" type="UInt32" operation="set">130</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">195000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">182000</change>
+		</changes>
+	</ndfpatch>	
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="GSh_6_23">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fc070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TypeArme" type="LocalisationHash" operation="set">ECECC6B919010000</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">182000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">182000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">90</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="SupplyCost" type="UInt32" operation="set">25</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">169000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">156000</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="GSh_30_1">
+
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fe070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.2</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.04</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">182000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">182000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">3</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">15</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.3</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="SupplyCost" type="UInt32" operation="set">30</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">169000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">156000</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="GSh_30K_Dual_30mm_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ff060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">182000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">182000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.25</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.25</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">156000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">130000</change>
+		</changes>
+	</ndfpatch>	
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A72_30mm_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fe060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">182000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">182000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.15</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">156000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">130000</change>
+		</changes>
+	</ndfpatch>	
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A72_30mm_KE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f2050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">208000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">208000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.15</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+		</changes>
+	</ndfpatch>	
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="AGS_17">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000b080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.16</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">30</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.15</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="KPVT_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000041070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">117000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">117000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">70</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">104000</change>
+		</changes>
+	</ndfpatch>	
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="KPVT_AP">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000034060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">117000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">117000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">5</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">50</change>
+			<change property="SuppressDamages" type="Float32" operation="set">70</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="ZU_23_2">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c0070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.15</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">208000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">208000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">90</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">156000</change>
+		</changes>
+	</ndfpatch>	
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="ZSU_23_4">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c8070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.15</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">208000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">208000</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">20</change>
+			<change property="SuppressDamages" type="Float32" operation="set">90</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" operation="Null" />
+			<change property="PorteeMaximaleHA" operation="Null" />
+		</changes>
+	</ndfpatch>	
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="ZSU_23_4_Radar">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000c7070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.15</change>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" operation="Null"/>
+			<change property="PorteeMaximaleBateaux" operation="Null"/>
+			<change property="NbTirParSalves" type="UInt32" operation="set">20</change>
+			<change property="SuppressDamages" type="Float32" operation="set">90</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.3</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.1</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">221000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">208000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Quad_30mm">
+	<!-- Using DEPREC instance -->
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000ba090000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Name" type="LocalisationHash" operation="set">57422C0300000000</change>
+			<change property="TypeArme" type="LocalisationHash" operation="set">74AE2FE5ECF21E00</change>
+			<change property="ProjectileType" operation="null" />
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.2</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.015</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">195000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">195000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">3770</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="RayonPinned" type="Float32" operation="set">130</change>
+			<change property="FX_tir_sans_physic" operation="null" />
+			<change property="FX_vitesse_de_depart" type="Float32" operation="set">180000</change>
+			<change property="FX_frottement" type="Float32" operation="set">0.01</change>
+			<change property="FX_tir_tendu" type="Boolean" operation="set">True</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">5</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">238</change>
+			<change property="Level" type="Int32" operation="set">3</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.1</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.05</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float" operation="set">598</change>
+			<change property="PhysicalDamages" type="Float32" operation="set">1</change>
+			<change property="Caliber" type="LocalisationHash" operation="set">B21C100000000000</change>
+			<change property="WeaponCursorType" type="Float32" operation="set">5</change>
+			<change property="NoiseDissimulationMalus" type="Float32" operation="set">2.25</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change operation="set" property="InterfaceWeaponTexture" type="ObjectReference">
+				<reference table="TUIResourceTexture">
+				  <matchconditions>
+					<matchcondition type="referencedby" table="TAmmunition">
+					  <matchconditions>
+						<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a6070000</matchcondition>	
+					  </matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="PorteeMaximaleTBA" operation="null" />
+			<change property="PorteeMaximaleHA" operation="null" />
+			<change property="MissileDescriptor" operation="null" />
+			<change property="MissileTimeBetweenCorrections" operation="null" />
+			<change property="IsFireAndForget" operation="null" />
+		</changes>
+	</ndfpatch>		
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="Quad_30mm_Radar">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a6070000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="AngleDispersion" type="Float32" operation="set">0.01</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" operation="Null"/>
+			<change property="PorteeMaximaleBateaux" operation="Null"/>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">238</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.4</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.25</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">238</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">286000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">273000</change>
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A42_30mm_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000fc060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">169000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">169000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">143000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">117000</change>
+		</changes>
+	</ndfpatch>	
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A42_30mm_KE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f0050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">1</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">195000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">195000</change>
+			<change property="SuppressDamages" type="Float32" operation="set">100</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">2</change>
+		</changes>
+	</ndfpatch>		
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="NS_23">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000f4060000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.5</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">182000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">182000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="SuppressDamages" type="Float32" operation="set">90</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">0.2</change>
+			<change property="PorteeMaximaleTBA" type="Float32" operation="set">156000</change>
+			<change property="PorteeMaximaleHA" type="Float32" operation="set">130000</change>
+		
+		</changes>
+</ndfpatch>
+	
+<!-- mortars -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2B9_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000054080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.5</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">312000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">312000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">7400</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="FireTriggeringProbability" type="Float32" operation="set">0.1</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">2220</change>
+			<change property="DispersionAtMinRange" type="Float32" operation="set">26000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">26000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">10</change>
+			<change property="SupplyCost" type="UInt32" operation="set">120</change>
+
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2B9_SMK">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000055080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">0.5</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">0.5</change>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">312000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">312000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">7400</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">4</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">4</change>
+			<change property="DispersionAtMinRange" type="Float32" operation="set">26000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">26000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">10</change>
+			<change property="SupplyCost" type="UInt32" operation="set">120</change>
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2B11_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000052080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">364000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">364000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">15540</change>
+			<change property="SuppressDamages" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="FireTriggeringProbability" type="Float32" operation="set">0.1</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">2960</change>
+			<change property="DispersionAtMinRange" type="Float32" operation="set">24000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">24000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">15</change>
+			<change property="SupplyCost" type="UInt32" operation="set">300</change>
+
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2B11_SMK">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000053080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">364000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">364000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="DispersionAtMinRange" type="Float32" operation="set">24000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">24000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">15</change>
+			<change property="SupplyCost" type="UInt32" operation="set">300</change>
+
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A51_HE">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000035080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">390000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">390000</change>
+			<change property="RadiusSplashSuppressDamages" type="Float32" operation="set">15540</change>
+			<change property="SuppressDamages" type="Float32" operation="set">250</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="FireTriggeringProbability" type="Float32" operation="set">0.1</change>
+			<change property="RadiusSplashPhysicalDamages" type="Float32" operation="set">2960</change>
+			<change property="DispersionAtMinRange" type="Float32" operation="set">22000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">22000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">15</change>
+			<change property="SupplyCost" type="UInt32" operation="set">300</change>
+
+		</changes>
+	</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="2A51_SMK">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000036080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="TempsEntreDeuxTirs" type="Float32" operation="set">6</change>
+			<change property="TempsEntreDeuxFx" type="Float32" operation="set">6</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">390000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">390000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">6</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">10</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">10</change>
+			<change property="DispersionAtMinRange" type="Float32" operation="set">22000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">22000</change>
+			<change property="TempsDeVisee" type="Float32" operation="set">15</change>
+			<change property="SupplyCost" type="UInt32" operation="set">300</change>
+
+		</changes>
+	</ndfpatch>
+
+
+<!-- Unguided Rockets -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="S_5M">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-0000a5080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">208000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">208000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbrProjectilesSimultanes" type="UInt32" operation="set">2</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">20</change>
+		</changes>
+	</ndfpatch>
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="S_8">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00007a080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="PorteeMaximale" type="Float32" operation="set">234000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">234000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">2</change>
+			<change property="NbrProjectilesSimultanes" type="UInt32" operation="set">2</change>
+			<change property="SuppressDamages" type="Float32" operation="set">150</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">2</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">2</change>
+			<change operation="set" property="HitRollRule" type="ObjectReference">
+				<reference table="TModernWarfareHitRollRule">
+				  <matchconditions>
+					<matchcondition type="property" property="HitProbability">0.2</matchcondition>
+					<matchcondition type="property" property="HitProbabilityWhileMoving">0.2</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+			<change property="SupplyCost" type="UInt32" operation="set">20</change>
+		</changes>
+	</ndfpatch>
+	
+	<!-- Bombs -->
+	
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="FAB_500">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00000b050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="NbTirParSalves" type="UInt32" operation="set">7</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">7</change>
+			<change property="SupplyCost" type="UInt32" operation="set">3062</change>
+		</changes>
+</ndfpatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="RBK_500">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-000031050000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Arme" type="UInt32" operation="set">38</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">7</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">7</change>
+			<change property="SupplyCost" type="UInt32" operation="set">3062</change>
+		</changes>
+</ndfpatch>
+
+<!-- Rocket Arty -->
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TAmmunition" name="BM_14_17">
+		<matchconditions>
+			<matchcondition type="property" property="DescriptorId">00000000-0000-0000-0600-00007b080000</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="Puissance" type="Float32" operation="set">250</change>
+			<change property="PorteeMaximale" type="Float32" operation="set">728000</change>
+			<change property="PorteeMaximaleBateaux" type="Float32" operation="set">728000</change>
+			<change property="TempsEntreDeuxSalves" type="Float32" operation="set">120</change>
+			<change property="NbTirParSalves" type="UInt32" operation="set">17</change>
+			<change property="AffichageMunitionParSalve" type="UInt32" operation="set">17</change>
+			<change property="FireDescriptor" operation="null" />
+			<change property="FireTriggeringProbability" operation="null" />
+			<change property="PhysicalDamages" operation="null" />
+			<change property="SuppressDamages" operation="null" />
+			<change property="DispersionAtMinRange" type="Float32" operation="set">22000</change>
+			<change property="DispersionAtMaxRange" type="Float32" operation="set">22000</change>
+			<change property="SupplyCost" type="UInt32" operation="set">680</change>
+			<change property="PorteeMinimale" type="Float32" operation="set">104000</change>
+			<change property="PorteeMinimaleBateaux" type="Float32" operation="set">104000</change>
+			<change operation="set" property="SmokeDescriptor" type="ObjectReference">
+				<reference table="TUniteDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Smoke_Fumi81mm</matchcondition>
+				  </matchconditions>
+				</reference>
+			</change>
+		</changes>
+	</ndfpatch>
+
+</wargamepatch>

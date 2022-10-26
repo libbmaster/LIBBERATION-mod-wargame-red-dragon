@@ -1,0 +1,615 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Infantry_CMD">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">BA8D3B57D375DC07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BMP_1P -->
+          <matchcondition type="property" property="NameInMenuToken">9AA05D0C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Weapons_Team">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">383DDF74D475DC07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>	
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="VDV_MAT">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">F34D4781D275DC07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Motostrelki">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">B17AE7F84DE7F405</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BMP_1P -->
+          <matchcondition type="property" property="NameInMenuToken">9AA05D0C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="PTUR_Faktoriya">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">39CD9A10F7791A00</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change> 
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Sapery">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">6A6D7646D275DC07</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BMP_1P -->
+          <matchcondition type="property" property="NameInMenuToken">9AA05D0C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Spetsnaz">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">BF39E3B95A770000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="VDV">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">A003064AD7711F00</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Igla">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">66CC4E15476A0000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BMP_1P -->
+          <matchcondition type="property" property="NameInMenuToken">9AA05D0C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Razvedka">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">269CAAFB6F720000</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BMP_1P -->
+          <matchcondition type="property" property="NameInMenuToken">9AA05D0C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTransportableModuleDescriptor" name="Spetsnaz_GRU">
+  <matchconditions>
+    <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+      <matchconditions>
+        <matchcondition type="property" property="NameInMenuToken">5CF49B339EAB7507</matchcondition>
+        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+      </matchconditions>
+    </matchcondition>
+  </matchconditions>
+  <changes>
+    <change property="TransportListAvailableForSpawn" operation="clear" />
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- MT_LB -->
+          <matchcondition type="property" property="NameInMenuToken">8CE55D0000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_D -->
+          <matchcondition type="property" property="NameInMenuToken">0EE7310000000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- BTR_70 -->
+          <matchcondition type="property" property="NameInMenuToken">01C2790C00000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_8T -->
+          <matchcondition type="property" property="NameInMenuToken">A0974C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+    <change operation="append" property="TransportListAvailableForSpawn" type="ObjectReference">
+      <reference table="TUniteAuSolDescriptor">
+        <matchconditions>
+          <!-- Mi_24D -->
+          <matchcondition type="property" property="NameInMenuToken">4E314C1700000000</matchcondition>
+          <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+        </matchconditions>
+      </reference>
+    </change>
+  </changes>
+</ndfpatch>
+
+</wargamepatch>

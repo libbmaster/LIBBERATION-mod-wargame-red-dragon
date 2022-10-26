@@ -1,0 +1,89 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCosmeticTurretOperatorDesc" name="Shmel">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TDepictionTemplate">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">B12AB71D00000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>	  
+      </matchcondition>
+	<matchcondition type="property" property="OperatorId">tourelle2</matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="MinZAngle" operation="null" />
+			<change property="MaxZAngle" operation="null" />
+
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCosmeticTurretOperatorDesc" name="Tarantul_AK_1">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TDepictionTemplate">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">D314EBF96CDEA607</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>	  
+      </matchcondition>
+	<matchcondition type="property" property="OperatorId">tourelle5</matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="MinZAngle" operation="null" />
+			<change property="MaxZAngle" operation="null" />
+
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TCosmeticTurretOperatorDesc" name="Tarantul_AK_2">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TDepictionTemplate">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">D314EBF96CDEA607</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>	  
+      </matchcondition>
+	<matchcondition type="property" property="OperatorId">tourelle6</matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="MinZAngle" operation="null" />
+			<change property="MaxZAngle" operation="null" />
+
+   </changes>
+</ndfpatch>
+</wargamepatch>

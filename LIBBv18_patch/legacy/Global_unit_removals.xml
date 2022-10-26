@@ -1,0 +1,12 @@
+<wargamepatch>
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="NAVAL">
+		<matchconditions>
+			<matchcondition type="property" property="Factory">12</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ShowInMenu" key="0" type="Boolean" operation="set">false</change>
+		</changes>
+	</ndfpatch>
+
+</wargamepatch>

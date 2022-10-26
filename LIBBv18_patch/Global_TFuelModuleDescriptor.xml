@@ -1,0 +1,16 @@
+<wargamepatch>
+
+<!-- create new fuel entry -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TFuelModuleDescriptor" name="Unlimited_fuel" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TFuelModuleDescriptor" name="Unlimited_fuel">
+		<matchconditions>
+			<matchcondition type="property" property="__order">last</matchcondition>
+		</matchconditions>
+		<changes>
+			<change property="ControllerName" type="TableString" operation="set">FuelController</change>
+			<change property="FuelCapacity" type="Float32" operation="set">99999</change>
+			<change property="FuelMoveDuration" type="Float32" operation="set">99999</change>
+		</changes>
+</ndfpatch>
+
+</wargamepatch>

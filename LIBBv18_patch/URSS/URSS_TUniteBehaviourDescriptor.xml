@@ -1,0 +1,75 @@
+<wargamepatch>
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="PTUR_Faktoriya">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">39CD9A10F7791A00</matchcondition>
+									<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="Igla">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">66CC4E15476A0000</matchcondition>
+									<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="Spetsnaz_GRU">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">5CF49B339EAB7507</matchcondition>
+									<matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+</wargamepatch>

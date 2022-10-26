@@ -1,0 +1,166 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteAuSolDescriptor" name="HueyREC">
+<!-- CAN huey becomes new unit -->
+	<matchconditions>
+		<matchcondition type="property" property="NameInMenuToken">DA426182F4010000</matchcondition>
+		<matchcondition type="property" property="MotherCountry">CAN</matchcondition>
+	</matchconditions>
+	<changes>
+		<change property="ShowInMenu" key="0" type="Boolean" operation="set">true</change>
+		<change property="MotherCountry" type="TableString" operation="set">US</change>
+		<change property="AcknowUnitType" type="Int32" operation="set">24</change>
+		<change property="Factory" type="Int32" operation="set">10</change>
+		<change property="MaxDeployableAmount" operation="clear" />
+		<change property="MaxDeployableAmount" type="Int32" operation="append">6</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">0</change>
+		<change property="MaxDeployableAmount" type="Int32" operation="append">3</change>
+		<change property="UnitTypeTokens" operation="clear" />
+		<change property="UnitTypeTokens" type="LocalisationHash" operation="append">23B8605ED9380000</change>
+		<change property="UpgradeRequire" operation="null" />
+<!-- AI to scout heli -->
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_OH58C_Kiowa</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+		<!-- optics to very good -->
+		<change operation="set" property="Modules" key="ScannerConfiguration" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TScannerConfigurationDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerConfigurationController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_OH58C_Kiowa</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+		<!-- optics to very good part 2 -->
+		<change operation="set" property="Modules" key="Scanner" type="ObjectReference">
+			<reference table="TModuleSelector">
+			  <matchconditions>
+				<matchcondition type="references" table="TModernWarfareScannerModuleDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ControllerName">ScannerController</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+				<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+				  <matchconditions>
+					<matchcondition type="property" property="ClassNameForDebug">Unit_OH58C_Kiowa</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+			  </matchconditions>
+			</reference>
+		</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteDescriptor" name="HueyREC">
+    <matchconditions>
+      <matchcondition type="property" property="ClassNameForDebug">Company_UH_1N_JAP</matchcondition>
+    </matchconditions>
+    <changes>
+	<change operation="set" property="Modules" key="IAStratModule" type="ObjectReference">
+        <reference table="TModuleSelector">
+          <matchconditions>
+            <matchcondition type="references" table="TIAStratModuleDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ControllerName">IAStratController</matchcondition>
+              </matchconditions>
+            </matchcondition>
+            <matchcondition type="referencedby" table="TUniteDescriptor">
+              <matchconditions>
+                <matchcondition type="property" property="ClassNameForDebug">Company_OH58C_Kiowa</matchcondition>
+              </matchconditions>
+            </matchcondition>
+          </matchconditions>
+        </reference>
+    </change>
+    </changes>
+  </ndfpatch>
+  
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTypeUnitModuleDescriptor" name="HueyREC">
+		<matchconditions>
+			<matchcondition type="property" property="NameInMenuToken">DA426182F4010000</matchcondition>
+			<matchcondition type="property" property="UnitInfoJaugeType">3</matchcondition>
+		</matchconditions>
+		<changes>
+
+			<change operation="set" property="TypeUnitValue" type="Int32">32</change>
+			<change operation="set" property="TypeUnitHintToken" type="LocalisationHash">6EACB659F3700000</change>
+			<change property="MotherCountry" type="TableString" operation="set">US</change>
+			
+		    <change operation="select" property="Filters" key="1"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">D623350F57468B07</change>
+			
+			<change operation="unselect" />
+
+		    <change operation="select" property="Filters" key="3"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">23B8605ED9380000</change>
+			
+			<change operation="unselect" />
+			
+		    <change operation="select" property="Filters" key="4"/>
+			<change operation="clear" type="list"/>
+			<change operation="append" type="LocalisationHash">A30595D1E2010000</change>
+			<change operation="append" type="LocalisationHash">0FBD4065B4780000</change>
+			
+		</changes>
+	</ndfpatch>
+	
+ <ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWargameLabelModuleDescriptor" name="HueyREC">
+    <matchconditions>
+      <matchcondition type="property" property="CompanyName">DA426182F4010000</matchcondition>
+    </matchconditions>
+    <changes>
+      <change operation="set" property="RTSTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/RTS/NATO_Recon_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTexture">
+        <reference table="TUIResourceTexture">
+          <matchconditions>
+            <matchcondition type="property" property="FileName">GameData:/Assets/2D/Interface/UseInGame/LabelIcons/NATO/NATO_Recon_Helico.png</matchcondition>
+          </matchconditions>
+        </reference>
+      </change>
+      <change operation="set" property="NATOTextureName" type="TableString">NATO_Recon_Helico</change>
+      <change operation="set" property="HintToken" type="LocalisationHash">6EACB659F3700000</change>
+    </changes>
+  </ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TWeaponManagerModuleDescriptor" name="HueyREC">
+		<matchconditions>
+			<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_UH_1N_JAP</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="Salves" key="0" type="Int32">14</change>
+		</changes>
+</ndfpatch>
+
+
+</wargamepatch>

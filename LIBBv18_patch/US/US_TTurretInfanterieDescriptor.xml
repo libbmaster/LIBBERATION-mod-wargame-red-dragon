@@ -1,0 +1,72 @@
+<wargamepatch>
+
+<!-- INF -->
+
+<!-- create CQC Minimi for ranger -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="CQC_M249_ranger" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretInfanterieDescriptor" name="Ranger_CQC_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_Rangers</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="TargetPositionPhysicalPropertyName">TargetPositionTurret2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create CQC Minimi for riflemen -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="CQC_M249_riflemen" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretInfanterieDescriptor" name="Riflemen_CQC_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_85_Riflemen</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="TargetPositionPhysicalPropertyName">TargetPositionTurret2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create CQC Minimi for riflemen -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="CQC_M249_Marines" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretInfanterieDescriptor" name="Marines_CQC_LMG">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_US_85_Marines</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="TargetPositionPhysicalPropertyName">TargetPositionTurret2</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+
+</wargamepatch>

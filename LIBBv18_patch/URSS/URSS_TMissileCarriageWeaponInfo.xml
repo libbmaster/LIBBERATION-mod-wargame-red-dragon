@@ -1,0 +1,56 @@
+<wargamepatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageWeaponInfo" name="Su_24M_CAS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageConnoisseur">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TMissileCarriageModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TModuleSelector">
+                     <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">B30A695731E81D00</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="Count" type="Int32" operation="set">7</change>  
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageWeaponInfo" name="Su_24M_CLUS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageConnoisseur">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TMissileCarriageModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TModuleSelector">
+                     <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">1732B0EE05000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">URSS</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+			<change property="Count" type="Int32" operation="set">7</change>  
+   </changes>
+</ndfpatch>
+
+
+</wargamepatch>

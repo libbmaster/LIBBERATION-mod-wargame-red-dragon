@@ -1,0 +1,2693 @@
+<wargamepatch>
+
+<!-- only some of this can be automated. most of the gfx work needs to be done by hand -->
+
+<!-- LOG -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="M1A1_CMD">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">BA87CBE67D2EC205</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="delete" property="Operators" key="3"/>
+   </changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<!-- something is wrong with the M106 model. It's fixed in the DLC -->
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="M106A2">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">C37204C205000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">16262C47205C0000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">HOL</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">16262C47205C0000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">HOL</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">16262C47205C0000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">HOL</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">16262C47205C0000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">HOL</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">16262C47205C0000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">HOL</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">16262C47205C0000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">HOL</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<!-- TNK -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="M1A1HC">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">E67D2E8D242CC205</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+	  <change operation="delete" property="Operators" key="3"/>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="M1A1">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">B86CDEE7222CC205</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+	  <change operation="delete" property="Operators" key="3"/>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="M1A2">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">B86CDEE7322CC205</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+	  <change operation="delete" property="Operators" key="3"/>
+   </changes>
+</ndfpatch>
+
+<!-- REC -->
+
+
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="HueyREC">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">264FBB5593185206</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <!-- animate turret -->
+      <change operation="append" property="Operators" type="ObjectReference" >
+         <reference table="TCosmeticTurretOperatorDesc">
+            <matchconditions>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">1F4BDFAD76145203</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="UH_1N_Twin_Huey">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">BA34BBBC8709D207</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="DepictionAlternatives" key="0" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">E66ACE0B00000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ISR</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="DepictionAlternatives" key="1" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">E66ACE0B00000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ISR</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="DepictionAlternatives" key="2" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">E66ACE0B00000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ISR</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="DepictionAlternatives" key="3" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">E66ACE0B00000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ISR</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+ <!-- skipping the Low LODs -->
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="AH_1W_SuperCobra_ATGM_hellfire">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">DD4709D202000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">55C65182B4000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">55C65182B4000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">55C65182B4000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">55C65182B4000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">55C65182B4000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">55C65182B4000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ROK</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="CH_53">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">1F4BDFAD76145203</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="Operators" key="3" type="ObjectReference">
+         <reference table="TCosmeticRotorPortingDesc">
+            <matchconditions>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">8421350000000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="UH_60M_BlackHawk">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">306AC6CC121CD207</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="set" property="SubDepictions" type="List"/>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Operators" type="ObjectReference">
+         <reference table="TCosmeticTurretOperatorDesc">
+            <matchconditions>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">24B6044807000000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">ANZ</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="F18C_CAS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">C3ED9AF84D37C802</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="clear" property="SubDepictions" />
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+				<matchcondition type="references" table="TDepictionTemplate">
+				  <matchconditions>
+					<matchcondition type="references" table="TDepictionDescriptor">
+						<matchconditions>
+							<matchcondition type="references" table="TResourceMultiMaterialMesh">
+								<matchconditions>
+									<matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/USMC/Avions/FA18_Hornet/FA18_Hornet_train.Ase2NdfBin</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+     <change operation="set" property="Operators" type="ObjectReference" key="5">
+         <reference table="TCosmeticHingeOperatorDesc">
+            <matchconditions>
+               <matchcondition type="property" property="OperatorId">backStabilizerYaw</matchcondition>
+               <matchcondition type="property" property="OperatedBone">Lacet_1</matchcondition>			
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Operators" type="ObjectReference">
+         <reference table="TCosmeticHingeOperatorDesc">
+            <matchconditions>
+               <matchcondition type="property" property="OperatorId">backStabilizerYaw</matchcondition>
+               <matchcondition type="property" property="OperatedBone">Lacet_2</matchcondition>			
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="F18C_CLUS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">329DCF66AB750504</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="clear" property="SubDepictions" />
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+				<matchcondition type="references" table="TDepictionTemplate">
+				  <matchconditions>
+					<matchcondition type="references" table="TDepictionDescriptor">
+						<matchconditions>
+							<matchcondition type="references" table="TResourceMultiMaterialMesh">
+								<matchconditions>
+									<matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/USMC/Avions/FA18_Hornet/FA18_Hornet_train.Ase2NdfBin</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="Operators" type="ObjectReference" key="5">
+         <reference table="TCosmeticHingeOperatorDesc">
+            <matchconditions>
+               <matchcondition type="property" property="OperatorId">backStabilizerYaw</matchcondition>
+               <matchcondition type="property" property="OperatedBone">Lacet_1</matchcondition>			
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Operators" type="ObjectReference">
+         <reference table="TCosmeticHingeOperatorDesc">
+            <matchconditions>
+               <matchcondition type="property" property="OperatorId">backStabilizerYaw</matchcondition>
+               <matchcondition type="property" property="OperatedBone">Lacet_2</matchcondition>			
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="F18C_CAP">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">329DCF66AB510504</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="clear" property="SubDepictions" />
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+				<matchcondition type="references" table="TDepictionTemplate">
+				  <matchconditions>
+					<matchcondition type="references" table="TDepictionDescriptor">
+						<matchconditions>
+							<matchcondition type="references" table="TResourceMultiMaterialMesh">
+								<matchconditions>
+									<matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/USMC/Avions/FA18_Hornet/FA18_Hornet_train.Ase2NdfBin</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="Operators" type="ObjectReference" key="5">
+         <reference table="TCosmeticHingeOperatorDesc">
+            <matchconditions>
+               <matchcondition type="property" property="OperatorId">backStabilizerYaw</matchcondition>
+               <matchcondition type="property" property="OperatedBone">Lacet_1</matchcondition>			
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="Operators" type="ObjectReference">
+         <reference table="TCosmeticHingeOperatorDesc">
+            <matchconditions>
+               <matchcondition type="property" property="OperatorId">backStabilizerYaw</matchcondition>
+               <matchcondition type="property" property="OperatedBone">Lacet_2</matchcondition>			
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">EA7CD35293080B04</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="F15E_CAS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">6ACC9A8F21400000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="clear" property="SubDepictions" />
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+				<matchcondition type="references" table="TDepictionTemplate">
+				  <matchconditions>
+					<matchcondition type="references" table="TDepictionDescriptor">
+						<matchconditions>
+							<matchcondition type="references" table="TResourceMultiMaterialMesh">
+								<matchconditions>
+									<matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/US/Avions/F15_Strike_Eagle/F15_Strike_Eagle_train.Ase2NdfBin</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="F16C_NPLM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">6EDEB22EF41C0204</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="clear" property="SubDepictions" />
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+				<matchcondition type="references" table="TDepictionTemplate">
+				  <matchconditions>
+					<matchcondition type="references" table="TDepictionDescriptor">
+						<matchconditions>
+							<matchcondition type="references" table="TResourceMultiMaterialMesh">
+								<matchconditions>
+									<matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/US/Avions/F16_Fighting_Falcon/F16_Fighting_Falcon_train.Ase2NdfBin</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TDepictionTemplate" name="F16C_ATGM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                     <matchconditions>
+                        <matchcondition type="property" property="NameInMenuToken">8700010000000000</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="DepictionAlternatives" />
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">high</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">mid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">low</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedhigh</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedmid</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="DepictionAlternatives" type="ObjectReference">
+         <reference table="TDepictionDescriptor">
+            <matchconditions>
+               <matchcondition type="property" property="SelectorId">wreckedlow</matchcondition>
+               <matchcondition type="referencedby" table="TDepictionTemplate">
+                  <matchconditions>
+                     <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                        <matchconditions>
+                           <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                              <matchconditions>
+                                 <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                    <matchconditions>
+                                       <matchcondition type="property" property="NameInMenuToken">064CC74C73081000</matchcondition>
+                                       <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                    </matchconditions>
+                                 </matchcondition>
+                              </matchconditions>
+                           </matchcondition>
+                        </matchconditions>
+                     </matchcondition>
+                  </matchconditions>
+               </matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+	  <change operation="clear" property="SubDepictions" />
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+				<matchcondition type="references" table="TDepictionTemplate">
+				  <matchconditions>
+					<matchcondition type="references" table="TDepictionDescriptor">
+						<matchconditions>
+							<matchcondition type="references" table="TResourceMultiMaterialMesh">
+								<matchconditions>
+									<matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/US/Avions/F16_Fighting_Falcon/F16_Fighting_Falcon_train.Ase2NdfBin</matchcondition>
+								</matchconditions>
+							</matchcondition>
+						</matchconditions>
+					</matchcondition>
+				  </matchconditions>
+				</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+       <change operation="append" property="SubDepictions" type="ObjectReference">
+         <reference table="TSubDepiction">
+            <matchconditions>
+               <matchcondition type="property" property="Anchor">Pilot</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

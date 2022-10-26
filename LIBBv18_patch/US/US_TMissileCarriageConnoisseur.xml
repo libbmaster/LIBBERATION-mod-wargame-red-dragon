@@ -1,0 +1,519 @@
+<wargamepatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="AH_1W_SuperCobra_ATGM_hellfire">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">DD4709D202000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">38</matchcondition>
+               <matchcondition type="property" property="MountingType">1</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">8</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/ROK/Helicos/AH-1T/AH-1J.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="set" property="PylonSet" type="ObjectReference">
+         <reference table="TMultiPylonSet">
+            <matchconditions>
+       <matchcondition type="referencedby" table="TMissileCarriageConnoisseur">
+         <matchconditions> 
+       <matchcondition type="referencedby" table="TMissileCarriageModuleDescriptor">
+         <matchconditions> 
+       <matchcondition type="referencedby" table="TModuleSelector">
+         <matchconditions> 
+       <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+         <matchconditions> 
+                        <matchcondition type="property" property="NameInMenuToken">B94EA35D1018CE05</matchcondition>
+                        <matchcondition type="property" property="MotherCountry">DAN</matchcondition>		 
+         </matchconditions>
+      </matchcondition>			 
+         </matchconditions>
+      </matchcondition>			 
+         </matchconditions>
+      </matchcondition>			 
+         </matchconditions>
+      </matchcondition>		 
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<!-- AIR -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F18C_NPLM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">B93ADFB494080B04</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F18C_CAS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">C3ED9AF84D37C802</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/CAN/Avions/CF18_Intercept/CF18_Intercept.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">8</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F18C_CLUS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">329DCF66AB750504</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/CAN/Avions/CF18_Intercept/CF18_Intercept.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">8</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F18C_CAP">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">329DCF66AB510504</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/USMC/Avions/FA18_Hornet/FA18_Hornet.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F15E_CAS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">6ACC9A8F21400000</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/US/Avions/F15_Strike_Eagle/F15_Strike_Eagle.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">8</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F15E_CLUS">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">2AECDE79F7180204</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">8</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F16C_NPLM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">6EDEB22EF41C0204</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/US/Avions/F16C_Block_50/F16C_Block_50.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+               <matchcondition type="property" property="MountingType">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMissileCarriageConnoisseur" name="F16C_ATGM">
+   <matchconditions>
+      <matchcondition type="referencedby" table="TMissileCarriageSubDepictionGenerator">
+         <matchconditions>
+            <matchcondition type="referencedby" table="TDepictionTemplate">
+               <matchconditions>
+                  <matchcondition type="referencedby" table="TTimelyReceiverFactoryCarrier">
+                     <matchconditions>
+                        <matchcondition type="referencedby" table="TApparenceModelModuleDescriptor">
+                           <matchconditions>
+                              <matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+                                 <matchconditions>
+                                    <matchcondition type="property" property="NameInMenuToken">8700010000000000</matchcondition>
+                                    <matchcondition type="property" property="MotherCountry">US</matchcondition>
+                                 </matchconditions>
+                              </matchcondition>
+                           </matchconditions>
+                        </matchcondition>
+                     </matchconditions>
+                  </matchcondition>
+               </matchconditions>
+            </matchcondition>
+         </matchconditions>
+      </matchcondition>
+   </matchconditions>
+   <changes>
+      <change operation="set" property="MeshDescriptor" type="ObjectReference">
+         <reference table="TResourceMultiMaterialMesh">
+            <matchconditions>
+               <matchcondition type="property" property="FileName">GameData:/Assets/3D/Units/US/Avions/F16C_Block_50/F16C_Block_50.Ase2NdfBin</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="clear" property="WeaponInfos" />
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">2</matchcondition>
+               <matchcondition type="property" property="MissileType">2</matchcondition>
+               <matchcondition type="property" property="Count">4</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+      <change operation="append" property="WeaponInfos" type="ObjectReference">
+         <reference table="TMissileCarriageWeaponInfo">
+            <matchconditions>
+               <matchcondition type="property" property="WeaponIndex">3</matchcondition>
+               <matchcondition type="property" property="MissileType">1</matchcondition>
+               <matchcondition type="property" property="Count">2</matchcondition>
+            </matchconditions>
+         </reference>
+      </change>
+   </changes>
+</ndfpatch>
+
+</wargamepatch>

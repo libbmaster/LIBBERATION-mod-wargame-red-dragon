@@ -1,0 +1,15 @@
+<wargamepatch>
+
+
+	<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TSuppressDamagesEffects" name="Slowdown_removal">
+		<matchconditions>
+			<matchcondition type="property" property="InfAndCanonSpeedModifier">0.5</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="set" property="InfAndCanonSpeedModifier" type="Float32">1</change>
+		</changes>
+	</ndfpatch>
+
+
+
+</wargamepatch>

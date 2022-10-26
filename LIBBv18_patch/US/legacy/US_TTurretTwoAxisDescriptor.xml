@@ -1,0 +1,213 @@
+<wargamepatch>
+
+<!-- LOG -->
+
+<!-- create M60A3 CMD KE-->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3_CMD_KE" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M60A3_CMD_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_CMD_M60A1</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create M1A1 CMD KE -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1_CMD_KE" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M1A1_CMD_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1_Abrams_Tuto</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- TNK -->
+
+<!-- create M60A1 ERA KE-->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A1_ERA_Sabot" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M60A1_ERA_Sabot">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A1_ERA_US</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create M1A1HC KE -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1HC_KE" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M1A1HC_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1HC_Abrams</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create M60A3 KE-->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M60A3_KE" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M60A3_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M60A3_Patton</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create M1A1 KE -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A1_KE" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M1A1_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A1_Abrams</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- create M1A2 KE -->
+	<ndfcreate ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TMountedWeaponDescriptor" name="M1A2_KE" />
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M1A2_KE">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M1A2_Abrams_US</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="append" property="MountedWeaponDescriptorList" type="ObjectReference">
+				<reference table="TMountedWeaponDescriptor">
+					<matchconditions>	
+						<matchcondition type="property" property="__order">last</matchcondition>
+					</matchconditions>
+				</reference>
+			</change>
+		</changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="M7_BFIST">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_M3A1_Bradley_CFV</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0"/>
+		</changes>
+</ndfpatch>
+
+<!-- HEL -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="AH_1F_Cobra">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH1F_Cobra</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0"/>
+		</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TTurretTwoAxisDescriptor" name="AH_1W_Seacobra_CAS">
+		<matchconditions>
+			<matchcondition type="referencedby" table="TWeaponManagerModuleDescriptor">
+				<matchconditions>
+					<matchcondition type="property" property="_ShortDatabaseName">WeaponDescriptor_Unit_AH1T_Sea_Cobra_IP</matchcondition>
+				</matchconditions>
+			</matchcondition>
+			<matchcondition type="property" property="Tag">tourelle1</matchcondition>
+		</matchconditions>
+		<changes>
+			<change operation="delete" property="MountedWeaponDescriptorList" key="0"/>
+		</changes>
+</ndfpatch>
+
+<!-- NAV -->
+
+
+
+</wargamepatch>

@@ -1,0 +1,120 @@
+<wargamepatch>
+
+<!-- INF -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="Jav">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">2A3BBB79E72C8B05</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="Marine">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">EAECDEE66524DD07</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">10</change>
+	</changes>
+</ndfpatch>
+
+<!-- SUP -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="Stinger">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">0D3BBB7907000000</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+<!-- REC -->
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="Delta">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">2A7AD39099C7AA03</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+<ndfpatch ndf="pc\ndf\patchable\gfx\everything.ndfbin" table="TUniteBehaviourDescriptor" name="MarineSnipers">
+	<matchconditions>
+		<matchcondition type="referencedby" table="TGroupeCombatModuleDescriptor">
+			<matchconditions>
+				<matchcondition type="referencedby" table="TModuleSelector">
+					<matchconditions>
+						<matchcondition type="referencedby" table="TUniteAuSolDescriptor">
+							<matchconditions>
+									<matchcondition type="property" property="NameInMenuToken">D6F274DD07000000</matchcondition>
+									<matchcondition type="property" property="MotherCountry">US</matchcondition>
+							</matchconditions>
+						</matchcondition>
+					</matchconditions>
+				</matchcondition>
+			</matchconditions>
+		</matchcondition>
+	</matchconditions>
+	<changes>
+			<change property="NbSoldatInGroupeCombat" type="Int32" operation="set">5</change>
+	</changes>
+</ndfpatch>
+
+</wargamepatch>
+
